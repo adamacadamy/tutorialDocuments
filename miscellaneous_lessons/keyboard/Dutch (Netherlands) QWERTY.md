@@ -1,0 +1,82 @@
+# Dutch Keyboard Symbols Keymap (QWERTY - Netherlands)
+!![Alt Text](images/20240819163912.png)
+## Special Dutch Characters
+| Symbol | Key Combination          | Notes                             |
+|--------|--------------------------|-----------------------------------|
+| `é`    | `Shift + ' + e`          | E with acute accent               |
+| `è`    | `Shift + ` + e`          | E with grave accent               |
+| `ë`    | `Shift + " + e`          | E with diaeresis                  |
+| `ê`    | `Shift + ^ + e`          | E with circumflex                 |
+
+## Numbers and Basic Symbols
+| Symbol | Key Combination          | Notes                             |
+|--------|--------------------------|-----------------------------------|
+| `1`    | `Shift + 1`              | Number 1 / Exclamation mark       |
+| `!`    | `Shift + 1`              | Exclamation mark                  |
+| `2`    | `Shift + 2`              | Number 2 / At sign                |
+| `@`    | `Shift + 2`              | At sign                           |
+| `3`    | `Shift + 3`              | Number 3 / Hash (Pound)           |
+| `#`    | `Shift + 3`              | Hash (Pound)                      |
+| `4`    | `Shift + 4`              | Number 4 / Dollar sign            |
+| `$`    | `Shift + 4`              | Dollar sign                       |
+| `5`    | `Shift + 5`              | Number 5 / Percent sign           |
+| `%`    | `Shift + 5`              | Percent sign                      |
+| `6`    | `Shift + 6`              | Number 6 / Caret                  |
+| `^`    | `Shift + 6`              | Caret                             |
+| `7`    | `Shift + 7`              | Number 7 / Ampersand              |
+| `&`    | `Shift + 7`              | Ampersand                         |
+| `8`    | `Shift + 8`              | Number 8 / Asterisk               |
+| `*`    | `Shift + 8`              | Asterisk                          |
+| `9`    | `Shift + 9`              | Number 9 / Open parenthesis       |
+| `(`    | `Shift + 9`              | Open parenthesis                  |
+| `0`    | `Shift + 0`              | Number 0 / Close parenthesis      |
+| `)`    | `Shift + 0`              | Close parenthesis                 |
+
+## Punctuation and Mathematical Symbols
+| Symbol | Key Combination          | Notes                             |
+|--------|--------------------------|-----------------------------------|
+| `-`    | `-`                      | Hyphen or Minus sign              |
+| `_`    | `Shift + -`              | Underscore                        |
+| `=`    | `=`                      | Equals sign                       |
+| `+`    | `Shift + =`              | Plus sign                         |
+| `[`    | `Alt Gr + 8`             | Open square bracket               |
+| `{`    | `Alt Gr + 7`             | Open brace                        |
+| `]`    | `Alt Gr + 9`             | Close square bracket              |
+| `}`    | `Alt Gr + 0`             | Close brace                       |
+| `\`    | `Alt Gr + ß`             | Backslash                         |
+| `|`    | `Alt Gr + <`             | Vertical bar                      |
+| `;`    | `;`                      | Semicolon                         |
+| `:`    | `Shift + ;`              | Colon                             |
+| `'`    | `'`                      | Single quote                      |
+| `"`    | `Shift + '`              | Double quote                      |
+| `,`    | `,`                      | Comma                             |
+| `<`    | `Shift + ,`              | Less than sign                    |
+| `.`    | `.`                      | Period (Dot)                      |
+| `>`    | `Shift + .`              | Greater than sign                 |
+| `/`    | `/`                      | Forward slash                     |
+| `?`    | `Shift + /`              | Question mark                     |
+
+## Special Symbols
+| Symbol | Key Combination          | Notes                             |
+|--------|--------------------------|-----------------------------------|
+| `@`    | `Shift + 2`              | At sign                           |
+| `€`    | `Alt Gr + 5`             | Euro sign                         |
+| `~`    | `Alt Gr + +`             | Tilde                             |
+| `°`    | `Shift + ^`              | Degree symbol                     |
+| `^`    | `^` (next to `1`)        | Caret                             |
+| `´`    | `´`                      | Acute accent                      |
+| `` ` ``| `` ` ``                  | Backtick (Grave accent)           |
+
+## Windows Alt Codes for Special Characters (Using Numpad)
+| Symbol | Alt Code                 | Notes                             |
+|--------|--------------------------|-----------------------------------|
+| `©`    | `Alt + 0169`             | Copyright symbol                  |
+| `®`    | `Alt + 0174`             | Registered trademark symbol       |
+| `™`    | `Alt + 0153`             | Trademark symbol                  |
+| `µ`    | `Alt + 0181`             | Micro sign                        |
+| `£`    | `Alt + 0163`             | British Pound sign                |
+| `¥`    | `Alt + 0165`             | Yen sign                          |
+| `€`    | `Alt + 0128`             | Euro sign                         |
+| `¬`    | `Alt + 0172`             | Not sign                          |
+
+**Note:** The `Alt Gr` key on Dutch keyboards functions similarly to `Alt` and `Ctrl` combinations on other keyboards, allowing access to special characters. Additionally, some symbols like `{}`, `[]`, and `\` require the `Alt Gr` key in combination with numbers or other keys.

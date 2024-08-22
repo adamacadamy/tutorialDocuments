@@ -70,8 +70,15 @@ You can also choose to store your credentials permanently in plaintext. While co
 ```bash
 git config --global credential.helper store
 ```
+#### Remove or Update Credentials
 
-- **Purpose:** This stores your credentials in a plaintext file (`~/.git-credentials`), which Git will use automatically without prompting for authentication.
+If you need to remove or update your credentials, you can edit the `.git-credentials` file manually or use the following command to clear all stored credentials:
+
+```bash
+git credential-cache exit
+```
+
+If you're using `manager` or `osxkeychain`, you can remove the credentials via the respective keychain manager.
 
 ### SSH Authentication
 Using SSH keys is a more secure and convenient method for authenticating with Git remotes, especially for private repositories. Once you've generated an SSH key pair and added the public key to your Git hosting service, you can configure Git to use SSH.
@@ -102,4 +109,6 @@ git config --global --list
 
 ## Useful Resources
 - [Git Credential Manager Documentation](https://aka.ms/gcm)
-- [Git Documentation: git-config](https://git-scm.com/docs/git-config)
+- [Git Documentation: git-config](https://git-scm.com/docs/git-config) 
+- [Git Documentation: Credential Storage](https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage)
+- **Purpose:** This stores your credentials in a plaintext file (`~/.git-credentials`), which Git will use automatically without prompting for authentication.

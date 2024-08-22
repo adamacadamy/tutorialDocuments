@@ -3,3 +3,5 @@ git_lessons/code_challenge/code_challenge/solutions/*
 
 # Ignore all files in the solutions directory under markdown_lessons/code-challenges/
 markdown_lessons/code-challenges/solutions/*
+
+manager.ipynb

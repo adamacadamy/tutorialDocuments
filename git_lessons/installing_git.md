@@ -2,7 +2,7 @@
 
 Follow the steps given below to install ****Git Bash on Windows****:
 
-****Step 1:**** The .exe file installer for Git Bash can be downloaded from “****https://gitforwindows.org/”**** Once downloaded execute that installer, following window will occur.
+****Step 1:**** The .exe file installer for Git Bash can be downloaded from “****https://git-scm.com/downloads”**** Once downloaded execute that installer, following window will occur.
 
 ![GitInstall](images/GitInstall.webp)
 

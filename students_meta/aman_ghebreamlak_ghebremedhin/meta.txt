@@ -1,0 +1,3 @@
+name=Amanuel Ghebreamlak Ghebremedhin
+email=amanuelghe84@gmail.com
+github_user_name=amanuelghe84

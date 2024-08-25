@@ -1,3 +1,0 @@
-name=<TEAME GOITOM TEKLE>
-email=<teame78@outlook.com>
-github_user_name=<Teame33> 

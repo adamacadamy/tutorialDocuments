@@ -1,0 +1,3 @@
+name=Mihretab Sibhatu Yemane
+email=sibhatu1@gmail.com
+github_user_name=sibhatu2

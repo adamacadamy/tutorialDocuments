@@ -6,13 +6,8 @@
 ### Objective:
 - Write and execute a basic JavaScript program.
 - Understand the basic syntax and structure of a JavaScript program.
-
-### Materials:
-- Computer with internet access
-- Text editor (e.g., Visual Studio Code, Sublime Text, or an online editor like JSFiddle or CodePen)
-- Browser (preferably Chrome or Firefox)
-
-### Activities:
+### pre-requests
+* Install nodejs 
 
 #### 1. Introduction to JavaScript
 - Briefly explain what JavaScript is:
@@ -21,17 +16,18 @@
 
 #### 2. Setting Up Your Environment
 - Demonstrate how to write JavaScript code:
-  - Using the browser's developer tools (F12 > Console)
-  - Using an HTML file with an embedded `<script>` tag.
+  - Using the browser's developer tools (F12 > Console) or Using edge vscode browsers debugger
 
-```html
+```js
  console.log("Hello, World!");
 ```
 
-- Explain how to open the HTML file in a browser and view the output using the console.
-
-#### 3. Writing Your First Program: "Hello, World!"
-- Walk through writing a simple "Hello, World!" program:
+#### 3. Writing Your First Program: "Hello, World!" in js file
+- create a javascript file either using vscode explorer or cli
+```
+touch <path>/index.js
+```
+- then write the following code in the index.js file
 
 ```javascript
 console.log("Hello, World!");
@@ -43,14 +39,12 @@ console.log("Hello, World!");
 
 #### 4. Running the Program
 - Show how to run the code:
-  - In the browser’s developer console.
-  - By opening the HTML file and viewing the console output.
-
-#### 5. Summary and Discussion
-- Recap what was learned: JavaScript syntax, structure, and how to run a basic program.
-- Q&A session: Address any questions or concerns.
-
-### Homework:
+  - either In the browser’s developer console.
+  - or Using terminal nodejs as follows
+   ```bash
+   node <path>/index.js
+   ```
+### exercise:
 - Write your own JavaScript program that prints your name in the console.
 
 ---
@@ -60,13 +54,7 @@ console.log("Hello, World!");
 ### Objective:
 - Understand what variables are and how they are used in JavaScript.
 - Learn about the different data types in JavaScript.
-
-### Materials:
-- Text editor
-- Browser
-
-### Activities:
-
+  
 #### 1. Introduction to Variables
 - Explain what a variable is:
   - A container that stores data values.
@@ -117,9 +105,7 @@ console.log(typeof name); // Output: "string"
 console.log(typeof age);  // Output: "number"
 ```
 
-#### 4. Hands-On Activity
-- Ask students to create variables using different data types and print them to the console.
-- Example task:
+#### 4. Hands-On Activity 
 
 ```javascript
 let favoriteColor = "Blue";
@@ -130,12 +116,8 @@ console.log(favoriteColor);
 console.log(numberOfPets);
 console.log(isRaining);
 ```
-
-#### 5. Summary and Discussion
-- Recap the different types of variables and data types.
-- Discuss common mistakes, like forgetting to initialize a variable.
-
-### Homework:
+ 
+### exercise:
 - Create a JavaScript program that declares and prints five variables with different data types.
 
 ---
@@ -146,11 +128,6 @@ console.log(isRaining);
 - Understand and use different operators in JavaScript.
 - Learn how to create expressions using operators.
 
-### Materials:
-- Text editor
-- Browser
-
-### Activities:
 
 #### 1. Introduction to Operators
 - Explain what operators are:
@@ -203,8 +180,7 @@ console.log(a || b); // true (OR)
 console.log(!a);     // false (NOT)
 ```
 
-#### 4. Hands-On Activity
-- Ask students to create expressions using various operators:
+#### exercise
   - Write a program that calculates the total cost of 5 items, applies a discount, and determines if the final cost is within a budget.
 
 #### 5. Ternary Operator
@@ -217,8 +193,7 @@ console.log(canVote); // Output: "Yes"
 ```
 
 #### 6. Summary and Discussion
-- Recap different types of operators and their use cases.
-- Q&A session.
+- Recap different types of operators and their use  
 
 ### Homework:
 - Write a JavaScript program that uses arithmetic, comparison, and logical operators to evaluate conditions and print the results.

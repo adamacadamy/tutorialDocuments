@@ -1,23 +1,14 @@
 ## Table of Content
 
-1. [Document Structure](#Structure)
-2. [Text Formatting](#formating)
-3. [Lists](#lists)
-4. [Links and Images](#linksAndImages)
-5. [Tables](#tables)
-6. [Advanced Markdown Features](#advanced)
+- [Table of Content](#table-of-content)
+  - [Document Structure ](#document-structure-)
+  - [Text Formatting](#text-formatting)
+  - [Lists](#lists)
+  - [Links and Images](#links-and-images)
+  - [Tables ](#tables-)
+  - [Advanced Markdown Features ](#advanced-markdown-features-)
 
 ### Document Structure <a name="Structure"></a>
-
-# Header 1
-
-## Header 2
-
-### Header 3
-
-
-|  |  |
-| - | - |
 
 ### Text Formatting<a name="formating"></a>
 
@@ -31,7 +22,7 @@
 
 Demonstrate the use of inline code `snipptes` and code blocks.
 
-### <a name="lists">Lists</a>
+### Lists
 
 Include both an ordered list and an unordered list.
 
@@ -61,7 +52,7 @@ Use nested lists to show more complex information hierarchies.
 3. oreder-num 3
    + unorder 3.1
 
-### Links and Images <a name="linksAndImages"></a>
+### Links and Images 
 
 Add a hyperlink to an external resource.
 
@@ -78,7 +69,7 @@ Include at least one image with appropriate alt text.
 
 ![Panda riding](https://img.freepik.com/premium-photo/panda-riding-motorcycle-with-dragon-it_635062-360.jpg)
 
-### Tables <a name="tables"></a>
+### Tables
 
 
 | Test1 | Test2 | Test3 |
@@ -86,24 +77,18 @@ Include at least one image with appropriate alt text.
 |       |       |       |
 |       |       |       |
 
-### Advanced Markdown Features <a name="advanced"></a>
+### Advanced Markdown Features
 
 [![Watch the video](https://img.youtube.com/vi/nTQUwghvy5Q/default.jpg)](https://youtu.be/nTQUwghvy5Q)
 
 [![Asab yussuf](https://img.youtube.com/vi/rAmUh1PbI6I/default.jpg)](https://www.youtube.com/watch?v=rAmUh1PbI6I)
 
+
+
 ---
 
 <hr/>
-
-````mermaid
-This is my Mermaid test
 ```mermaid
-grapf TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
-```
 
-````
+
+```

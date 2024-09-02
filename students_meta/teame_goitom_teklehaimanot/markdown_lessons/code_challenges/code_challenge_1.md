@@ -57,7 +57,7 @@ Here are some helpful resources Semere uses to support his learning:
 - Documentation from [Mozilla Developer Network (MDN)](https://developer.mozilla.org/).
 - Full stack boot camp whatsapp group 
 
-![Coding on a Laptop](c:\Users\teame\OneDrive\Pictures\image(1).png) 
+![Coding on a Laptop](images/smura.png) 
 
 
 ---

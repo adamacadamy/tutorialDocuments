@@ -39,7 +39,23 @@ Electronic list
 [Hyperlink](https://www.duden.de/rechtschreibung/hyper) to an 
 external resource
 
-Here is my funny camel
+
+Here is funny camel
+
+![funny camel](images/funny_camel.png)
+
+I am learning the Markdown basis
+> this is a blockquotes
+
+
+
+
+
+
+
+
+
+
 
 
 

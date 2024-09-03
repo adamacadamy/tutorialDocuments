@@ -7,7 +7,7 @@
 - [Advanced Markdown Features](#advanced-markdown-features)
   
 
-### Document structure
+###  Document structure
 
   # Heading 1
   ## Heading 2
@@ -15,10 +15,41 @@
 
   ### Text Formatting
 
-  **Bold Text**
+  **Text** 
 
-  *Italic Text*
+  *Text*
 
   Strikethrough Text
 
+ Fruits list:
+
+1. Apple
+2. Orange
+3. watermelon
+4. banana
+  
+Electronic list
+
+* Radio
+- Computer
+* Tablet
+- Television
+
+
+[Hyperlink](https://www.duden.de/rechtschreibung/hyper) to an 
+external resource
+
+Here is my funny camel
+
+
+
+
+
+
+
+
+
+
+
+   
   

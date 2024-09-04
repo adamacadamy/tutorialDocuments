@@ -14,13 +14,13 @@ Every morning Codey follows a strict routine to keep his mind sharp and his paws
 5. **Lunch Break:** At 12:00 PM, Codey enjoys a well-deserved meal.
 
 Here's what Codey daily scedule looks like:
-|   Time           |   Activity                    |
----------------| ----------------------|
-|      7:00 AM         |     Wake up and stretch                  |
-|         7:30 AM      |           Breakfast           |
-|     8:00 AM         |         Morning coding session              |
-|       10:00 AM         |             Explore the digital garden          |
-|     12:00 PM           |      Lunch break                 |
+| Time     | Activity                   |
+| -------- | -------------------------- |
+| 7:00 AM  | Wake up and stretch        |
+| 7:30 AM  | Breakfast                  |
+| 8:00 AM  | Morning coding session     |
+| 10:00 AM | Explore the digital garden |
+| 12:00 PM | Lunch break                |
 
 ## Codey's Coding Challenge
 One day, while exploring the digital garden, Codey encountered a locked gate. To unlock it,

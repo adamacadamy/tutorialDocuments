@@ -64,10 +64,10 @@ Here are some helpful resources Semere uses to support his learning:
 
 ## Reference Table
 
-| Topic         | Hours Studied | Skill Level    |
-| ------------- | ------------- | -------------- |
-| HTML          | 5 hours       | Beginner       |
-| CSS           | 4 hours       | Beginner       |
+| Topic | Hours Studied | Skill Level |
+| ----- | ------------- | ----------- |
+| HTML  | 5 hours       | Beginner    |
+| CSS   | 4 hours       | Beginner    |
 
 ---
 

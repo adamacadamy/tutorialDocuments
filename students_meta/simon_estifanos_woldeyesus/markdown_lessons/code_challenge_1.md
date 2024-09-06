@@ -1,4 +1,4 @@
-# ** Markdown Structure**
+# *Markdown Structure*
 
 ## Document Structure
 

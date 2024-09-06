@@ -1,8 +1,9 @@
 # IN CLASS EXERCISE
 ## Introduction
-Welcome to the story of *Codey the Cat!* [Codey](https://static.wikia.nocookie.net/peppapedia/images/6/69/Cody_Cat.png/revision/latest?cb=20221030184510) is no ordinary cat-he's a tech-savvy feline who loves coding, solving problems, and exploring the digital world.
+Welcome to the story of *Codey the Cat!* [Codey](https://static.wikia.nocookie.net/peppapedia/images/6/69/Cody_Cat.png/revision/latest?cb=20221030184510) is no ordinary cat-he's a tech-savvy feline who loves coding, solving problems, and explorgit adding the digital world.
 
-![the cat](codey_the_cat.png)
+![alt text](codey_the_cat.png)
+
 
 ## A Day in the life of codey
 
@@ -18,19 +19,17 @@ Every morning, codey follows a strict routing to keep his mind sharp and his paw
 
 Here's what codey's daily schedule lookes like:
 
-| **Time** |    **Actiivtiy**    |
+
+|**Time**      | **Activity**        |
+:------------|:-----------------| 
+| 7:00 AM    |     Wake up and stretch    |
+| 7:30       |         Breakfast          |
+| 8:00       |   Morning coding session   |
+| 10:00      | Explore the digital garden |
+| 12:00 PM   |        Lunch break 
 
 
-| 7:00 AM  |    Wake up and stretch    |
-| 7:30     |         Breakfast         |
-| 8:00     |   Morning coding session   |
-| 10:00    | Explore the digital garden |
-| 12:00 PM |        Lunch break 
 
-
-:   
-<--- Table 
->
 
 ### Codey's Coding Challenge
 

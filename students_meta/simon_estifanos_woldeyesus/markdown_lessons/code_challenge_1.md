@@ -3,7 +3,7 @@
 ## Document Structure
 
 - The document should include at least three sections with appropriate headings
-- Use a table of contents that links to each section.
+- Use a table of contents that links to each section.cd
 
 ## Text Formatting:
 

@@ -3,36 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration Form</title>
 </head>
 <body>
-    <h1>Registration Form</h1>
-    <form action="./" method="POST">
+    <h2>Registration Form</h2>
+    <form action="/submit_registration" method="POST">
 
         <label for="first_name">First Name:</label>
-        <input type="text" name="first_name" placeholder="Enter your first name" maxlength="20" />
+        <input type="text" name="first_name" required />
         <br />
         <br />
         <label for="last_name">Last Name:</label>
-        <input type="text" name="last_name" placeholder="Enter you last name" maxlength="20" />
+        <input type="text" name="last_name" required />
         <br />
         <br />
         <label for="email">Email:</label>
-        <input type="email" name="email" placeholder="Enter your email" />
+        <input type="email" name="email" required />
         <br />
         <br />
         <label for="password">Password:</label>
-        <input type="password" name="password" placeholder="Enter your password" />
+        <input type="password" name="password" required/>
         <br />
         <br />
-        <label for="age">Age</label>
-        <input type="number" name="age" min="18" max="100" placeholder="Age" />
+        <label for="age">Age:</label>
+        <input type="number" name="age" min="18" max="100" required />
         <br />
         <br />
         <label for="gender">Gender:</label>
         <div name="gender">
-            <input type="radio" name="gender" value="male" />Male
-            <input type="radio" name="gender" value="female" />Female
+            <input type="radio" name="gender" value="male" required/>Male
+            <input type="radio" name="gender" value="female" required/>Female
         </div>
         <br />
         <label for="interest">Interest:</label>
@@ -47,28 +47,29 @@
         <br />
         <label for="country">Country:</label>
         <select name="country">
-            <option value="uk">England</option>
-            <option value="ug">Uganda</option>
-            <option value="ger">Germany</option>
-            <option value="key">Kenya</option>
-            <option value="sw">Swizerland</option>
+            <option value="united_kingdom">United Kingdom</option>
+            <option value="united_states">United States</option>
+            <option value="canada">Canada</option>
+            <option value="Australia">Australia</option>
+            <option value="italy">Italy</option>
         </select>
         <br />
         <br />
-        <label for="bio">Short bio</label>
-        <br />
-        <textarea placeholder="Tell us about yourself" Name="bio" rows="4" cols="30">
+        <label for="short_bio">Short Bio</label>
+        <textarea name="short_bio" id="short_bio">Tell us about yourself 
         </textarea>
         <br />
         <br />
-        <label for="expri">Experience (1-10):</label>
-        <input type="range" name="expri" min="1" max="10" />
+        <label for="experience_level">Experience Level (1-10):</label>
+        <input type="range" name="experience_level" min="1" max="10" />
         <br />
         <br />
-        <label for="browser">Preferred Browser:</label>
-        <input list="browsers" name="browser" />
-        <datalist id="browsers">
-        </data>
+        <label for="preferred_browser">Preferred Browser:</label>
+        <input datalist="common_browsers" name="" id="">
+        <br />
+        <br />
+    <button submit="submit">Submit</button>
+    <button reset="reset">Reset</button>
     
     </form>
 

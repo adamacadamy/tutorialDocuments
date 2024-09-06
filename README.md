@@ -26,3 +26,9 @@
 9. Html forms 
     * video: https://us06web.zoom.us/rec/share/8ecsPHz25KH3_CAZqfK59D_nPPb9cPeiTC9zRL55JlyyEXKGGNddCSZKwFjmhK1N.izOuDXXtqC-3wIAL?startTime=1725397799000
     * Passcode: gkMqa^3U
+10. CSS basics 1
+    * video: https://us06web.zoom.us/rec/share/gP0qm2EtA3xtpQknwQJzW1S53bkVj4lsrjq2hZZ3K4JZ1KS0bnfavZ2vD_JkkXXA.uzAscG9paeore5aV?startTime=1725475545000
+    * Passcode: ?D*QkK79
+11. CSS basics 2
+    * video: https://us06web.zoom.us/rec/share/WjdTe8VE9qxoVsHM636P2YBvmJ40wBy0Y0xeVablqlukFzigznxkfnZGrSUCWN6e.0c4voKja9bZ69rLb 
+    * Passcode: W0W^Z8Y$

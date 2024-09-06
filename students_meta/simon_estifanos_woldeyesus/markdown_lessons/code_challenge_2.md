@@ -13,8 +13,8 @@ Every morning, codey follows a strict routing to keep his mind sharp and his paw
 
 1. **wake up**:codey wakes up at 7:00am sharp.
 2. **Breaksfat**: a hearty blows of milk at 7:30am.
-3. **coding sessions**: From 8:00am, he dives into coding.
-4. ** Explore**: At 10:00am, he explores the digital garden.
+3. **Coding sessions**: From 8:00am, he dives into coding.
+4. **Explore**: At 10:00am, he explores the digital garden.
 5. **Lunch Break**: At 1200am, codey enjoys a well_deserved meal.
 
 Here's what codey's daily schedule lookes like:

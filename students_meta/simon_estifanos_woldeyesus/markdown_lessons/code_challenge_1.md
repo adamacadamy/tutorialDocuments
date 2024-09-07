@@ -57,25 +57,8 @@ When Grace Hopper, a pioneer in computer science, was working on the first compu
 
    
 
-## Document Structure
-
-- The document should include at least three sections with appropriate headings
-- Use a table of contents that links to each section.
-### Contents
 
 
-
-## Text Formatting:
-
-- Include examples of **bold**, *italics*, ~strikethrough~ text
-- > Use blockquotes to highlight important points or quotes
-  >
-- **Demonstrate the use of inline code snippets and code blocks**
-- `code`
-
-1. ordered list item one
-2. ordered list item two
-3. ordered list item three
 
 [Practice HTML](https://www.w3schools.com/html/)
 

@@ -1,3 +1,3 @@
-name = Yikealo Asgodom
-email = yikealo255@gmail.com
-github_user_name = Yiki-cmd
+name= Yikealo Asgodom Abraha
+email= yikealo255@gmail.com
+github_user_name=Yiki-cmd

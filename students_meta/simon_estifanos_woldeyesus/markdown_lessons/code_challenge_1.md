@@ -81,7 +81,7 @@ HTML      |CSS |     Javascript|
      C --> D
 
  
-```
+```git
 
 This is a footnote [^1]
 

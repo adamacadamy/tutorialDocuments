@@ -32,3 +32,9 @@
 11. CSS basics 2
     * video: https://us06web.zoom.us/rec/share/WjdTe8VE9qxoVsHM636P2YBvmJ40wBy0Y0xeVablqlukFzigznxkfnZGrSUCWN6e.0c4voKja9bZ69rLb 
     * Passcode: W0W^Z8Y$
+14. HTML Syntactic Sugar via Emmet
+    * video: https://us06web.zoom.us/rec/share/B0w1QOH_kXSnGIy9U_6PW4-dGtS-R4afJwdrjI84ks_HLjL6gDI4mV4tHqJIBtFC.JCovPZGzWnqTAWfU?startTime=1725905057000
+    * Passcode: 4qp+Y.dM 
+15. HTML + CSS basic nav bar
+    * video: https://us06web.zoom.us/rec/share/B0w1QOH_kXSnGIy9U_6PW4-dGtS-R4afJwdrjI84ks_HLjL6gDI4mV4tHqJIBtFC.JCovPZGzWnqTAWfU?startTime=1725908134000
+    * Passcode: 4qp+Y.dM

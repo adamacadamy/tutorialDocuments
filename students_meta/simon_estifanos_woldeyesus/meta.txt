@@ -1,0 +1,3 @@
+name=Simon Estifanos Woldeyesus
+email=simonwoldeyesus47@gmail.com
+github_user_name=SimonWoldeyesus

@@ -38,3 +38,9 @@
 13. HTML + CSS basic nav bar
     * video: https://us06web.zoom.us/rec/share/B0w1QOH_kXSnGIy9U_6PW4-dGtS-R4afJwdrjI84ks_HLjL6gDI4mV4tHqJIBtFC.JCovPZGzWnqTAWfU?startTime=1725908134000
     * Passcode: 4qp+Y.dM
+14. HTML + CSS basic styling 1
+    * video: https://us06web.zoom.us/rec/share/2vhve4ZfplBuMMJdPvAtx5kV9vHTwXPgZytuO8klndohMWICRNGmNURnuVtC1J3e.8Ikuj82lUgnYcDig?startTime=1725990362000
+    * Passcode: K14@FijJ
+14. HTML + CSS basic styling 2
+    * video:https://us06web.zoom.us/rec/share/2vhve4ZfplBuMMJdPvAtx5kV9vHTwXPgZytuO8klndohMWICRNGmNURnuVtC1J3e.8Ikuj82lUgnYcDig?startTime=1725994557000
+    * Passcode: K14@FijJ

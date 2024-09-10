@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="./" method="POST">
+
+        <label for="first_name">First Name:</label>
+        <input type="text" name="first_name" placeholder="Enter your first name" maxlength="20" />
+        <br />
+        <br />
+        <label for="last_name">Last Name:</label>
+        <input type="text" name="last_name" placeholder="Enter you last name" maxlength="20" />
+        <br />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="Enter your email" />
+        <br />
+        <br />
+        <label for="password">Password:</label>
+        <input type="password" name="password" placeholder="Enter your password" />
+        <br />
+        <br />
+        <label for="age">Age</label>
+        <input type="number" name="age" min="18" max="100" placeholder="Age" />
+        <br />
+        <br />
+        <label for="gender">Gender:</label>
+        <div name="gender">
+            <input type="radio" name="gender" value="male" />Male
+            <input type="radio" name="gender" value="female" />Female
+        </div>
+        <br />
+        <label for="interest">Interest:</label>
+        <br />
+        <div name="interest">
+            <input type="checkbox" name="interest" value="coding" />Coding
+            <br />
+            <input type="checkbox" name="interest" value="music" />Music
+            <br />
+            <input type="checkbox" name="interest" value="sports" />Sports
+        </div>
+        <br />
+        <label for="country">Country:</label>
+        <select name="country">
+            <option value="uk">England</option>
+            <option value="ug">Uganda</option>
+            <option value="ger">Germany</option>
+            <option value="key">Kenya</option>
+            <option value="sw">Swizerland</option>
+        </select>
+        <br />
+        <br />
+        <label for="bio">Short bio</label>
+        <br />
+        <textarea placeholder="Tell us about yourself" Name="bio" rows="4" cols="30">
+        </textarea>
+        <br />
+        <br />
+        <label for="expri">Experience (1-10):</label>
+        <input type="range" name="expri" min="1" max="10" />
+        <br />
+        <br />
+        <label for="browser">Preferred Browser:</label>
+        <input list="browsers" name="browser" />
+        <datalist id="browsers">
+        </data>
+    
+    </form>
+
+</body>
+</html>

@@ -74,7 +74,8 @@ HTML      |CSS |     Javascript|
 ---
 
 
-```mermaid
+
+mermaid
  flowchart LR
      A --> B 
      B --> C
@@ -84,7 +85,6 @@ HTML      |CSS |     Javascript|
 ```git
 
 This is a footnote [^1]
-
 
 
 

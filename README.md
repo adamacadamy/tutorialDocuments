@@ -45,5 +45,11 @@
     * video: https://us06web.zoom.us/rec/share/2vhve4ZfplBuMMJdPvAtx5kV9vHTwXPgZytuO8klndohMWICRNGmNURnuVtC1J3e.8Ikuj82lUgnYcDig?startTime=1725990362000
     * Passcode: K14@FijJ
 14. HTML + CSS basic styling 2
-    * video:https://us06web.zoom.us/rec/share/2vhve4ZfplBuMMJdPvAtx5kV9vHTwXPgZytuO8klndohMWICRNGmNURnuVtC1J3e.8Ikuj82lUgnYcDig?startTime=1725994557000
+    * video: https://us06web.zoom.us/rec/share/2vhve4ZfplBuMMJdPvAtx5kV9vHTwXPgZytuO8klndohMWICRNGmNURnuVtC1J3e.8Ikuj82lUgnYcDig?startTime=1725994557000
     * Passcode: K14@FijJ
+15. HTML element basics
+    * video: https://us06web.zoom.us/rec/share/g-u3dvbCjf1c2LUvmxvHcIN1dlrvrHpGTGYgJr4ZcxUzoF0qSHWdZ3nvl-Y4c4cV.pHMJpO7IWdtghvDV?startTime=1726163014000
+    * Passcode: 0Pk4mp&^
+16. HTML CSS box model basis in detail
+    * video: https://us06web.zoom.us/rec/share/g-u3dvbCjf1c2LUvmxvHcIN1dlrvrHpGTGYgJr4ZcxUzoF0qSHWdZ3nvl-Y4c4cV.pHMJpO7IWdtghvDV?startTime=1726166352000
+    * Passcode: 0Pk4mp&^

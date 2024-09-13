@@ -1,0 +1,35 @@
+.box {
+    Width: 200px;
+    Height: 100px;
+    Border: 3px solid;
+    Padding: 15px;
+    Margin: 10px;
+    justify-items: center;
+    justify-content: center;
+    
+
+}
+
+
+.box1 {
+
+     
+     border: solid red;
+     background-color: rgb(146, 230, 202);
+
+     
+}
+
+.box2 {
+   
+    border: solid blue;
+    background-color: rgb(91, 201, 201);
+    
+
+}
+
+.box3 {
+
+   border: solid green;
+   background-color: rgb(212, 181, 142);
+}  

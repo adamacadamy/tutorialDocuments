@@ -141,12 +141,7 @@ Your challenge is to create a table using HTML and CSS with the following requir
    - Add a background color to the table header.
    - Apply alternating background colors for even rows.
    - Include padding for table cells for a neat appearance.
-   - Add a hover effect to highlight rows when the user hovers over them.
-4. Do **not** use flexbox or flex-related CSS properties.
-
-## HTML Structure
-
-Create an HTML file with a basic structure for the table as outlined above.
+   - Add a hover effect to highlight rows when the user hovers over them. 
 
 ## CSS Styling
 

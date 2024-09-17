@@ -53,3 +53,9 @@
 16. HTML CSS box model basis in detail
     * video: https://us06web.zoom.us/rec/share/g-u3dvbCjf1c2LUvmxvHcIN1dlrvrHpGTGYgJr4ZcxUzoF0qSHWdZ3nvl-Y4c4cV.pHMJpO7IWdtghvDV?startTime=1726166352000
     * Passcode: 0Pk4mp&^
+17. HTML CSS box model display CSS
+    * video: https://us06web.zoom.us/rec/share/KG130nZruYQkzXE1RX_DdrZleCibO4wsl5djPtw6iZH-TDeritusjghOjslD6cWK.icheB37hA1VMmToT?startTime=1726509823000
+    * Passcode: kAy.q4+q
+18. HTML CSS box table styling
+    * video: https://us06web.zoom.us/rec/share/KG130nZruYQkzXE1RX_DdrZleCibO4wsl5djPtw6iZH-TDeritusjghOjslD6cWK.icheB37hA1VMmToT?startTime=1726512426000
+    * Passcode: kAy.q4+q

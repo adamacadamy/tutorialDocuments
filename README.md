@@ -59,3 +59,9 @@
 18. HTML CSS box table styling
     * video: https://us06web.zoom.us/rec/share/KG130nZruYQkzXE1RX_DdrZleCibO4wsl5djPtw6iZH-TDeritusjghOjslD6cWK.icheB37hA1VMmToT?startTime=1726512426000
     * Passcode: kAy.q4+q
+19. HTML CSS List NavBar Styling
+    * video:https://us06web.zoom.us/rec/share/ZRYYrzaxwKd4g7Lod7zr3LtsJQ_niuoRzmRTbQrzRJ8bCZ606igX5oQbWb_mkvY7.I2jy0C1SsjZosV9C?startTime=1726595522000
+    * Passcode:izr5%=UL
+20. HTML CSS Layouts
+    * video: https://us06web.zoom.us/rec/share/PPAOdEyuxnyiYBHpClJv0LwkcAM6mF2_02WXmRvh4IZLGZZGPj4Ah4XBCxny7KAG.10libh6d1SmteRHy?startTime=1726599728000
+    * Passcode:Hz7Vb+4w

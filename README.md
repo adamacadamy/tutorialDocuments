@@ -2,7 +2,10 @@
 1. CLI basics  
     * video: https://us06web.zoom.us/rec/share/-Jmflg3Px2zrjilNCW5fNUx8MXlNlygLO0UQfvdWCpYnCsQmbd2iQ2RGIm2ryLwp.dxNrNovFvYiPqpk2?startTime=1725136490000
     * Passcode: &^r0RbxN
+    * video: https://us06web.zoom.us/rec/share/-Jmflg3Px2zrjilNCW5fNUx8MXlNlygLO0UQfvdWCpYnCsQmbd2iQ2RGIm2ryLwp.dxNrNovFvYiPqpk2?startTime=1725136490000
+    * Passcode: &^r0RbxN
 2. Git Basics
+    * video: https://us06web.zoom.us/rec/share/-Jmflg3Px2zrjilNCW5fNUx8MXlNlygLO0UQfvdWCpYnCsQmbd2iQ2RGIm2ryLwp.dxNrNovFvYiPqpk2?startTime=1725138738000
     * video: https://us06web.zoom.us/rec/share/-Jmflg3Px2zrjilNCW5fNUx8MXlNlygLO0UQfvdWCpYnCsQmbd2iQ2RGIm2ryLwp.dxNrNovFvYiPqpk2?startTime=1725138738000
     * Passcode: &^r0RbxN
 3. Lessons github repository:
@@ -32,3 +35,33 @@
 11. CSS basics 2
     * video: https://us06web.zoom.us/rec/share/WjdTe8VE9qxoVsHM636P2YBvmJ40wBy0Y0xeVablqlukFzigznxkfnZGrSUCWN6e.0c4voKja9bZ69rLb 
     * Passcode: W0W^Z8Y$
+12. HTML Syntactic Sugar via Emmet
+    * video: https://us06web.zoom.us/rec/share/B0w1QOH_kXSnGIy9U_6PW4-dGtS-R4afJwdrjI84ks_HLjL6gDI4mV4tHqJIBtFC.JCovPZGzWnqTAWfU?startTime=1725905057000
+    * Passcode: 4qp+Y.dM 
+13. HTML + CSS basic nav bar
+    * video: https://us06web.zoom.us/rec/share/B0w1QOH_kXSnGIy9U_6PW4-dGtS-R4afJwdrjI84ks_HLjL6gDI4mV4tHqJIBtFC.JCovPZGzWnqTAWfU?startTime=1725908134000
+    * Passcode: 4qp+Y.dM
+14. HTML + CSS basic styling 1
+    * video: https://us06web.zoom.us/rec/share/2vhve4ZfplBuMMJdPvAtx5kV9vHTwXPgZytuO8klndohMWICRNGmNURnuVtC1J3e.8Ikuj82lUgnYcDig?startTime=1725990362000
+    * Passcode: K14@FijJ
+14. HTML + CSS basic styling 2
+    * video: https://us06web.zoom.us/rec/share/2vhve4ZfplBuMMJdPvAtx5kV9vHTwXPgZytuO8klndohMWICRNGmNURnuVtC1J3e.8Ikuj82lUgnYcDig?startTime=1725994557000
+    * Passcode: K14@FijJ
+15. HTML element basics
+    * video: https://us06web.zoom.us/rec/share/g-u3dvbCjf1c2LUvmxvHcIN1dlrvrHpGTGYgJr4ZcxUzoF0qSHWdZ3nvl-Y4c4cV.pHMJpO7IWdtghvDV?startTime=1726163014000
+    * Passcode: 0Pk4mp&^
+16. HTML CSS box model basis in detail
+    * video: https://us06web.zoom.us/rec/share/g-u3dvbCjf1c2LUvmxvHcIN1dlrvrHpGTGYgJr4ZcxUzoF0qSHWdZ3nvl-Y4c4cV.pHMJpO7IWdtghvDV?startTime=1726166352000
+    * Passcode: 0Pk4mp&^
+17. HTML CSS box model display CSS
+    * video: https://us06web.zoom.us/rec/share/KG130nZruYQkzXE1RX_DdrZleCibO4wsl5djPtw6iZH-TDeritusjghOjslD6cWK.icheB37hA1VMmToT?startTime=1726509823000
+    * Passcode: kAy.q4+q
+18. HTML CSS box table styling
+    * video: https://us06web.zoom.us/rec/share/KG130nZruYQkzXE1RX_DdrZleCibO4wsl5djPtw6iZH-TDeritusjghOjslD6cWK.icheB37hA1VMmToT?startTime=1726512426000
+    * Passcode: kAy.q4+q
+19. HTML CSS List NavBar Styling
+    * video:https://us06web.zoom.us/rec/share/ZRYYrzaxwKd4g7Lod7zr3LtsJQ_niuoRzmRTbQrzRJ8bCZ606igX5oQbWb_mkvY7.I2jy0C1SsjZosV9C?startTime=1726595522000
+    * Passcode:izr5%=UL
+20. HTML CSS Layouts
+    * video: https://us06web.zoom.us/rec/share/PPAOdEyuxnyiYBHpClJv0LwkcAM6mF2_02WXmRvh4IZLGZZGPj4Ah4XBCxny7KAG.10libh6d1SmteRHy?startTime=1726599728000
+    * Passcode:Hz7Vb+4w

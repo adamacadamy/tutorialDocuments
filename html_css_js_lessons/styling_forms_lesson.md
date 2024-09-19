@@ -1,5 +1,5 @@
 
-# Lesson: Styling Forms with Pure CSS (Without Flexbox)
+# Lesson: Styling Forms with Pure CSS
 
 #### **Objective:**
 Learn how to create and style a form using pure CSS without relying on Flexbox. This lesson will teach you how to structure and style form elements such as inputs, labels, buttons, and text areas using traditional CSS properties like margins, paddings, and float.
@@ -20,7 +20,7 @@ First, let’s create an HTML form with text fields, a text area, and a submit b
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="css/index.css"> <!-- Link to the CSS file -->
     <title>Styled Form</title>
 </head>
 <body>
@@ -163,7 +163,7 @@ button:hover {
 ---
 
 ### **Step 3: Testing and Customizing**
-1. Save the HTML and CSS code in separate files (`.html` and `styles.css`).
+1. Save the HTML and CSS code in separate files (`.html` and `css/index.css`).
 2. Open the HTML file in a web browser to see the styled form.
 3. You can tweak padding, colors, margins, and borders in the CSS to match your design preferences.
 

@@ -72,5 +72,8 @@
     * video: https://us06web.zoom.us/rec/share/cQf3U1YE_EWbN2APtvdgJ4T5vVHLjW6Anw8QwvMk6agHrBZamiD-ABQ8MvKNWg.7k82LEBAjhlp8OjZ?startTime=1726685699000
     * Passcode: 7nd9+K=m
 23. Pulling and Merging latest lessons
-    * video:https://us06web.zoom.us/rec/share/cQf3U1YE_EWbN2APtvdgJ4T5vVHLjW6Anw8QwvMk6agHrBZamiD-ABQ8MvKNWg.7k82LEBAjhlp8OjZ?startTime=1726681504000
+    * video: https://us06web.zoom.us/rec/share/cQf3U1YE_EWbN2APtvdgJ4T5vVHLjW6Anw8QwvMk6agHrBZamiD-ABQ8MvKNWg.7k82LEBAjhlp8OjZ?startTime=1726681504000
     * Passcode: 7nd9+K=m
+24. HTML CSS form styling
+    * video:https://us06web.zoom.us/rec/share/8bZZGEnrwgZyqdVCbnOB__lFlp7eD97L6tAq3r62NeJfvbijANWESYll6xtFDmId.t4iX1-OKSIC2e1zE?startTime=1726767756000
+    * Passcode:&t2@au!U

@@ -60,8 +60,20 @@
     * video: https://us06web.zoom.us/rec/share/KG130nZruYQkzXE1RX_DdrZleCibO4wsl5djPtw6iZH-TDeritusjghOjslD6cWK.icheB37hA1VMmToT?startTime=1726512426000
     * Passcode: kAy.q4+q
 19. HTML CSS List NavBar Styling
-    * video:https://us06web.zoom.us/rec/share/ZRYYrzaxwKd4g7Lod7zr3LtsJQ_niuoRzmRTbQrzRJ8bCZ606igX5oQbWb_mkvY7.I2jy0C1SsjZosV9C?startTime=1726595522000
-    * Passcode:izr5%=UL
+    * video: https://us06web.zoom.us/rec/share/ZRYYrzaxwKd4g7Lod7zr3LtsJQ_niuoRzmRTbQrzRJ8bCZ606igX5oQbWb_mkvY7.I2jy0C1SsjZosV9C?startTime=1726595522000
+    * Passcode: izr5%=UL
 20. HTML CSS Layouts
     * video: https://us06web.zoom.us/rec/share/PPAOdEyuxnyiYBHpClJv0LwkcAM6mF2_02WXmRvh4IZLGZZGPj4Ah4XBCxny7KAG.10libh6d1SmteRHy?startTime=1726599728000
-    * Passcode:Hz7Vb+4w
+    * Passcode: Hz7Vb+4w
+21. HTML CSS positioning styles
+   * video: https://us06web.zoom.us/rec/share/cQf3U1YE_EWbN2APtvdgJ4T5vVHLjW6Anw8QwvMk6agHrBZamiD-ABQ8MvKNWg.7k82LEBAjhlp8OjZ?startTime=1726682049000
+   * Passcode:7nd9+K=m
+22. HTML CSS  media query
+    * video: https://us06web.zoom.us/rec/share/cQf3U1YE_EWbN2APtvdgJ4T5vVHLjW6Anw8QwvMk6agHrBZamiD-ABQ8MvKNWg.7k82LEBAjhlp8OjZ?startTime=1726685699000
+    * Passcode: 7nd9+K=m
+23. Pulling and Merging latest lessons
+    * video: https://us06web.zoom.us/rec/share/cQf3U1YE_EWbN2APtvdgJ4T5vVHLjW6Anw8QwvMk6agHrBZamiD-ABQ8MvKNWg.7k82LEBAjhlp8OjZ?startTime=1726681504000
+    * Passcode: 7nd9+K=m
+24. HTML CSS form styling
+    * video:https://us06web.zoom.us/rec/share/8bZZGEnrwgZyqdVCbnOB__lFlp7eD97L6tAq3r62NeJfvbijANWESYll6xtFDmId.t4iX1-OKSIC2e1zE?startTime=1726767756000
+    * Passcode:&t2@au!U

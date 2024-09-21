@@ -75,5 +75,8 @@
     * video: https://us06web.zoom.us/rec/share/cQf3U1YE_EWbN2APtvdgJ4T5vVHLjW6Anw8QwvMk6agHrBZamiD-ABQ8MvKNWg.7k82LEBAjhlp8OjZ?startTime=1726681504000
     * Passcode: 7nd9+K=m
 24. HTML CSS form styling
-    * video:https://us06web.zoom.us/rec/share/8bZZGEnrwgZyqdVCbnOB__lFlp7eD97L6tAq3r62NeJfvbijANWESYll6xtFDmId.t4iX1-OKSIC2e1zE?startTime=1726767756000
-    * Passcode:&t2@au!U
+    * video: https://us06web.zoom.us/rec/share/8bZZGEnrwgZyqdVCbnOB__lFlp7eD97L6tAq3r62NeJfvbijANWESYll6xtFDmId.t4iX1-OKSIC2e1zE?startTime=1726767756000
+    * Passcode: &t2@au!U
+25. HTML CSS Solution for exercise 6
+    * video: https://us06web.zoom.us/rec/share/z0kPST_CujyhQg5Xg8EZSGhgnpBEiGVC_eHboOy99T6yHoY8qJIHW2wcbVHe2l53.mZpJBR1eOlyBIhgU 
+    * Passcode: UB1G4cD^

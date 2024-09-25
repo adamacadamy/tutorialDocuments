@@ -80,3 +80,9 @@
 25. HTML CSS Solution for exercise 6
     * video: https://us06web.zoom.us/rec/share/z0kPST_CujyhQg5Xg8EZSGhgnpBEiGVC_eHboOy99T6yHoY8qJIHW2wcbVHe2l53.mZpJBR1eOlyBIhgU 
     * Passcode: UB1G4cD^
+  26. HTML CSS Imports and Variables
+  * video: https://us06web.zoom.us/rec/share/6MF8L6P2eixOszgtbUKg-3wQkzWqhAxnaX1nqzRVehp1rXoSj-3BwnTl0sFwofai.tyGtP4_BQCc8QfPj?startTime=1727199457000
+    * Passcode: bR#3EK0V
+  27. HTML CSS FlexBox
+  * video: https://us06web.zoom.us/rec/share/6MF8L6P2eixOszgtbUKg-3wQkzWqhAxnaX1nqzRVehp1rXoSj-3BwnTl0sFwofai.tyGtP4_BQCc8QfPj?startTime=1727202816000
+    * Passcode:  bR#3EK0V

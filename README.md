@@ -1,9 +1,9 @@
 # Tutorial Vidoes
-1. CLI basics  
+1. CLI basics
     * video: https://us06web.zoom.us/rec/share/-Jmflg3Px2zrjilNCW5fNUx8MXlNlygLO0UQfvdWCpYnCsQmbd2iQ2RGIm2ryLwp.dxNrNovFvYiPqpk2?startTime=1725136490000
-    * Passcode: &^r0RbxN 
+    * Passcode: &^r0RbxN
 2. Git Basics
-    * video: https://us06web.zoom.us/rec/share/-Jmflg3Px2zrjilNCW5fNUx8MXlNlygLO0UQfvdWCpYnCsQmbd2iQ2RGIm2ryLwp.dxNrNovFvYiPqpk2?startTime=1725138738000 
+    * video: https://us06web.zoom.us/rec/share/-Jmflg3Px2zrjilNCW5fNUx8MXlNlygLO0UQfvdWCpYnCsQmbd2iQ2RGIm2ryLwp.dxNrNovFvYiPqpk2?startTime=1725138738000
     * Passcode: &^r0RbxN
 3. Lessons github repository:
     * video: https://us06web.zoom.us/rec/share/_emXt0PtgkfdjMSz-Ip9PJUJ8HYWKt5s7v_jE8uNDU1vyEp-2jEh8YRPZknFbnIf._bFL4QDnUXIAUxW0?startTime=1725221646000
@@ -23,7 +23,7 @@
 8. Html lists and tables
     * video: https://us06web.zoom.us/rec/share/8ecsPHz25KH3_CAZqfK59D_nPPb9cPeiTC9zRL55JlyyEXKGGNddCSZKwFjmhK1N.izOuDXXtqC-3wIAL?startTime=1725397799000
     * Passcode: gkMqa^3U
-9. Html forms 
+9. Html forms
     * video: https://us06web.zoom.us/rec/share/8ecsPHz25KH3_CAZqfK59D_nPPb9cPeiTC9zRL55JlyyEXKGGNddCSZKwFjmhK1N.izOuDXXtqC-3wIAL?startTime=1725397799000
     * Passcode: gkMqa^3U
 10. CSS basics 1
@@ -77,9 +77,9 @@
 25. HTML CSS Solution for exercise 6
     * video: https://us06web.zoom.us/rec/share/z0kPST_CujyhQg5Xg8EZSGhgnpBEiGVC_eHboOy99T6yHoY8qJIHW2wcbVHe2l53.mZpJBR1eOlyBIhgU 
     * Passcode: UB1G4cD^
-  26. HTML CSS Imports and Variables
+26. HTML CSS Imports and Variables
   * video: https://us06web.zoom.us/rec/share/6MF8L6P2eixOszgtbUKg-3wQkzWqhAxnaX1nqzRVehp1rXoSj-3BwnTl0sFwofai.tyGtP4_BQCc8QfPj?startTime=1727199457000
     * Passcode: bR#3EK0V
-  27. HTML CSS FlexBox
+27. HTML CSS FlexBox
   * video: https://us06web.zoom.us/rec/share/6MF8L6P2eixOszgtbUKg-3wQkzWqhAxnaX1nqzRVehp1rXoSj-3BwnTl0sFwofai.tyGtP4_BQCc8QfPj?startTime=1727202816000
-    * Passcode:  bR#3EK0V
+  * Passcode:  bR#3EK0V

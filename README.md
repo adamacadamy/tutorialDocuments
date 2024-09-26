@@ -82,4 +82,10 @@
     * Passcode: bR#3EK0V
 27. HTML CSS FlexBox
   * video: https://us06web.zoom.us/rec/share/6MF8L6P2eixOszgtbUKg-3wQkzWqhAxnaX1nqzRVehp1rXoSj-3BwnTl0sFwofai.tyGtP4_BQCc8QfPj?startTime=1727202816000
-  * Passcode:  bR#3EK0V
+  * Passcode: bR#3EK0V
+28. HTML CSS FlexBox nav bar
+ * video: https://us06web.zoom.us/rec/share/h8m3quP3cN44xid4K5o8Rb-0zBtXgymldgDgV5H59L63oaMe1Z55fprB2_6CgG2s.dVg2YNNPJLfuB9AA?startTime=1727285956000
+ * Passcode: T+zpj4US
+29. HTML CSS FlexBox grid layout
+ * video: https://us06web.zoom.us/rec/share/h8m3quP3cN44xid4K5o8Rb-0zBtXgymldgDgV5H59L63oaMe1Z55fprB2_6CgG2s.dVg2YNNPJLfuB9AA?startTime=1727288866000
+ * Passcode: T+zpj4US

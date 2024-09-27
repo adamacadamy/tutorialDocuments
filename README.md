@@ -1,11 +1,8 @@
 # Tutorial Vidoes
-1. CLI basics  
-    * video: https://us06web.zoom.us/rec/share/-Jmflg3Px2zrjilNCW5fNUx8MXlNlygLO0UQfvdWCpYnCsQmbd2iQ2RGIm2ryLwp.dxNrNovFvYiPqpk2?startTime=1725136490000
-    * Passcode: &^r0RbxN
+1. CLI basics
     * video: https://us06web.zoom.us/rec/share/-Jmflg3Px2zrjilNCW5fNUx8MXlNlygLO0UQfvdWCpYnCsQmbd2iQ2RGIm2ryLwp.dxNrNovFvYiPqpk2?startTime=1725136490000
     * Passcode: &^r0RbxN
 2. Git Basics
-    * video: https://us06web.zoom.us/rec/share/-Jmflg3Px2zrjilNCW5fNUx8MXlNlygLO0UQfvdWCpYnCsQmbd2iQ2RGIm2ryLwp.dxNrNovFvYiPqpk2?startTime=1725138738000
     * video: https://us06web.zoom.us/rec/share/-Jmflg3Px2zrjilNCW5fNUx8MXlNlygLO0UQfvdWCpYnCsQmbd2iQ2RGIm2ryLwp.dxNrNovFvYiPqpk2?startTime=1725138738000
     * Passcode: &^r0RbxN
 3. Lessons github repository:
@@ -26,7 +23,7 @@
 8. Html lists and tables
     * video: https://us06web.zoom.us/rec/share/8ecsPHz25KH3_CAZqfK59D_nPPb9cPeiTC9zRL55JlyyEXKGGNddCSZKwFjmhK1N.izOuDXXtqC-3wIAL?startTime=1725397799000
     * Passcode: gkMqa^3U
-9. Html forms 
+9. Html forms
     * video: https://us06web.zoom.us/rec/share/8ecsPHz25KH3_CAZqfK59D_nPPb9cPeiTC9zRL55JlyyEXKGGNddCSZKwFjmhK1N.izOuDXXtqC-3wIAL?startTime=1725397799000
     * Passcode: gkMqa^3U
 10. CSS basics 1
@@ -80,3 +77,15 @@
 25. HTML CSS Solution for exercise 6
     * video: https://us06web.zoom.us/rec/share/z0kPST_CujyhQg5Xg8EZSGhgnpBEiGVC_eHboOy99T6yHoY8qJIHW2wcbVHe2l53.mZpJBR1eOlyBIhgU 
     * Passcode: UB1G4cD^
+26. HTML CSS Imports and Variables
+  * video: https://us06web.zoom.us/rec/share/6MF8L6P2eixOszgtbUKg-3wQkzWqhAxnaX1nqzRVehp1rXoSj-3BwnTl0sFwofai.tyGtP4_BQCc8QfPj?startTime=1727199457000
+    * Passcode: bR#3EK0V
+27. HTML CSS FlexBox
+  * video: https://us06web.zoom.us/rec/share/6MF8L6P2eixOszgtbUKg-3wQkzWqhAxnaX1nqzRVehp1rXoSj-3BwnTl0sFwofai.tyGtP4_BQCc8QfPj?startTime=1727202816000
+  * Passcode: bR#3EK0V
+28. HTML CSS FlexBox nav bar
+ * video: https://us06web.zoom.us/rec/share/h8m3quP3cN44xid4K5o8Rb-0zBtXgymldgDgV5H59L63oaMe1Z55fprB2_6CgG2s.dVg2YNNPJLfuB9AA?startTime=1727285956000
+ * Passcode: T+zpj4US
+29. HTML CSS FlexBox grid layout
+ * video: https://us06web.zoom.us/rec/share/h8m3quP3cN44xid4K5o8Rb-0zBtXgymldgDgV5H59L63oaMe1Z55fprB2_6CgG2s.dVg2YNNPJLfuB9AA?startTime=1727288866000
+ * Passcode: T+zpj4US

@@ -89,3 +89,9 @@
 29. HTML CSS FlexBox grid layout
  * video: https://us06web.zoom.us/rec/share/h8m3quP3cN44xid4K5o8Rb-0zBtXgymldgDgV5H59L63oaMe1Z55fprB2_6CgG2s.dVg2YNNPJLfuB9AA?startTime=1727288866000
  * Passcode: T+zpj4US
+30. HTML CSS Project guide
+ * video: https://us06web.zoom.us/rec/share/0tiyuii0NSVcuC_SQVONXAeumKsvtRM5E64a_lTcenOAZCKUIGQB-CdrQEgPoGR4.OGKHRIfJcAz0VDr5?startTime=1727718368000
+ * Passcode: zB2mkOL+
+31. Adding collaberators to github project
+ * video: https://us06web.zoom.us/rec/share/0tiyuii0NSVcuC_SQVONXAeumKsvtRM5E64a_lTcenOAZCKUIGQB-CdrQEgPoGR4.OGKHRIfJcAz0VDr5?startTime=1727719068000
+ * Passcode: zB2mkOL+

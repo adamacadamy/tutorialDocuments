@@ -18,3 +18,15 @@
    * vidoe: https://us06web.zoom.us/rec/share/n8S3WX_TrLIfyf6UrynjxWE9E_xuKYLmDtIx8wujy1ZUvYa0wT-Ikyp5WjUUZ_Ir.dwyhKTv1XKNZWsMo?startTime=1728932739000
   
     * Passcode: Passcode: qenh7e.7
+
+5. More on data types and variables part 1
+ * vidoe: https://us06web.zoom.us/rec/share/LIpXOTaQPt61MG3zML2BOKU-zDwrW9-Q3CkLYve5GNuMhBe6FP7vyDa8Xi4pcE_d.Hgc-oE3zyED3IBxK?startTime=1729100152000
+ * Passcode: *=h91bmg
+  
+6. More on data types and variables part 2
+ * vidoe: https://us06web.zoom.us/rec/share/LIpXOTaQPt61MG3zML2BOKU-zDwrW9-Q3CkLYve5GNuMhBe6FP7vyDa8Xi4pcE_d.Hgc-oE3zyED3IBxK?startTime=1729101775000
+ * Passcode: *=h91bmg
+  
+7. Flow Control (loops)
+ * vidoe: https://us06web.zoom.us/rec/share/LIpXOTaQPt61MG3zML2BOKU-zDwrW9-Q3CkLYve5GNuMhBe6FP7vyDa8Xi4pcE_d.Hgc-oE3zyED3IBxK?startTime=1729104522000
+ * Passcode: Passcode: *=h91bmg

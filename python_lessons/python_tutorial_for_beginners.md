@@ -95,7 +95,27 @@ if age >= 18:
 else:
     print("You are a minor.")
 ```
-
+### Switch case or match case
+```python
+  day = 1
+  match day:
+      case 1:
+          return "Monday"
+      case 2:
+          return "Tuesday"
+      case 3:
+          return "Wednesday"
+      case 4:
+          return "Thursday"
+      case 5:
+          return "Friday"
+      case 6:
+          return "Saturday"
+      case 7:
+          return "Sunday"
+      case _:
+          return "Invalid day"
+```
 ### Loops
 - **For Loop**: Iterates over a sequence.
   ```python

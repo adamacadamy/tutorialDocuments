@@ -30,3 +30,15 @@
 7. Flow Control (loops)
  * vidoe: https://us06web.zoom.us/rec/share/LIpXOTaQPt61MG3zML2BOKU-zDwrW9-Q3CkLYve5GNuMhBe6FP7vyDa8Xi4pcE_d.Hgc-oE3zyED3IBxK?startTime=1729104522000
  * Passcode: Passcode: *=h91bmg
+
+8. More on logical control
+ * vidoe: https://us06web.zoom.us/rec/share/1ZpG6BCimTOkaLo3PbgwP5ZbUQVduDQowyJhWxFTodfmCT-NLXq3DwIFsF8tkJsa.3xNYS5yO4mr3L1dv?startTime=1729186491000
+ * Passcode: Q%d7915J
+
+9. More on dictionaries
+ * vidoe: https://us06web.zoom.us/rec/share/1ZpG6BCimTOkaLo3PbgwP5ZbUQVduDQowyJhWxFTodfmCT-NLXq3DwIFsF8tkJsa.3xNYS5yO4mr3L1dv?startTime=1729187030000
+ * Passcode: Q%d7915J
+
+10. More on flow control
+ * vidoe: https://us06web.zoom.us/rec/share/1ZpG6BCimTOkaLo3PbgwP5ZbUQVduDQowyJhWxFTodfmCT-NLXq3DwIFsF8tkJsa.3xNYS5yO4mr3L1dv?startTime=1729189100000
+ * Passcode: Passcode: Q%d7915J

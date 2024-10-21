@@ -42,3 +42,11 @@
 10. More on flow control
  * vidoe: https://us06web.zoom.us/rec/share/1ZpG6BCimTOkaLo3PbgwP5ZbUQVduDQowyJhWxFTodfmCT-NLXq3DwIFsF8tkJsa.3xNYS5yO4mr3L1dv?startTime=1729189100000
  * Passcode: Passcode: Q%d7915J
+
+11. Functions
+ * vidoe: https://us06web.zoom.us/rec/share/qRXkxlFojMu-PH2sQg64oSX_u3DV6xc8hyBIGG3iozNHwebVQG4ZqbuBPdChLit_.4s3DJVtY9IOGSBO-?startTime=1729532211000
+ * Passcode: eB9&FZAU
+
+12. List, Dict, Tuple comprehension
+ * vidoe: https://us06web.zoom.us/rec/share/qRXkxlFojMu-PH2sQg64oSX_u3DV6xc8hyBIGG3iozNHwebVQG4ZqbuBPdChLit_.4s3DJVtY9IOGSBO-?startTime=1729537153000
+ * Passcode: eB9&FZAU

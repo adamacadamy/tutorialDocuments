@@ -48,6 +48,7 @@ age = 18
 
 fruits = ["apple", "orange", "grape"]
 
+
 # 8. Define a variable `count` with a value of 5.
 #    a) Use a `while` loop to print a countdown from 5 to 1.
 

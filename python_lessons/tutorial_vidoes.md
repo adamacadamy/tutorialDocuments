@@ -50,3 +50,11 @@
 12. List, Dict, Tuple comprehension
  * vidoe: https://us06web.zoom.us/rec/share/qRXkxlFojMu-PH2sQg64oSX_u3DV6xc8hyBIGG3iozNHwebVQG4ZqbuBPdChLit_.4s3DJVtY9IOGSBO-?startTime=1729537153000
  * Passcode: eB9&FZAU
+
+13. Error Handling
+ * vidoe: https://us06web.zoom.us/rec/share/dN6YY_EoBA_vs1ZEUSmNBcemw_pKm1vJbIo6m_5cQ3c_JkhXUk014G3XbgOWn_BP.FqikQlZBU4SM_0u-?startTime=1729622787000
+ * Passcode: a^hg5QBh
+
+14. Error Handling
+ * vidoe: https://us06web.zoom.us/rec/share/dN6YY_EoBA_vs1ZEUSmNBcemw_pKm1vJbIo6m_5cQ3c_JkhXUk014G3XbgOWn_BP.FqikQlZBU4SM_0u-?startTime=1729623476000
+ * Passcode:  a^hg5QBh

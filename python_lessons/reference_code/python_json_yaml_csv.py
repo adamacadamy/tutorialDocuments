@@ -44,14 +44,14 @@ with open('data.csv', 'r') as file:
         print(row)  # Print each row from the CSV file
 
 # Writing CSV
-data_to_write = [
+csv_data_to_write = [
     ['Name', 'Age', 'City'],
     ['John', '30', 'New York'],
     ['Jane', '25', 'London']
 ]
 with open('output.csv', 'w', newline='') as file:
     csv_writer = csv.writer(file)
-    csv_writer.writerows(data_to_write)  # Write the list of rows to the CSV file
+    csv_writer.writerows(csv_data_to_write)  # Write the list of rows to the CSV file
 
 # 4. Converting Between JSON, YAML, and CSV
 # You can convert between these formats by first reading the data into Python dictionaries or lists and then writing them to the desired format.
@@ -83,9 +83,12 @@ with open('data.json', 'r') as json_file:
     data = json.load(json_file)  # Load JSON data
 
 with open('output.csv', 'w', newline='') as csv_file:
-    csv_writer = csv.DictWriter(csv_file, fieldnames=data[0].keys())  # Create a CSV writer with field names from JSON
-    csv_writer.writeheader()
-    csv_writer.writerows(data)  # Write JSON data to CSV file
+    if isinstance(data, list) and len(data) > 0 and isinstance(data[0], dict):
+        csv_writer = csv.DictWriter(csv_file, fieldnames=data[0].keys())  # Create a CSV writer with field names from JSON
+        csv_writer.writeheader()
+        csv_writer.writerows(data)  # Write JSON data to CSV file
+    else:
+        raise ValueError("JSON data must be a list of dictionaries to convert to CSV.")
 
 # This lesson covers reading, writing, and converting between JSON, YAML, and CSV files. 
 # The key idea is to read data into Python structures and then write them out to another format as needed.

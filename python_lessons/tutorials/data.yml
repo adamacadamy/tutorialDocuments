@@ -1,0 +1,20 @@
+employees:
+  - name: John Doe
+    age: 30
+    position: Software Engineer
+    salary: 75000
+  - name: Jane Smith
+    age: 25
+    position: Data Analyst
+    salary: 68000
+  - name: Michael Brown
+    age: 40
+    position: Project Manager
+    salary: 90000
+
+company:
+  name: Tech Solutions Inc.
+  location: New York
+  founded: 2010
+
+is_hiring: true

@@ -11,7 +11,9 @@
 # Use list comprehension to achieve this.
 
 # Challenge 4: Write a function that accepts two lists of the same length and returns a list of tuples,
-# where each tuple contains elements from the two lists at the corresponding positions. Use list comprehension.
+# where each tuple contains elements from the two lists at the corresponding positions (same index). Use list comprehension.
+
+
 
 # Challenge 5: Create a function that takes a sentence (string) and returns a list of the lengths of each word in the sentence.
 # Use list comprehension to split the sentence and calculate the lengths.

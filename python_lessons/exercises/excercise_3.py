@@ -75,12 +75,17 @@
 #     b) Ensure the function is efficient and works on lists of large size.
 #     c) Use this function to sort a list of 1000 random numbers.
 
-# 21. Define a function `json_to_csv` that converts a JSON object to a CSV file.
-#     a) The JSON object should contain data in key-value pairs.
-#     b) Ensure the function handles nested JSON objects and arrays.
-#     c) Use the `csv` module to write the data to a CSV file.
+# 21. Define a function `json_to_yaml` that converts a JSON object to a YAML file.
+#     a) The JSON object should contain key-value pairs.
+#     b) Use the `yaml` module to write the data to a YAML file.
 
-# 22. Define a function `game_of_life_step` that implements a single step of Conway's Game of Life.
-#     a) The function should take a 2D grid representing the state of the game.
-#     b) Apply the rules of the Game of Life to compute the next state of the grid.
-#     c) Ensure the function works efficiently on large grids (e.g., 1000x1000).
+# 22. Define a function `yaml_to_json` that converts a YAML file to a JSON object.
+#     a) Ensure the function reads the YAML file and outputs the equivalent JSON structure.
+
+# 23. Define a function `yaml_to_csv` that converts a YAML file to a CSV file.
+#     a) The YAML file should contain structured data (e.g., dictionaries or lists).
+#     b) Use the `csv` module to write the data to a CSV file.
+
+# 24. Define a function `csv_to_yaml` that converts a CSV file to a YAML file.
+#     a) The CSV file should contain rows of data.
+#     b) Ensure the function reads the CSV and outputs the equivalent YAML structure.

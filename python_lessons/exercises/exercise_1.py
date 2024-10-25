@@ -1,86 +1,84 @@
-# Exercise 3: Advanced Python Challenges (Updated)
+# 1. Define two variables, x and y, with values 5 and 10.
+#    Perform the following operations and print the results:
+#    a) Sum of x and y
+#    b) Difference of y and x
+#    c) Product of x and y
+#    d) Quotient of y by x
 
-# 1. Define a function `calculate_statistics` that takes a list of numbers and returns a dictionary containing:
-#    a) The mean of the numbers.
-#    b) The median of the numbers.
-#    c) The mode of the numbers.
-#    Use the `statistics` module for these calculations.
+x = 5
+y = 10
 
-# 2. Create a class `Rectangle` that has attributes for `width` and `height`.
-#    a) Define a method to calculate the area of the rectangle.
-#    b) Define a method to calculate the perimeter of the rectangle.
-#    c) Instantiate two rectangles and compare their areas.
+# 2. Define a list of fruits containing "apple", "banana", and "cherry".
+#    a) Add "orange" to the list.
+#    b) Remove "banana" from the list.
+#    c) Print the first and last elements of the list.
 
-# 3. Define a function `is_prime` that takes an integer and returns `True` if the number is prime, and `False` otherwise.
-#    a) Use this function to filter a list of numbers (from 1 to 100) and return only the prime numbers.
+fruits = ["apple", "banana", "cherry"]
 
-# 4. Define a function `merge_dictionaries` that accepts two dictionaries and merges them.
-#    a) If both dictionaries have the same key, sum the values of that key.
-#    b) Otherwise, combine the keys and values into the resulting dictionary.
+# 3. Define a set of numbers containing 1, 2, 3, 4, and 5.
+#    a) Add the number 6 to the set.
+#    b) Remove the number 3 from the set.
+#    c) Check if the numbers 5 and 7 are in the set, and print the results.
 
-# 5. Create a generator function `fibonacci` that yields an infinite sequence of Fibonacci numbers.
-#    a) Use a `for` loop to print the first 20 Fibonacci numbers.
+numbers_set = {1, 2, 3, 4, 5}
 
-# 6. Define a function `matrix_transpose` that takes a 2D list (matrix) and returns its transpose.
-#    a) The function should work for any matrix size.
+# 4. Define a tuple representing coordinates (10.5, 20.7).
+#    a) Print the x (first) and y (second) coordinates separately.
 
-# 7. Write a function `analyze_text` that takes a string and returns:
-#    a) The number of words in the string.
-#    b) The number of unique words.
-#    c) A dictionary of word frequencies.
-#    d) The longest word in the string.
+coordinates = (10.5, 20.7)
 
-# 8. Define a function `group_by_length` that takes a list of strings and returns a dictionary where:
-#    a) The keys are string lengths.
-#    b) The values are lists of strings with that length.
+# 5. Define a dictionary of student grades, where:
+#    - "Alice" has a grade of 85
+#    - "Bob" has a grade of 90
+#    - "Charlie" has a grade of 78
+#    a) Add a new student "David" with a grade of 88.
+#    b) Update Alice's grade to 95.
+#    c) Print Bob's grade.
 
-# 9. Define a recursive function `factorial` that calculates the factorial of a given number.
-#    a) Use it to calculate the factorial of numbers from 1 to 10.
+grades = {"Alice": 85, "Bob": 90, "Charlie": 78}
 
-# 10. Define a function `flatten_list` that takes a nested list and returns a flat list.
-#     a) Use recursion to handle arbitrarily nested lists.
-#     Example: flatten_list([1, [2, [3, 4], 5]]) -> [1, 2, 3, 4, 5]
+# 6. Define a variable called `age` with a value of 18.
+#    a) Write an if/else statement that checks if the age is 18 or above. 
+#    If true, print "You are eligible to vote", otherwise print "You are not eligible to vote".
 
-# 11. Write a function `reverse_string_recursive` that reverses a given string using recursion.
-#     Example: reverse_string_recursive("hello") -> "olleh"
+age = 18
 
-# 12. Define a higher-order function `apply_twice` that takes another function `f` as input and applies it twice to a given argument.
-#     Example: apply_twice(lambda x: x * 2, 5) -> 20
+# 7. Define a list of fruits: ["apple", "orange", "grape"].
+#    a) Use a `for` loop to print each fruit in the list.
 
-# 13. Define a function `read_file_lines` that reads the contents of a file line by line and returns a list of the lines.
-#     a) Handle file not found errors gracefully by printing a message.
+fruits = ["apple", "orange", "grape"]
 
-# 14. Define a function `write_even_numbers` that writes only the even numbers from a list into a text file.
-#     a) Ensure that the file is created and written to safely.
 
-# 15. Define a function `memoized_fibonacci` that returns the nth Fibonacci number, using memoization to optimize the computation.
-#     a) Ensure the function computes the nth Fibonacci efficiently by storing already computed values.
+# 8. Define a variable `count` with a value of 5.
+#    a) Use a `while` loop to print a countdown from 5 to 1.
 
-# 16. Create a decorator `time_execution` that measures and prints the execution time of any function it decorates.
-#     a) Use it on the `fibonacci` function to measure how long it takes to compute the 30th Fibonacci number.
+count = 5
 
-# 17. Define a function `unique_permutations` that takes a list and returns all unique permutations of the elements in the list.
-#     a) Use the `itertools` module to simplify the task.
+# 9. Challenge: Combine lists, sets, dictionaries, and loops.
+#    a) Define a list of numbers from 1 to 10.
+#    b) Create a set of even numbers from the list using a `for` loop or comprehension.
+#    c) Create a dictionary that maps each even number to its square.
+#    d) Print the set of even numbers and the dictionary.
 
-# 18. Define a function `safe_division` that performs division but catches division by zero errors.
-#     a) If an error occurs, return "Undefined" instead of raising an exception.
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-# 19. Create a class `BankAccount` with attributes for `balance` and methods `deposit` and `withdraw`.
-#     a) Ensure `withdraw` raises an error if there are insufficient funds.
-#     b) Create a method `transfer` to transfer money between two bank accounts.
 
-# 20. **New Challenge: Complex Data Manipulation**
-#     Define a function `merge_sort` that implements the merge sort algorithm recursively.
-#     a) The function should take a list of numbers and return a sorted list.
-#     b) Ensure the function is efficient and works on lists of large size.
-#     c) Use this function to sort a list of 1000 random numbers.
+# 10. Conversion between List, Set, and Tuple
+#     a) Convert the list of fruits to a set and print the result.
+#     b) Convert the set of even numbers to a tuple and print the result.
+#     c) Convert the tuple of coordinates to a list and print the result.
 
-# 21. Define a function `json_to_csv` that converts a JSON object to a CSV file.
-#     a) The JSON object should contain data in key-value pairs.
-#     b) Ensure the function handles nested JSON objects and arrays.
-#     c) Use the `csv` module to write the data to a CSV file.
+# Conversion between list, set, and tuple examples:
+# fruits -> set
+# even_numbers (from challenge) -> tuple
+# coordinates (tuple) -> list
 
-# 22. Define a function `game_of_life_step` that implements a single step of Conway's Game of Life.
-#     a) The function should take a 2D grid representing the state of the game.
-#     b) Apply the rules of the Game of Life to compute the next state of the grid.
-#     c) Ensure the function works efficiently on large grids (e.g., 1000x1000).
+# 11. Dictionary Keys and Values
+#     a) Print the list of dictionary keys from the `grades` dictionary.
+#     b) Print the list of dictionary values from the `grades` dictionary.
+#     c) Loop through the dictionary and print each student name (key) and their grade (value).
+
+# Dictionary keys and values
+# grades -> keys() -> list
+# grades -> values() -> list
+# loop through dictionary

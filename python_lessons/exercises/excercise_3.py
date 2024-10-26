@@ -1,4 +1,4 @@
-# Exercise 3: Advanced Python Challenges (Updated)
+# Exercise 3: Advanced Python Challenges  
 
 # 1. Define a function `calculate_statistics` that takes a list of numbers and returns a dictionary containing:
 #    a) The mean of the numbers.

@@ -58,3 +58,11 @@
 14. Error Handling
  * vidoe: https://us06web.zoom.us/rec/share/dN6YY_EoBA_vs1ZEUSmNBcemw_pKm1vJbIo6m_5cQ3c_JkhXUk014G3XbgOWn_BP.FqikQlZBU4SM_0u-?startTime=1729623476000
  * Passcode:  a^hg5QBh
+
+15. Data Interchange Formats
+ * vidoe: https://us06web.zoom.us/rec/share/-fPxwKI9GpqyD7pAPFdZeZsQXKWql368BLqJRJcvoke1P5u-ceu84W_Kqep3kEHG.2S_CnigeRRxwQ4Ye?startTime=1729882086000
+ * Passcode: #F6TS66g
+  
+16. Regular Expressions
+ * vidoe:  https://us06web.zoom.us/rec/share/-fPxwKI9GpqyD7pAPFdZeZsQXKWql368BLqJRJcvoke1P5u-ceu84W_Kqep3kEHG.2S_CnigeRRxwQ4Ye?startTime=1729884470000
+ * Passcode:  #F6TS66g

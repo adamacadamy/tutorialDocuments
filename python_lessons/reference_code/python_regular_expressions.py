@@ -146,7 +146,7 @@ print(result)  # Outputs: ['apple', 'banana', 'grape', 'orange']
 # Compiling a pattern allows for faster matching when used multiple times.
 
 pattern = re.compile(r"\\d+")
-matches = pattern.findall("There are 3 apples and 7 bananas")
+matches = re.findall("There are 3 apples and 7 bananas")
 
 # b) Flags in Regular Expressions
 # Flags modify regex behavior, such as case sensitivity and multi-line matching.

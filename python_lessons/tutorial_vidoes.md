@@ -20,49 +20,61 @@
     * Passcode: Passcode: qenh7e.7
 
 5. More on data types and variables part 1
- * vidoe: https://us06web.zoom.us/rec/share/LIpXOTaQPt61MG3zML2BOKU-zDwrW9-Q3CkLYve5GNuMhBe6FP7vyDa8Xi4pcE_d.Hgc-oE3zyED3IBxK?startTime=1729100152000
- * Passcode: *=h91bmg
+    * vidoe: https://us06web.zoom.us/rec/share/LIpXOTaQPt61MG3zML2BOKU-zDwrW9-Q3CkLYve5GNuMhBe6FP7vyDa8Xi4pcE_d.Hgc-oE3zyED3IBxK?startTime=1729100152000
+    * Passcode: *=h91bmg
   
 6. More on data types and variables part 2
- * vidoe: https://us06web.zoom.us/rec/share/LIpXOTaQPt61MG3zML2BOKU-zDwrW9-Q3CkLYve5GNuMhBe6FP7vyDa8Xi4pcE_d.Hgc-oE3zyED3IBxK?startTime=1729101775000
- * Passcode: *=h91bmg
-  
+    * vidoe: https://us06web.zoom.us/rec/share/LIpXOTaQPt61MG3zML2BOKU-zDwrW9-Q3CkLYve5GNuMhBe6FP7vyDa8Xi4pcE_d.Hgc-oE3zyED3IBxK?startTime=1729101775000
+    * Passcode: *=h91bmg
+     
 7. Flow Control (loops)
- * vidoe: https://us06web.zoom.us/rec/share/LIpXOTaQPt61MG3zML2BOKU-zDwrW9-Q3CkLYve5GNuMhBe6FP7vyDa8Xi4pcE_d.Hgc-oE3zyED3IBxK?startTime=1729104522000
- * Passcode: Passcode: *=h91bmg
+    * vidoe: https://us06web.zoom.us/rec/share/LIpXOTaQPt61MG3zML2BOKU-zDwrW9-Q3CkLYve5GNuMhBe6FP7vyDa8Xi4pcE_d.Hgc-oE3zyED3IBxK?startTime=1729104522000
+    * Passcode: Passcode: *=h91bmg
 
 8. More on logical control
- * vidoe: https://us06web.zoom.us/rec/share/1ZpG6BCimTOkaLo3PbgwP5ZbUQVduDQowyJhWxFTodfmCT-NLXq3DwIFsF8tkJsa.3xNYS5yO4mr3L1dv?startTime=1729186491000
- * Passcode: Q%d7915J
+    * vidoe: https://us06web.zoom.us/rec/share/1ZpG6BCimTOkaLo3PbgwP5ZbUQVduDQowyJhWxFTodfmCT-NLXq3DwIFsF8tkJsa.3xNYS5yO4mr3L1dv?startTime=1729186491000
+    * Passcode: Q%d7915J
 
 9. More on dictionaries
- * vidoe: https://us06web.zoom.us/rec/share/1ZpG6BCimTOkaLo3PbgwP5ZbUQVduDQowyJhWxFTodfmCT-NLXq3DwIFsF8tkJsa.3xNYS5yO4mr3L1dv?startTime=1729187030000
- * Passcode: Q%d7915J
+    * vidoe: https://us06web.zoom.us/rec/share/1ZpG6BCimTOkaLo3PbgwP5ZbUQVduDQowyJhWxFTodfmCT-NLXq3DwIFsF8tkJsa.3xNYS5yO4mr3L1dv?startTime=1729187030000
+    * Passcode: Q%d7915J
 
 10. More on flow control
- * vidoe: https://us06web.zoom.us/rec/share/1ZpG6BCimTOkaLo3PbgwP5ZbUQVduDQowyJhWxFTodfmCT-NLXq3DwIFsF8tkJsa.3xNYS5yO4mr3L1dv?startTime=1729189100000
- * Passcode: Passcode: Q%d7915J
+     * vidoe: https://us06web.zoom.us/rec/share/1ZpG6BCimTOkaLo3PbgwP5ZbUQVduDQowyJhWxFTodfmCT-NLXq3DwIFsF8tkJsa.3xNYS5yO4mr3L1dv?startTime=1729189100000
+     * Passcode: Passcode: Q%d7915J
 
 11. Functions
- * vidoe: https://us06web.zoom.us/rec/share/qRXkxlFojMu-PH2sQg64oSX_u3DV6xc8hyBIGG3iozNHwebVQG4ZqbuBPdChLit_.4s3DJVtY9IOGSBO-?startTime=1729532211000
- * Passcode: eB9&FZAU
+     * vidoe: https://us06web.zoom.us/rec/share/qRXkxlFojMu-PH2sQg64oSX_u3DV6xc8hyBIGG3iozNHwebVQG4ZqbuBPdChLit_.4s3DJVtY9IOGSBO-?startTime=1729532211000
+     * Passcode: eB9&FZAU
 
 12. List, Dict, Tuple comprehension
- * vidoe: https://us06web.zoom.us/rec/share/qRXkxlFojMu-PH2sQg64oSX_u3DV6xc8hyBIGG3iozNHwebVQG4ZqbuBPdChLit_.4s3DJVtY9IOGSBO-?startTime=1729537153000
- * Passcode: eB9&FZAU
+     * vidoe: https://us06web.zoom.us/rec/share/qRXkxlFojMu-PH2sQg64oSX_u3DV6xc8hyBIGG3iozNHwebVQG4ZqbuBPdChLit_.4s3DJVtY9IOGSBO-?startTime=1729537153000
+     * Passcode: eB9&FZAU
 
 13. Error Handling
- * vidoe: https://us06web.zoom.us/rec/share/dN6YY_EoBA_vs1ZEUSmNBcemw_pKm1vJbIo6m_5cQ3c_JkhXUk014G3XbgOWn_BP.FqikQlZBU4SM_0u-?startTime=1729622787000
- * Passcode: a^hg5QBh
+     * vidoe: https://us06web.zoom.us/rec/share/dN6YY_EoBA_vs1ZEUSmNBcemw_pKm1vJbIo6m_5cQ3c_JkhXUk014G3XbgOWn_BP.FqikQlZBU4SM_0u-?startTime=1729622787000
+     * Passcode: a^hg5QBh
 
 14. Error Handling
- * vidoe: https://us06web.zoom.us/rec/share/dN6YY_EoBA_vs1ZEUSmNBcemw_pKm1vJbIo6m_5cQ3c_JkhXUk014G3XbgOWn_BP.FqikQlZBU4SM_0u-?startTime=1729623476000
- * Passcode:  a^hg5QBh
+     * vidoe: https://us06web.zoom.us/rec/share/dN6YY_EoBA_vs1ZEUSmNBcemw_pKm1vJbIo6m_5cQ3c_JkhXUk014G3XbgOWn_BP.FqikQlZBU4SM_0u-?startTime=1729623476000
+     * Passcode:  a^hg5QBh
 
 15. Data Interchange Formats
- * vidoe: https://us06web.zoom.us/rec/share/-fPxwKI9GpqyD7pAPFdZeZsQXKWql368BLqJRJcvoke1P5u-ceu84W_Kqep3kEHG.2S_CnigeRRxwQ4Ye?startTime=1729882086000
- * Passcode: #F6TS66g
+     * vidoe: https://us06web.zoom.us/rec/share/-fPxwKI9GpqyD7pAPFdZeZsQXKWql368BLqJRJcvoke1P5u-ceu84W_Kqep3kEHG.2S_CnigeRRxwQ4Ye?startTime=1729882086000
+     * Passcode: #F6TS66g
   
 16. Regular Expressions
- * vidoe:  https://us06web.zoom.us/rec/share/-fPxwKI9GpqyD7pAPFdZeZsQXKWql368BLqJRJcvoke1P5u-ceu84W_Kqep3kEHG.2S_CnigeRRxwQ4Ye?startTime=1729884470000
- * Passcode:  #F6TS66g
+     * vidoe:  https://us06web.zoom.us/rec/share/-fPxwKI9GpqyD7pAPFdZeZsQXKWql368BLqJRJcvoke1P5u-ceu84W_Kqep3kEHG.2S_CnigeRRxwQ4Ye?startTime=1729884470000
+     * Passcode:  #F6TS66g
+
+17. More on Regular Expression
+     * vidoe:  https://us06web.zoom.us/rec/share/Gr8xQO1UL06haz8nipmH-JUeckwzOBDAScxaM0rS7AkUJG0Ie3P-hKHKTsklf2Ui.uyc8IaF0jeVSseCx?startTime=1730140467000
+    * Passcode:  2?H66MPt
+
+18. Object Oriented Part 1
+     * vidoe:  https://us06web.zoom.us/rec/share/Gr8xQO1UL06haz8nipmH-JUeckwzOBDAScxaM0rS7AkUJG0Ie3P-hKHKTsklf2Ui.uyc8IaF0jeVSseCx?startTime=1730142987000
+    * Passcode:  2?H66MPt
+
+19. Object Oriented Part 2
+     * vidoe:  https://us06web.zoom.us/rec/share/Gr8xQO1UL06haz8nipmH-JUeckwzOBDAScxaM0rS7AkUJG0Ie3P-hKHKTsklf2Ui.uyc8IaF0jeVSseCx?startTime=1730140467000
+    * Passcode:  2?H66MPt

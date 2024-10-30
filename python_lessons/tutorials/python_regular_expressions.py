@@ -44,11 +44,13 @@ print(match)
 pattern = r"\d{3}" # ኣብዚ ጽሑፍ ኣሃዛት ልዕሊ 3 ግዜ ተደጊሞም ኣለዉ ድዮም
 match = re.search(pattern, text)
 print(match)
-
+print("----------search----------------")
 pattern = r"[a-zA-Z]"
 match = re.search(pattern, text)
 print(match)
 
+
+print("----------findall----------------")
 text = "Hello World"
 pattern = r"[a-z]"
 result = re.findall(pattern, text)
@@ -68,7 +70,7 @@ group of one or more words followed by space
 and then followed by one or more words and 
 then followed by comma and then followed by
 space and then followed by
-exactly word `age` and then followed space
+exactly word `age` as a group and then followed space
 and the followed one or more digits
 
 """
@@ -83,3 +85,52 @@ if match:
     print(match.group(2))
     print(match.group(3))
     print(match.group(4))
+    
+pattern = r"(?P<first_name>\w+)\s(?P<last_name>\w+)"
+match = re.search(pattern, text)
+
+print("named groups")
+print(match)
+if match:
+    print(match.group("first_name"))
+    print(match.group("last_name"))
+
+result = re.search(r"John(?= Doe)", "John Doe")
+
+print(result)
+email = "someone@yahoo.com"
+pattern=r"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$"
+matches = re.match(pattern, email)
+
+print(matches)
+
+
+
+text = "apple, banana; grape|orange"
+# text.split()
+# ['apple,', 'banana;', 'grape|orange']
+pattern = r"[,;|]"
+""" 
+"apple, banana; grape|orange"
+["apple", " banana; grape|orange"]
+["apple", ["banana", grape|orange"]]
+["apple", ["banana", [grape","orange"]]]
+flattens the  nd list
+["apple", "banana", grape","orange"]
+
+"""
+result = re.split(pattern, text)
+
+print(result)
+# ['apple', ' banana', ' grape', 'orange']
+
+text = "The rain in spain"
+
+pattern=r"rain"
+new_text = re.sub(pattern, "sun", text)
+print(new_text)
+
+text="There are 3 apples and 7 bananas"
+pattern = re.compile(r"\d+")
+matches = pattern.findall(text)
+print(matches)

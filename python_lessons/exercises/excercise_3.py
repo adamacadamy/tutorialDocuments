@@ -6,6 +6,8 @@
 #    c) The mode of the numbers.
 #    Use the `statistics` module for these calculations.
 
+
+
 # 2. Create a class `Rectangle` that has attributes for `width` and `height`.
 #    a) Define a method to calculate the area of the rectangle.
 #    b) Define a method to calculate the perimeter of the rectangle.

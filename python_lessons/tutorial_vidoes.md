@@ -78,3 +78,9 @@
 19. Object Oriented Part 2
      * vidoe:  https://us06web.zoom.us/rec/share/Gr8xQO1UL06haz8nipmH-JUeckwzOBDAScxaM0rS7AkUJG0Ie3P-hKHKTsklf2Ui.uyc8IaF0jeVSseCx?startTime=1730140467000
     * Passcode:  2?H66MPt
+20. Setup Jupyter notebook
+     * vidoe: https://us06web.zoom.us/rec/share/YJrfuEe0cPMpywSiWwblVpPb8Afjms1uX4kWzvpnIT1qHbPFGZY_eiZv3_WNnAvi.LaczmEB65WXpUOwH?startTime=1730319738000
+    * Passcode:  &A4dCnR4
+21. Solutions for exercise 1
+     * vidoe: https://us06web.zoom.us/rec/share/YJrfuEe0cPMpywSiWwblVpPb8Afjms1uX4kWzvpnIT1qHbPFGZY_eiZv3_WNnAvi.LaczmEB65WXpUOwH?startTime=1730317390000
+     * Passcode:  &A4dCnR4

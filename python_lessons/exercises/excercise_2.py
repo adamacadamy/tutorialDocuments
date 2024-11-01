@@ -3,12 +3,7 @@
 
 # Challenge 1: Define a function that takes a list of numbers and returns a new list containing only the even numbers.
 # The function should use list comprehension.
-""" 
- l1= [1, 2,3 ]
- l2=[1,23,4]
- df ex_ev_li(l1,l2)
-   returns [n%2=0]
-"""
+ 
 # Challenge 2: Define a function that takes a list of strings and returns a new list with the strings that have more than 5 characters.
 # Use list comprehension for filtering.
 
@@ -31,22 +26,7 @@
 
 # Challenge 8: Create a function that takes a list of dictionaries and returns a list of the values for a given key.
 # Use list comprehension to extract the values.
-""" 
-ld = [
-    {
-        "k": 1
-        ...
-    },
-        {
-        "k": 4
-        ...
-    }
-]
-list comprehension
-  ls = [ 1, 4, ...]
-  
-  def extract(ld, k)
-"""
+ 
 
 # Challenge 9: Write a function that accepts a list of words and returns a list of the words with their first letter capitalized.
 # Use list comprehension to achieve this.

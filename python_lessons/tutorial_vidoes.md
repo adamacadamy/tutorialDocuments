@@ -68,19 +68,26 @@
      * Passcode:  #F6TS66g
 
 17. More on Regular Expression
-     * vidoe:  https://us06web.zoom.us/rec/share/Gr8xQO1UL06haz8nipmH-JUeckwzOBDAScxaM0rS7AkUJG0Ie3P-hKHKTsklf2Ui.uyc8IaF0jeVSseCx?startTime=1730140467000
-    * Passcode:  2?H66MPt
+      * vidoe: https://us06web.zoom.us/rec/share/gqp6duPSV1n8_aLitRrE0px04Qt_ueDCz0WUrJhLBv_uWHTAwxd-d27hVraGeacJ.tonedbdGwKXnUdOj?startTime=1730140467000
+     * Passcode: Passcode: 2?H66MPt
 
 18. Object Oriented Part 1
-     * vidoe:  https://us06web.zoom.us/rec/share/Gr8xQO1UL06haz8nipmH-JUeckwzOBDAScxaM0rS7AkUJG0Ie3P-hKHKTsklf2Ui.uyc8IaF0jeVSseCx?startTime=1730142987000
+     * vidoe: https://us06web.zoom.us/rec/share/gqp6duPSV1n8_aLitRrE0px04Qt_ueDCz0WUrJhLBv_uWHTAwxd-d27hVraGeacJ.tonedbdGwKXnUdOj?startTime=1730142987000
     * Passcode:  2?H66MPt
 
 19. Object Oriented Part 2
-     * vidoe:  https://us06web.zoom.us/rec/share/Gr8xQO1UL06haz8nipmH-JUeckwzOBDAScxaM0rS7AkUJG0Ie3P-hKHKTsklf2Ui.uyc8IaF0jeVSseCx?startTime=1730140467000
+     * vidoe: https://us06web.zoom.us/rec/share/gqp6duPSV1n8_aLitRrE0px04Qt_ueDCz0WUrJhLBv_uWHTAwxd-d27hVraGeacJ.tonedbdGwKXnUdOj?startTime=1730144459000
     * Passcode:  2?H66MPt
-20. Setup Jupyter notebook
+20.  Setup Jupyter notebook
      * vidoe: https://us06web.zoom.us/rec/share/YJrfuEe0cPMpywSiWwblVpPb8Afjms1uX4kWzvpnIT1qHbPFGZY_eiZv3_WNnAvi.LaczmEB65WXpUOwH?startTime=1730319738000
     * Passcode:  &A4dCnR4
-21. Solutions for exercise 1
+
+21.  Solutions for exercise 1 part 1
      * vidoe: https://us06web.zoom.us/rec/share/YJrfuEe0cPMpywSiWwblVpPb8Afjms1uX4kWzvpnIT1qHbPFGZY_eiZv3_WNnAvi.LaczmEB65WXpUOwH?startTime=1730317390000
      * Passcode:  &A4dCnR4
+22.  Solutions for exercise 1 part 2
+     * vidoe: https://us06web.zoom.us/rec/share/rAd7U-Z5PzyEJEmzWzWrnCr43r3ZLH3Hd-CTWLOECC4y1d37ZBKXAtyIXpG-potr.Kr4nQjHJPSiGsJd9?startTime=1730403494000
+     * Passcode: Passcode: $mK7QYAE
+23.   Solutions for exercise 2 part 1
+     * vidoe:https://us06web.zoom.us/rec/share/rAd7U-Z5PzyEJEmzWzWrnCr43r3ZLH3Hd-CTWLOECC4y1d37ZBKXAtyIXpG-potr.Kr4nQjHJPSiGsJd9?startTime=1730405761000
+     * Passcode: $mK7QYAE

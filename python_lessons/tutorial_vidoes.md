@@ -89,5 +89,8 @@
      * vidoe: https://us06web.zoom.us/rec/share/rAd7U-Z5PzyEJEmzWzWrnCr43r3ZLH3Hd-CTWLOECC4y1d37ZBKXAtyIXpG-potr.Kr4nQjHJPSiGsJd9?startTime=1730403494000
      * Passcode: Passcode: $mK7QYAE
 23.   Solutions for exercise 2 part 1
-     * vidoe:https://us06web.zoom.us/rec/share/rAd7U-Z5PzyEJEmzWzWrnCr43r3ZLH3Hd-CTWLOECC4y1d37ZBKXAtyIXpG-potr.Kr4nQjHJPSiGsJd9?startTime=1730405761000
+     * vidoe: https://us06web.zoom.us/rec/share/rAd7U-Z5PzyEJEmzWzWrnCr43r3ZLH3Hd-CTWLOECC4y1d37ZBKXAtyIXpG-potr.Kr4nQjHJPSiGsJd9?startTime=1730405761000
      * Passcode: $mK7QYAE
+24. Solutions for exercise 2 part 2
+     * vidoe:https://us06web.zoom.us/rec/share/jfc588fWEv4zpmyroQ7uZEeb3NIYIEa_g2b8KX7nZ6JUOG4_ArUZL5alxg0a7SoR.S4sS8KWGdWOdcTtX?startTime=1730490014000
+     * Passcode: x$Ta7Qvm

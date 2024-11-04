@@ -25,6 +25,15 @@
 
 # 6. Define a function `matrix_transpose` that takes a 2D list (matrix) and returns its transpose.
 #    a) The function should work for any matrix size.
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+ 
+# for row in zip(*matrix): #      [1, 2, 3], [4, 5, 6],  [7, 8, 9]
+#     pass
+# [[1, 4, 7], [2, 5, 8], [3, 6, 9]]
 
 # 7. Write a function `analyze_text` that takes a string and returns:
 #    a) The number of words in the string.

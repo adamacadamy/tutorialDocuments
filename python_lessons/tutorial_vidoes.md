@@ -1,22 +1,17 @@
 1. IDE'S
    * vidoe: https://us06web.zoom.us/rec/share/n8S3WX_TrLIfyf6UrynjxWE9E_xuKYLmDtIx8wujy1ZUvYa0wT-Ikyp5WjUUZ_Ir.dwyhKTv1XKNZWsMo?startTime=1728928957000
-
     * Passcode: qenh7e.7
 
 2. primitive variables
    * vidoe: https://us06web.zoom.us/rec/share/n8S3WX_TrLIfyf6UrynjxWE9E_xuKYLmDtIx8wujy1ZUvYa0wT-Ikyp5WjUUZ_Ir.dwyhKTv1XKNZWsMo?startTime=1728929548000 
-
    * Passcode: qenh7e.7
 
 3. Logical and Arithmetic Operations
    * vidoe: https://us06web.zoom.us/rec/share/n8S3WX_TrLIfyf6UrynjxWE9E_xuKYLmDtIx8wujy1ZUvYa0wT-Ikyp5WjUUZ_Ir.dwyhKTv1XKNZWsMo?startTime=1728932739000
- 
     * Passcode: qenh7e.7
 
-
 4. Logical Flow Control
-   * vidoe: https://us06web.zoom.us/rec/share/n8S3WX_TrLIfyf6UrynjxWE9E_xuKYLmDtIx8wujy1ZUvYa0wT-Ikyp5WjUUZ_Ir.dwyhKTv1XKNZWsMo?startTime=1728932739000
-  
+    * vidoe: https://us06web.zoom.us/rec/share/n8S3WX_TrLIfyf6UrynjxWE9E_xuKYLmDtIx8wujy1ZUvYa0wT-Ikyp5WjUUZ_Ir.dwyhKTv1XKNZWsMo?startTime=1728932739000
     * Passcode: Passcode: qenh7e.7
 
 5. More on data types and variables part 1
@@ -85,12 +80,15 @@
 21.  Solutions for exercise 1 part 1
      * vidoe: https://us06web.zoom.us/rec/share/YJrfuEe0cPMpywSiWwblVpPb8Afjms1uX4kWzvpnIT1qHbPFGZY_eiZv3_WNnAvi.LaczmEB65WXpUOwH?startTime=1730317390000
      * Passcode:  &A4dCnR4
+     * 
 22.  Solutions for exercise 1 part 2
      * vidoe: https://us06web.zoom.us/rec/share/rAd7U-Z5PzyEJEmzWzWrnCr43r3ZLH3Hd-CTWLOECC4y1d37ZBKXAtyIXpG-potr.Kr4nQjHJPSiGsJd9?startTime=1730403494000
      * Passcode: Passcode: $mK7QYAE
+  
 23.   Solutions for exercise 2 part 1
      * vidoe: https://us06web.zoom.us/rec/share/rAd7U-Z5PzyEJEmzWzWrnCr43r3ZLH3Hd-CTWLOECC4y1d37ZBKXAtyIXpG-potr.Kr4nQjHJPSiGsJd9?startTime=1730405761000
      * Passcode: $mK7QYAE
-24. Solutions for exercise 2 part 2
+  
+1.  Solutions for exercise 2 part 2
      * vidoe:https://us06web.zoom.us/rec/share/jfc588fWEv4zpmyroQ7uZEeb3NIYIEa_g2b8KX7nZ6JUOG4_ArUZL5alxg0a7SoR.S4sS8KWGdWOdcTtX?startTime=1730490014000
      * Passcode: x$Ta7Qvm

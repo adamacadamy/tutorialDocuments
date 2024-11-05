@@ -80,7 +80,7 @@
 21.  Solutions for exercise 1 part 1
      * vidoe: https://us06web.zoom.us/rec/share/YJrfuEe0cPMpywSiWwblVpPb8Afjms1uX4kWzvpnIT1qHbPFGZY_eiZv3_WNnAvi.LaczmEB65WXpUOwH?startTime=1730317390000
      * Passcode:  &A4dCnR4
-     * 
+  
 22.  Solutions for exercise 1 part 2
      * vidoe: https://us06web.zoom.us/rec/share/rAd7U-Z5PzyEJEmzWzWrnCr43r3ZLH3Hd-CTWLOECC4y1d37ZBKXAtyIXpG-potr.Kr4nQjHJPSiGsJd9?startTime=1730403494000
      * Passcode: Passcode: $mK7QYAE
@@ -89,6 +89,14 @@
      * vidoe: https://us06web.zoom.us/rec/share/rAd7U-Z5PzyEJEmzWzWrnCr43r3ZLH3Hd-CTWLOECC4y1d37ZBKXAtyIXpG-potr.Kr4nQjHJPSiGsJd9?startTime=1730405761000
      * Passcode: $mK7QYAE
   
-1.  Solutions for exercise 2 part 2
-     * vidoe:https://us06web.zoom.us/rec/share/jfc588fWEv4zpmyroQ7uZEeb3NIYIEa_g2b8KX7nZ6JUOG4_ArUZL5alxg0a7SoR.S4sS8KWGdWOdcTtX?startTime=1730490014000
+24.  Solutions for exercise 2 part 2
+     * vidoe: https://us06web.zoom.us/rec/share/jfc588fWEv4zpmyroQ7uZEeb3NIYIEa_g2b8KX7nZ6JUOG4_ArUZL5alxg0a7SoR.S4sS8KWGdWOdcTtX?startTime=1730490014000
      * Passcode: x$Ta7Qvm
+
+25.  Solutions for exercise 2 part 3
+     * vidoe: https://us06web.zoom.us/rec/share/M-IEgwzjtYFHx_Dqaf0e1SQBnALq83z6ajhrObYFnocYBhEG8fyFPBzA4VoKL7Vv.vtAUZhI11YQ6f0YR?startTime=1730748733000
+     * Passcode: Om7=9$C$
+
+26. Python OOP re-explained
+     * vidoe: https://us06web.zoom.us/rec/share/M-IEgwzjtYFHx_Dqaf0e1SQBnALq83z6ajhrObYFnocYBhEG8fyFPBzA4VoKL7Vv.vtAUZhI11YQ6f0YR?startTime=1730751552000
+     * Passcode: Om7=9$C$

@@ -100,3 +100,15 @@
 26. Python OOP re-explained
      * vidoe: https://us06web.zoom.us/rec/share/M-IEgwzjtYFHx_Dqaf0e1SQBnALq83z6ajhrObYFnocYBhEG8fyFPBzA4VoKL7Vv.vtAUZhI11YQ6f0YR?startTime=1730751552000
      * Passcode: Om7=9$C$
+27. Python Iterators, Next and Yield
+     * vidoe:https://us06web.zoom.us/rec/share/spAxXJoPaeEsOFTphIXW_xDQB5FXz_MqzDGgoJKpZUxEALTz1-lKbakl8mZvNy51.CRwFT79Tr8mBVa7W?startTime=1730918292000
+     * Passcode: !98wcAEM
+29. Python OOP Magic methods
+     * vidoe: https://us06web.zoom.us/rec/share/spAxXJoPaeEsOFTphIXW_xDQB5FXz_MqzDGgoJKpZUxEALTz1-lKbakl8mZvNy51.CRwFT79Tr8mBVa7W?startTime=1730918292000
+     * Passcode: !98wcAEM
+32. Solutions for exercise 3 part 1
+     * vidoe: https://us06web.zoom.us/rec/share/hZH9BUt-m6EuwzKZNVuIkAHDI4jv3lWFTkH5lYgaz6LmUQz1WYjlI8gOmHl4ZD5D.-1RcFYnI-HoltrZY?startTime=1730832171000
+     * Passcode: =k91g5U9
+33. Solutions for exercise 3 part 2
+     * vidoe: https://us06web.zoom.us/rec/share/spAxXJoPaeEsOFTphIXW_xDQB5FXz_MqzDGgoJKpZUxEALTz1-lKbakl8mZvNy51.CRwFT79Tr8mBVa7W?startTime=1730921550000
+     * Passcode: !98wcAEM

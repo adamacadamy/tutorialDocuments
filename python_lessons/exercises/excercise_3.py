@@ -54,6 +54,7 @@ matrix = [
 
 # 11. Write a function `reverse_string_recursive` that reverses a given string using recursion.
 #     Example: reverse_string_recursive("hello") -> "olleh"
+ 
 
 # 12. Define a higher-order function `apply_twice` that takes another function `f` as input and applies it twice to a given argument.
 #     Example: apply_twice(lambda x: x * 2, 5) -> 20

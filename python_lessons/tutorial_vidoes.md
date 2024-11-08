@@ -106,9 +106,15 @@
 29. Python OOP Magic methods
      * vidoe: https://us06web.zoom.us/rec/share/spAxXJoPaeEsOFTphIXW_xDQB5FXz_MqzDGgoJKpZUxEALTz1-lKbakl8mZvNy51.CRwFT79Tr8mBVa7W?startTime=1730918292000
      * Passcode: !98wcAEM
-32. Solutions for exercise 3 part 1
+30. Python recursions
+     * vidoe: https://us06web.zoom.us/rec/share/zb4MJTUI3M0qdh7dvXjLMDIUTwuFfJWv_qQmXqeejeOmG3wySA3a4G5W12feW-Q0.8MefcYY5KUdP9vDi?startTime=1731008566000
+     * Passcode: nC3n5&b6
+31. Solutions for exercise 3 part 1
      * vidoe: https://us06web.zoom.us/rec/share/hZH9BUt-m6EuwzKZNVuIkAHDI4jv3lWFTkH5lYgaz6LmUQz1WYjlI8gOmHl4ZD5D.-1RcFYnI-HoltrZY?startTime=1730832171000
      * Passcode: =k91g5U9
-33. Solutions for exercise 3 part 2
+32. Solutions for exercise 3 part 2
      * vidoe: https://us06web.zoom.us/rec/share/spAxXJoPaeEsOFTphIXW_xDQB5FXz_MqzDGgoJKpZUxEALTz1-lKbakl8mZvNy51.CRwFT79Tr8mBVa7W?startTime=1730921550000
      * Passcode: !98wcAEM
+33. Solutions for exercise 3 part 3
+     * vidoe: https://us06web.zoom.us/rec/share/zb4MJTUI3M0qdh7dvXjLMDIUTwuFfJWv_qQmXqeejeOmG3wySA3a4G5W12feW-Q0.8MefcYY5KUdP9vDi?startTime=1731011207000
+     * Passcode: nC3n5&b6

@@ -118,3 +118,6 @@
 32. Solutions for exercise 3 part 3
      * vidoe: https://us06web.zoom.us/rec/share/zb4MJTUI3M0qdh7dvXjLMDIUTwuFfJWv_qQmXqeejeOmG3wySA3a4G5W12feW-Q0.8MefcYY5KUdP9vDi?startTime=1731011207000
      * Passcode: nC3n5&b6
+33. Solutions for exercise 3 part 4
+     * vidoe: https://us06web.zoom.us/rec/share/BipEus3M6Sb4X1P3dEFnohxG9QI6NZ9HyU2uEXhvdrBZSdczhxrYuQdQJzI5OA.T1GNTtGM2UorZyD2?startTime=1731351847000
+     * Passcode: Ob#1V24Q

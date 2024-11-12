@@ -58,8 +58,16 @@ matrix = [
 
 # 12. Define a higher-order function `apply_twice` that takes another function `f` as input and applies it twice to a given argument.
 #     Example: apply_twice(lambda x: x * 2, 5) -> 20
+# from typing import Generator, Callable
 
-# 13. Define a function `read_file_lines` that reads the contents of a file line by line and returns a list of the lines.
+
+# def apply_twice(f: Generator | Callable, x: int)-> int:
+#      f(f(x))
+     
+     
+# apply_twice(?, x=5)
+
+#  13. Define a function `read_file_lines` that reads the contents of a file line by line and returns a list of the lines.
 #     a) Handle file not found errors gracefully by printing a message.
 
 # 14. Define a function `write_even_numbers` that writes only the even numbers from a list into a text file.

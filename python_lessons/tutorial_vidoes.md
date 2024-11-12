@@ -121,3 +121,6 @@
 33. Solutions for exercise 3 part 4
      * vidoe: https://us06web.zoom.us/rec/share/BipEus3M6Sb4X1P3dEFnohxG9QI6NZ9HyU2uEXhvdrBZSdczhxrYuQdQJzI5OA.T1GNTtGM2UorZyD2?startTime=1731351847000
      * Passcode: Ob#1V24Q
+34.  Decorators
+     * vidoe: https://us06web.zoom.us/rec/share/8ONXQGJT5XQ2Is-LA0zpWoo3g9r5D-cKq0u5qfdDoyXm2FzPu9NmWYfbjHOT_HVW.PWucF5tS2TAqUlfd?startTime=1731436707000
+     * Passcode: M*PG7GN%

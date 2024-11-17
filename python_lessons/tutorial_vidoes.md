@@ -124,3 +124,9 @@
 34.  Decorators
      * vidoe: https://us06web.zoom.us/rec/share/8ONXQGJT5XQ2Is-LA0zpWoo3g9r5D-cKq0u5qfdDoyXm2FzPu9NmWYfbjHOT_HVW.PWucF5tS2TAqUlfd?startTime=1731436707000
      * Passcode: M*PG7GN%
+35. Solutions for exercise 3 part 5
+    * vidoe: https://us06web.zoom.us/rec/share/LlfsSCpaCd3BADYrHFv5d16mLsMb2lWcA9Xvc3rJ2YfjVR7jS2Bv0hVhzD46cZ00.xVe0-GUk62uNxWyA?startTime=1731695691000
+     * Passcode: D7v6K^G6
+36. Solutions for exercise 3 part 6
+    * vidoe:https://us06web.zoom.us/rec/share/LlfsSCpaCd3BADYrHFv5d16mLsMb2lWcA9Xvc3rJ2YfjVR7jS2Bv0hVhzD46cZ00.xVe0-GUk62uNxWyA?startTime=1731698632000
+     * Passcode: D7v6K^G6

@@ -1,0 +1,9 @@
+- age: '30'
+  city: New York
+  name: John Doe
+- age: '25'
+  city: Los Angeles
+  name: Jane Smith
+- age: '28'
+  city: Chicago
+  name: Alice Johnson

@@ -1,0 +1,11 @@
+address:
+  city: New York
+  street: 123 Main St
+  zip_code: '10001'
+age: 30
+courses:
+- Math
+- Science
+- History
+is_student: false
+name: John Doe

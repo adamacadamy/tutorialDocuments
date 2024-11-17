@@ -127,25 +127,9 @@ SELECT * FROM users;
 ```
 
 ---
+ 
 
-## 7. **Using SQLite with Python**
-
-```python
-import sqlite3
-
-conn = sqlite3.connect('my_database.db')
-cursor = conn.cursor()
-cursor.execute('CREATE TABLE IF NOT EXISTS products (id INTEGER PRIMARY KEY, name TEXT, price REAL)')
-cursor.execute('INSERT INTO products (name, price) VALUES (?, ?)', ('Laptop', 1200.00))
-conn.commit()
-rows = cursor.execute('SELECT * FROM products').fetchall()
-print(rows)
-conn.close()
-```
-
----
-
-## 8. **Backup and Restore**
+## 7. **Backup and Restore**
 
 ### **Backup:**
 

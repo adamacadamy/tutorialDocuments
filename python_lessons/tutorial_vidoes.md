@@ -128,5 +128,17 @@
     * vidoe: https://us06web.zoom.us/rec/share/LlfsSCpaCd3BADYrHFv5d16mLsMb2lWcA9Xvc3rJ2YfjVR7jS2Bv0hVhzD46cZ00.xVe0-GUk62uNxWyA?startTime=1731695691000
      * Passcode: D7v6K^G6
 36. Solutions for exercise 3 part 6
-    * vidoe:https://us06web.zoom.us/rec/share/LlfsSCpaCd3BADYrHFv5d16mLsMb2lWcA9Xvc3rJ2YfjVR7jS2Bv0hVhzD46cZ00.xVe0-GUk62uNxWyA?startTime=1731698632000
+    * vidoe: https://us06web.zoom.us/rec/share/LlfsSCpaCd3BADYrHFv5d16mLsMb2lWcA9Xvc3rJ2YfjVR7jS2Bv0hVhzD46cZ00.xVe0-GUk62uNxWyA?startTime=1731698632000
      * Passcode: D7v6K^G6
+ 
+37. Solutions for exercise 3 part 7
+    * vidoe: https://us06web.zoom.us/rec/share/5iv41JihHLORwG3_VbpZIGyVGEO97N4DMnGUq4rcNCWM-ZsJcj2jL9wQ9iF8f9JL.NCdSeNw2_DKnglXj?startTime=1731873251000
+     * Passcode: spL$61b+
+ 
+38. Solutions for exercise 3 part 8
+    * vidoe: https://us06web.zoom.us/rec/share/5iv41JihHLORwG3_VbpZIGyVGEO97N4DMnGUq4rcNCWM-ZsJcj2jL9wQ9iF8f9JL.NCdSeNw2_DKnglXj?startTime=1731873251000
+   * Passcode: spL$61b+
+ 
+38. Solutions for exercise 3 part 9
+    * vidoe: https://us06web.zoom.us/rec/share/5iv41JihHLORwG3_VbpZIGyVGEO97N4DMnGUq4rcNCWM-ZsJcj2jL9wQ9iF8f9JL.NCdSeNw2_DKnglXj?startTime=1731874210000
+   * Passcode:spL$61b+

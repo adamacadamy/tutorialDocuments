@@ -9,7 +9,7 @@
 2. Under the **Precompiled Binaries for Windows** section, download:
    - `sqlite-tools-win32-x86-x.x.x.zip`
 
-3. Extract the ZIP file to a directory, e.g., `C:\Users\atew\sqlite`.
+3. Extract the ZIP file to a directory, e.g., `C:\Users\`your user name`\sqlite`.
 
 ---
 
@@ -29,7 +29,7 @@
    $currentPath = [System.Environment]::GetEnvironmentVariable("Path", [System.EnvironmentVariableTarget]::Machine)
 
    # Add SQLite directory to PATH
-   $newPath = $currentPath + ";C:\Users\atew\sqlite"
+   $newPath = $currentPath + ";C:\Users\`your user name`\sqlite"
    [System.Environment]::SetEnvironmentVariable("Path", $newPath, [System.EnvironmentVariableTarget]::Machine)
    ```
 
@@ -62,7 +62,7 @@
    - Under **System variables**, find and select `Path`, then click **Edit**.
    - Click **New**, and add:
      ```
-     C:\Users\atew\sqlite
+     C:\Users\`your user name`\sqlite
      ```
    - Click **OK** to save.
 

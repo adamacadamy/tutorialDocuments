@@ -39,7 +39,7 @@ Example:
 Using Python's `socket` library to demonstrate TCP communication:
 
 ### Server Code
-\`\`\`python
+```python
 import socket
 
 # Create a socket object
@@ -61,10 +61,10 @@ while True:
     
     # Close the connection
     client_socket.close()
-\`\`\`
+```
 
 ### Client Code
-\`\`\`python
+```python
 import socket
 
 # Create a socket object
@@ -79,7 +79,7 @@ print(f"Message from server: {message.decode()}")
 
 # Close the connection
 client_socket.close()
-\`\`\`
+```
 
 **Steps**:
 1. Run the server script to start listening.
@@ -90,7 +90,7 @@ client_socket.close()
 UDP is simpler and does not establish a connection.
 
 ### Server Code
-\`\`\`python
+```python
 import socket
 
 # Create a UDP socket
@@ -106,10 +106,10 @@ while True:
     
     # Send a response
     server_socket.sendto(b"Hello, UDP client!", client_address)
-\`\`\`
+```
 
 ### Client Code
-\`\`\`python
+```python
 import socket
 
 # Create a UDP socket
@@ -125,7 +125,7 @@ print(f"Response from server: {data.decode()}")
 
 # Close the socket
 client_socket.close()
-\`\`\`
+```
 
 ## 6. Common Use Cases
 

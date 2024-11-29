@@ -4,7 +4,7 @@
 
 Welcome to the story of **Codey the Cat!** [Codey](https://static.wikia.nocookie.net/peppapedia/images/6/69/Cody_Cat.png/revision/latest?cb=20221030184510) is no ordinary cat-he's a tech-savvy feline who loves coding, solving problems, and exploring the digital world.
 
-![the cat](codey_the_cat.png)
+![the cat](./images/codey_the_cat.png)
 
 ## A Day in the Life of Codey
 

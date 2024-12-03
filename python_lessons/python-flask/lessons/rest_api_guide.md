@@ -6,13 +6,14 @@
 ## **1. General Application Infrastructure Setup**
 
 ### **Application Architecture**
+![alt text](image-1.png) 
 ![alt text](image.png)
-1. **Frontend Tier (Client-Side)**
+1. **Presentation Tier (Client-Side)**
    - The user interface (UI) where users interact with the system.
    - Examples: A web app (React, Angular), a mobile app, or a CLI.
    - Sends HTTP requests to the backend to perform CRUD operations.
 
-2. **Backend Tier (Server-Side)**
+2. **Business Tier (Server-Side)**
    - The logic layer that processes requests from the frontend.
    - Provides REST API endpoints for CRUD operations.
    - Implements authentication, validation, and business rules.
@@ -121,12 +122,79 @@ Cache-Control: no-cache
 ```
 
 #### **3. Status Codes**
-| Status Code | Name                  | Description                                  |
-|-------------|-----------------------|----------------------------------------------|
-| **200 OK**  | Request succeeded.    | Resource retrieved successfully.            |
-| **201 Created** | Resource created. | A new resource was created on the server.    |
-| **400 Bad Request** | Invalid input.| The request could not be processed.          |
-| **404 Not Found** | Resource missing.| The requested resource does not exist.       |
+![alt text](image-3.png)
+# HTTP Status Codes
+
+| Code | Name                                   | Description                                   |
+|------|----------------------------------------|-----------------------------------------------|
+| **1xx Informational**                        |                                              |                                               |
+| 100  | Continue                              | Request received, please continue.            |
+| 101  | Switching Protocols                   | Switching to new protocol; obey Upgrade header.|
+| 102  | Processing                            | WebDAV: Processing request.                   |
+| 103  | Early Hints                           | Preload resources while server processes.     |
+| **2xx Success**                              |                                              |                                               |
+| 200  | OK                                    | Standard response for successful requests.    |
+| 201  | Created                               | Request successful and a resource was created.|
+| 202  | Accepted                              | Request accepted, processing pending.         |
+| 203  | Non-Authoritative Information         | Returned meta-information not from origin.    |
+| 204  | No Content                            | Request successful, but no content returned.  |
+| 205  | Reset Content                         | Reset the document view.                      |
+| 206  | Partial Content                       | Partial GET request fulfilled.                |
+| 207  | Multi-Status                          | WebDAV: Multiple status for multiresource.    |
+| 208  | Already Reported                      | WebDAV: Already reported in `207 Multi-Status`.|
+| 226  | IM Used                               | Server has completed GET with instance manipulations.|
+| **3xx Redirection**                          |                                              |                                               |
+| 300  | Multiple Choices                      | Multiple options for the resource.            |
+| 301  | Moved Permanently                     | Resource has been moved permanently.          |
+| 302  | Found                                 | Resource temporarily resides at another URI.  |
+| 303  | See Other                             | Redirect for resource found at another URI.   |
+| 304  | Not Modified                          | Resource not modified since last request.     |
+| 305  | Use Proxy                             | Resource must be accessed through a proxy.    |
+| 307  | Temporary Redirect                    | Temporary redirect with unchanged method.     |
+| 308  | Permanent Redirect                    | Permanent redirect with unchanged method.     |
+| **4xx Client Error**                         |                                              |                                               |
+| 400  | Bad Request                           | The request cannot be fulfilled due to bad syntax.|
+| 401  | Unauthorized                          | Authentication is required.                   |
+| 402  | Payment Required                      | Reserved for future use.                      |
+| 403  | Forbidden                             | Server refuses to fulfill request.            |
+| 404  | Not Found                             | Requested resource could not be found.        |
+| 405  | Method Not Allowed                    | Method not allowed on the resource.           |
+| 406  | Not Acceptable                        | Content characteristics unacceptable.         |
+| 407  | Proxy Authentication Required         | Authentication required for proxy.            |
+| 408  | Request Timeout                       | Request timed out.                            |
+| 409  | Conflict                              | Request conflicts with the current state.     |
+| 410  | Gone                                  | Resource is no longer available.              |
+| 411  | Length Required                       | `Content-Length` header field is required.    |
+| 412  | Precondition Failed                   | Server does not meet request preconditions.   |
+| 413  | Payload Too Large                     | Payload is too large to process.              |
+| 414  | URI Too Long                          | URI is too long to process.                   |
+| 415  | Unsupported Media Type                | Media type not supported.                     |
+| 416  | Range Not Satisfiable                 | Cannot fulfill the range specified.           |
+| 417  | Expectation Failed                    | Expectation in the `Expect` header not met.   |
+| 418  | I'm a Teapot                          | April Fools' joke from the RFC 2324.          |
+| 421  | Misdirected Request                   | Request was directed incorrectly.             |
+| 422  | Unprocessable Entity                  | WebDAV: Request semantic errors.              |
+| 423  | Locked                                | WebDAV: Resource is locked.                   |
+| 424  | Failed Dependency                     | WebDAV: Dependency failed.                    |
+| 425  | Too Early                             | Risk of replay attack.                        |
+| 426  | Upgrade Required                      | Client should switch to a different protocol. |
+| 428  | Precondition Required                 | Request must meet preconditions.              |
+| 429  | Too Many Requests                     | Client sent too many requests in a timeframe. |
+| 431  | Request Header Fields Too Large       | Header fields too large.                      |
+| 451  | Unavailable For Legal Reasons         | Resource is restricted for legal reasons.     |
+| **5xx Server Error**                         |                                              |                                               |
+| 500  | Internal Server Error                 | Generic server error message.                 |
+| 501  | Not Implemented                       | Server does not support functionality.        |
+| 502  | Bad Gateway                           | Invalid response from upstream server.        |
+| 503  | Service Unavailable                   | Server unavailable due to maintenance or overload.|
+| 504  | Gateway Timeout                       | Upstream server failed to respond.            |
+| 505  | HTTP Version Not Supported            | HTTP version not supported.                   |
+| 506  | Variant Also Negotiates               | Transparent content negotiation failure.       |
+| 507  | Insufficient Storage                  | WebDAV: Server cannot store the representation.|
+| 508  | Loop Detected                         | WebDAV: Infinite loop detected.               |
+| 510  | Not Extended                          | Further extensions to the request are required.|
+| 511  | Network Authentication Required       | Client must authenticate to gain network access.|
+
 
 ---
 

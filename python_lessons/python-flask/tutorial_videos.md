@@ -22,6 +22,6 @@
     * video: https://us06web.zoom.us/rec/share/C26nlHbr4eyOuvOgf85lEQC44Ex6q2QGQNRzxzZWS54g9IK0a_LHimiZVMgQbNnF.mVv6D3AvJpvkzzod?startTime=1733427946000
     * Passcode: h*M1#U5E
 
-6. SQL REQUEST PART 1
+6. Solution for Exercise 1 
     * video: https://us06web.zoom.us/rec/share/F-qumSoTwiEpCiF0htXlov3SnjjT-mcimTYjV5Oz-yJFS41TTr-3eB684uRLbmYc.v47dIUju7oKXMV5d?startTime=1733769991000
     * Passcode: C*8zLMj6

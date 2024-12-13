@@ -25,3 +25,7 @@
 6. Solution for Exercise 1 
     * video: https://us06web.zoom.us/rec/share/F-qumSoTwiEpCiF0htXlov3SnjjT-mcimTYjV5Oz-yJFS41TTr-3eB684uRLbmYc.v47dIUju7oKXMV5d?startTime=1733769991000
     * Passcode: C*8zLMj6
+  
+7. Solution for Exercise 2.1 
+    * video: https://us06web.zoom.us/rec/share/jsvrg4fo2i93120Lo-iQijHwReTG95KWoGHCgzgGv5InV929An3AmV9gyFLP46Uk.hMhHLu8dTM95vU6W?startTime=1734117606000
+    * Passcode: $jRJ84#t

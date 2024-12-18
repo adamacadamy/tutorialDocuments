@@ -1,7 +1,6 @@
+# Comprehensive Flask-SQLAlchemy Tutorial (Updated with Class-Based Routes)
 
-# Comprehensive Flask-SQLAlchemy Tutorial
-
-This guide will walk you through setting up **Flask-SQLAlchemy** with **MySQL** and **PostgreSQL**, performing CRUD operations, applying query filters, and executing raw SQL queries. You'll also create a simple CRUD application.
+This guide walks you through setting up **Flask-SQLAlchemy** with **MySQL** and **PostgreSQL**, performing CRUD operations, applying query filters, executing raw SQL queries, and using class-based routes for a cleaner structure.
 
 ---
 
@@ -123,135 +122,59 @@ A `site.db` SQLite file will be created.
 
 ---
 
-## **5. CRUD Operations**
-
-### **Insert Data**
-```python
-user = User(username="Alice", email="alice@example.com")
-db.session.add(user)
-db.session.commit()
-```
-
-### **Query Data**
-```python
-users = User.query.all()  # Get all users
-user = User.query.filter_by(username="Alice").first()  # Filter by username
-```
-
-### **Update Data**
-```python
-user = User.query.filter_by(username="Alice").first()
-user.email = "alice.new@example.com"
-db.session.commit()
-```
-
-### **Delete Data**
-```python
-user = User.query.filter_by(username="Alice").first()
-db.session.delete(user)
-db.session.commit()
-```
-
----
-
-## **6. Advanced Query Filters**
-
-### **Filter Posts by User**
-```python
-posts = Post.query.filter(Post.user_id == user.id).all()
-```
-
-### **Search Content for Keywords**
-```python
-posts = Post.query.filter(Post.content.like("%keyword%")).all()
-```
-
-### **Paginate Results**
-```python
-paginated_posts = Post.query.paginate(page=1, per_page=5)
-```
-
----
-
-## **7. Executing Raw SQL Queries**
-
-### **Insert Data**
-```python
-db.session.execute(
-    "INSERT INTO user (username, email) VALUES (:username, :email)",
-    {"username": "Bob", "email": "bob@example.com"}
-)
-db.session.commit()
-```
-
-### **Fetch Data**
-```python
-result = db.session.execute("SELECT * FROM user WHERE username = :username", {"username": "Bob"})
-for row in result:
-    print(row)
-```
-
-### **Update Data**
-```python
-db.session.execute(
-    "UPDATE user SET email = :email WHERE username = :username",
-    {"username": "Bob", "email": "bob.new@example.com"}
-)
-db.session.commit()
-```
-
-### **Delete Data**
-```python
-db.session.execute("DELETE FROM user WHERE username = :username", {"username": "Bob"})
-db.session.commit()
-```
-
----
-
-## **8. Building a CRUD Application**
+## **5. CRUD Operations with Class-Based Routes**
 
 ### **Routes in `routes.py`**
 ```python
 from flask import render_template, request, redirect, url_for, flash
+from flask.views import MethodView
 from app import db
-from app.models import User, Post
+from app.models import User
 
-def register_routes(app):
-    @app.route("/")
-    def home():
+class HomeView(MethodView):
+    def get(self):
         users = User.query.all()
         return render_template("home.html", users=users)
 
-    @app.route("/user/add", methods=["GET", "POST"])
-    def add_user():
-        if request.method == "POST":
-            username = request.form["username"]
-            email = request.form["email"]
-            new_user = User(username=username, email=email)
-            db.session.add(new_user)
-            db.session.commit()
-            flash(f"User {username} added!")
-            return redirect(url_for("home"))
+class AddUserView(MethodView):
+    def get(self):
         return render_template("add_user.html")
 
-    @app.route("/user/<int:user_id>/update", methods=["GET", "POST"])
-    def update_user(user_id):
+    def post(self):
+        username = request.form["username"]
+        email = request.form["email"]
+        new_user = User(username=username, email=email)
+        db.session.add(new_user)
+        db.session.commit()
+        flash(f"User {username} added!")
+        return redirect(url_for("home"))
+
+class UpdateUserView(MethodView):
+    def get(self, user_id):
         user = User.query.get_or_404(user_id)
-        if request.method == "POST":
-            user.username = request.form["username"]
-            user.email = request.form["email"]
-            db.session.commit()
-            flash(f"User {user.username} updated!")
-            return redirect(url_for("home"))
         return render_template("update_user.html", user=user)
 
-    @app.route("/user/<int:user_id>/delete", methods=["POST"])
-    def delete_user(user_id):
+    def post(self, user_id):
+        user = User.query.get_or_404(user_id)
+        user.username = request.form["username"]
+        user.email = request.form["email"]
+        db.session.commit()
+        flash(f"User {user.username} updated!")
+        return redirect(url_for("home"))
+
+class DeleteUserView(MethodView):
+    def post(self, user_id):
         user = User.query.get_or_404(user_id)
         db.session.delete(user)
         db.session.commit()
         flash(f"User {user.username} deleted!")
         return redirect(url_for("home"))
+
+def register_routes(app):
+    app.add_url_rule("/", view_func=HomeView.as_view("home"))
+    app.add_url_rule("/user/add", view_func=AddUserView.as_view("add_user"), methods=["GET", "POST"])
+    app.add_url_rule("/user/<int:user_id>/update", view_func=UpdateUserView.as_view("update_user"), methods=["GET", "POST"])
+    app.add_url_rule("/user/<int:user_id>/delete", view_func=DeleteUserView.as_view("delete_user"), methods=["POST"])
 ```
 
 ---
@@ -296,9 +219,10 @@ def register_routes(app):
 
 ---
 
-### **Summary**
+## **6. Advanced Query Filters**
 
-- **Flask-SQLAlchemy** integrates easily with MySQL, PostgreSQL, or SQLite.
-- CRUD operations and query filters simplify data management.
-- Execute raw SQL queries when needed for advanced control.
-- Build a full-featured CRUD application using Flask routes and templates.
+You can still use advanced query filters or raw SQL queries if needed. These methods can be integrated into the class-based views as required.
+
+---
+
+This updated tutorial ensures your project structure is cleaner and more modular by leveraging class-based views. Let me know if you need further assistance!

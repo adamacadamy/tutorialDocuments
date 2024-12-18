@@ -1,5 +1,4 @@
-
-# Flask Beginner Tutorial: From Scaffolding to a Basic Application
+# Flask Beginner Tutorial: From Scaffolding to a Basic Application (Updated with Class-Based Routes)
 
 ## 1. Setting Up the Environment
 
@@ -41,18 +40,23 @@ def create_app():
 ```
 
 ### Define Routes in `routes.py`
+#### Using Class-Based Routes
 ```python
 # app/routes.py
-from flask import Flask, render_template
+from flask import render_template
+from flask.views import MethodView
 
-def register_routes(app):
-    @app.route("/")
-    def home():
+class HomeView(MethodView):
+    def get(self):
         return "Welcome to Flask!"
 
-    @app.route("/about")
-    def about():
+class AboutView(MethodView):
+    def get(self):
         return "This is the about page."
+
+def register_routes(app):
+    app.add_url_rule("/", view_func=HomeView.as_view("home"))
+    app.add_url_rule("/about", view_func=AboutView.as_view("about"))
 ```
 
 ### Wire It Together in `run.py`
@@ -137,18 +141,22 @@ flask_project/
 {% endblock %}
 ```
 
-### Update `routes.py`
+### Update `routes.py` with Class-Based Views
 ```python
 from flask import render_template
+from flask.views import MethodView
 
-def register_routes(app):
-    @app.route("/")
-    def home():
+class HomeView(MethodView):
+    def get(self):
         return render_template("home.html", title="Home")
 
-    @app.route("/about")
-    def about():
+class AboutView(MethodView):
+    def get(self):
         return render_template("about.html", title="About")
+
+def register_routes(app):
+    app.add_url_rule("/", view_func=HomeView.as_view("home"))
+    app.add_url_rule("/about", view_func=AboutView.as_view("about"))
 ```
 
 ---
@@ -215,29 +223,28 @@ class ContactForm(FlaskForm):
     submit = SubmitField("Send")
 ```
 
-### Update `routes.py`
+### Update `routes.py` with Class-Based Views
 ```python
-from flask import request, redirect, url_for, flash
+from flask import render_template, request, redirect, url_for, flash
+from flask.views import MethodView
 from app.forms import ContactForm
 
-def register_routes(app):
-    app.secret_key = "secret_key"  # Replace with a secure key
+class ContactView(MethodView):
+    def get(self):
+        form = ContactForm()
+        return render_template("contact.html", title="Contact", form=form)
 
-    @app.route("/")
-    def home():
-        return render_template("home.html", title="Home")
-
-    @app.route("/about")
-    def about():
-        return render_template("about.html", title="About")
-
-    @app.route("/contact", methods=["GET", "POST"])
-    def contact():
+    def post(self):
         form = ContactForm()
         if form.validate_on_submit():
             flash(f"Message from {form.name.data} sent!")
             return redirect(url_for("contact"))
         return render_template("contact.html", title="Contact", form=form)
+
+def register_routes(app):
+    app.add_url_rule("/", view_func=HomeView.as_view("home"))
+    app.add_url_rule("/about", view_func=AboutView.as_view("about"))
+    app.add_url_rule("/contact", view_func=ContactView.as_view("contact"), methods=["GET", "POST"])
 ```
 
 ### Create `contact.html`
@@ -271,4 +278,4 @@ def register_routes(app):
 
 ---
 
-This tutorial provides a strong foundation for building Flask applications. Let me know if you need more details or want to explore advanced features!
+This updated tutorial provides a strong foundation for building Flask applications using class-based views. Let me know if you need more examples or want to explore advanced features!

@@ -53,3 +53,7 @@
 15. Python Flask class based routes
     * video: https://us06web.zoom.us/rec/share/bHDuf54lAi19WBs8WLfpCHKO5dO3ooqazRKVkJHoBgOlpHMXOKKWGF2wtPGm0I9I.J4qNsThme5i89qrW?startTime=1734549484000
     * Passcode: 482s$m9!
+
+17. Python Flask forms 
+    * video: https://us06web.zoom.us/rec/share/bHDuf54lAi19WBs8WLfpCHKO5dO3ooqazRKVkJHoBgOlpHMXOKKWGF2wtPGm0I9I.J4qNsThme5i89qrW?startTime=1734550088000
+    * Passcode: 482s$m9!

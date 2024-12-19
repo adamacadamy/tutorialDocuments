@@ -142,3 +142,5 @@
 38. Solutions for exercise 3 part 9
     * vidoe: https://us06web.zoom.us/rec/share/5iv41JihHLORwG3_VbpZIGyVGEO97N4DMnGUq4rcNCWM-ZsJcj2jL9wQ9iF8f9JL.NCdSeNw2_DKnglXj?startTime=1731874210000
    * Passcode:spL$61b+
+
+

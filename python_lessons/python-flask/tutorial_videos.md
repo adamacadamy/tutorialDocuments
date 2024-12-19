@@ -38,14 +38,18 @@
     * video: https://us06web.zoom.us/rec/share/Sfkimj2PZttxXgH3HaJoxXfvtkyvp4-_LpTbMoB2X44rmvYC0OhxQsBv7epK15d9.diUaFI9IQg4wJZD8?startTime=1734460609000
     * Passcode:  f*7!X78h
 
-12. Python flask Scaffolding
+12. Python Flask Scaffolding
     * video: https://us06web.zoom.us/rec/share/Sfkimj2PZttxXgH3HaJoxXfvtkyvp4-_LpTbMoB2X44rmvYC0OhxQsBv7epK15d9.diUaFI9IQg4wJZD8?startTime=1734461772000
     * Passcode: f*7!X78h
 
-13. Python flask templates and routes 
+13. Python Flask templates and routes 
     * video: https://us06web.zoom.us/rec/share/Sfkimj2PZttxXgH3HaJoxXfvtkyvp4-_LpTbMoB2X44rmvYC0OhxQsBv7epK15d9.diUaFI9IQg4wJZD8?startTime=1734464742000
     * Passcode: f*7!X78h
 
-14. Python flask static file rendering
+14. Python Flask static file rendering
     * video: https://us06web.zoom.us/rec/share/Sfkimj2PZttxXgH3HaJoxXfvtkyvp4-_LpTbMoB2X44rmvYC0OhxQsBv7epK15d9.diUaFI9IQg4wJZD8?startTime=1734465734000
     * Passcode: f*7!X78h
+
+15. Python Flask class based routes
+    * video: https://us06web.zoom.us/rec/share/bHDuf54lAi19WBs8WLfpCHKO5dO3ooqazRKVkJHoBgOlpHMXOKKWGF2wtPGm0I9I.J4qNsThme5i89qrW?startTime=1734549484000
+    * Passcode: 482s$m9!

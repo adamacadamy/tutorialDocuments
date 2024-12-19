@@ -1,228 +1,272 @@
-# Comprehensive Flask-SQLAlchemy Tutorial (Updated with Class-Based Routes)
+# Flask Food Ordering System with SQLAlchemy ORM, RESTx API, and Migrations
 
-This guide walks you through setting up **Flask-SQLAlchemy** with **MySQL** and **PostgreSQL**, performing CRUD operations, applying query filters, executing raw SQL queries, and using class-based routes for a cleaner structure.
+This tutorial demonstrates a modular Flask app structure with scaffolded components for maintainability, scalability, and REST API documentation using Flask-RESTx.
 
 ---
 
-## **1. Setting Up Flask-SQLAlchemy**
+## Updated Project Structure
 
-### **Install Required Libraries**
-For **MySQL**:
-```bash
-pip install flask-sqlalchemy pymysql
 ```
-
-For **PostgreSQL**:
-```bash
-pip install flask-sqlalchemy psycopg2-binary
-```
-
-### **Project Structure**
-Organize your project:
-```
-flask_project/
-├── app/
-│   ├── __init__.py
-│   ├── routes.py
-│   ├── models.py
-├── run.py
-├── requirements.txt
+food_ordering_app/
+├── .gitignore               # Ignore unnecessary files
+├── app/                     # Application logic
+│   ├── __init__.py          # Initialize Flask app
+│   ├── models/              # Folder for database models
+│   │   ├── __init__.py      # Initialize SQLAlchemy
+│   │   ├── menu_item.py     # MenuItem model
+│   │   └── order.py         # Order model
+│   ├── routes/              # Folder for application routes
+│   │   ├── __init__.py      # Initialize routes
+│   │   ├── menu.py          # Menu routes
+│   │   └── order.py         # Order routes
+├── migrations/              # Flask-Migrate folder
+├── .env                     # Store database credentials and configuration
+├── .venv/                   # Virtual environment (recommended for dependencies)
+├── requirements.txt         # Python dependencies
+└── run.py                   # Application entry point
 ```
 
 ---
 
-## **2. Configuring the Database**
+## Step 1: Define Application Initialization
 
-### **Database URI in `__init__.py`**
-
-1. **For MySQL**:
-   ```python
-   app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+pymysql://username:password@localhost/db_name"
-   ```
-
-2. **For PostgreSQL**:
-   ```python
-   app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql+psycopg2://username:password@localhost/db_name"
-   ```
-
-Replace `username`, `password`, `localhost`, and `db_name` with your database credentials.
-
-### **Initialize Flask-SQLAlchemy**
+### `app/__init__.py`
 ```python
-# app/__init__.py
-from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
+import os
+from flask import Flask  
+from flask_migrate import Migrate
+from flask_restx import Api
+from dotenv import load_dotenv
+from .models import db
+from .routes import register_routes
 
-db = SQLAlchemy()
+# Load environmental variables
+load_dotenv()
 
 def create_app():
     app = Flask(__name__)
 
-    # Configuration
-    app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///site.db"  # Default to SQLite
-    app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
+    # Configure MySQL database using .env variables
+    app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DEV_DATABASE_URI')
+    app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
+    # Initialize extensions
     db.init_app(app)
+    Migrate(app, db)
+
+    # Initialize Flask-RESTx API
+    api = Api(
+        app,
+        version=os.getenv('FOOD_ORDERING_APP_VERSION', '1.0'),
+        title=os.getenv('FOOD_ORDERING_APP_TITLE', 'Food Ordering API'),
+        description=os.getenv('FOOD_ORDERING_APP_DESCRIPTION', 'API for a food ordering system')
+    )
+
+    # Register routes
+    register_routes(api)
 
     return app
 ```
 
 ---
 
-## **3. Creating Models**
+## Step 2: Define Models
 
-Define your models in `models.py`:
+### `app/models/__init__.py`
 ```python
-# app/models.py
-from app import db
+from flask_sqlalchemy import SQLAlchemy
 
-class User(db.Model):
+db = SQLAlchemy()
+```
+
+### `app/models/menu_item.py`
+```python
+from . import db
+
+class MenuItem(db.Model):
+    __tablename__ = 'menu_items'
+
     id = db.Column(db.Integer, primary_key=True)
-    username = db.Column(db.String(80), unique=True, nullable=False)
-    email = db.Column(db.String(120), unique=True, nullable=False)
+    name = db.Column(db.String(225), nullable=False)
+    price = db.Column(db.Float, nullable=False)
+```
 
-    def __repr__(self):
-        return f"User('{self.username}', '{self.email}')"
+### `app/models/order.py`
+```python
+from . import db
 
-class Post(db.Model):
+class Order(db.Model):
+    __tablename__ = 'orders'
+
     id = db.Column(db.Integer, primary_key=True)
-    title = db.Column(db.String(100), nullable=False)
-    content = db.Column(db.Text, nullable=False)
-    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
-
-    def __repr__(self):
-        return f"Post('{self.title}', '{self.content[:20]}...')"
+    customer_name = db.Column(db.String(225), nullable=False)
+    items = db.Column(db.Text, nullable=False)
+    total_price = db.Column(db.Float, nullable=False)
 ```
 
 ---
 
-## **4. Creating the Database**
+## Step 3: Define Routes
 
-### **Run Database Initialization**
-In `run.py`, create the database tables:
+### `app/routes/__init__.py`
 ```python
-# run.py
-from app import create_app, db
-from app.models import User, Post
+from flask import Blueprint
+from .menu import MenuAPI
+from .order import OrderAPI
+
+def register_routes(api):
+    api.add_resource(MenuAPI, '/menu')
+    api.add_resource(OrderAPI, '/order', '/orders')
+```
+
+### `app/routes/menu.py`
+```python
+from flask import request, jsonify
+from flask.views import MethodView
+from app.models.menu_item import MenuItem
+from app.models import db
+
+class MenuAPI(MethodView):
+    def get(self):
+        menu_items = MenuItem.query.all()
+        return jsonify([
+            {"id": item.id, "name": item.name, "price": item.price}
+            for item in menu_items
+        ])
+
+    def post(self):
+        data = request.json
+        new_item = MenuItem(name=data['name'], price=data['price'])
+        db.session.add(new_item)
+        db.session.commit()
+        return jsonify({"message": "Menu item added successfully"}), 201
+```
+
+### `app/routes/order.py`
+```python
+from flask import request, jsonify
+from flask.views import MethodView
+from app.models.order import Order
+from app.models.menu_item import MenuItem
+from app.models import db
+
+class OrderAPI(MethodView):
+    def get(self):
+        orders = Order.query.all()
+        return jsonify([
+            {
+                "id": order.id,
+                "customer_name": order.customer_name,
+                "items": order.items,
+                "total_price": order.total_price
+            }
+            for order in orders
+        ])
+
+    def post(self):
+        data = request.json
+        customer_name = data['customer_name']
+        item_ids = data['items']
+        items = [MenuItem.query.get(item_id) for item_id in item_ids]
+        total_price = sum(item.price for item in items)
+        new_order = Order(
+            customer_name=customer_name,
+            items=','.join(map(str, item_ids)),
+            total_price=total_price
+        )
+        db.session.add(new_order)
+        db.session.commit()
+        return jsonify({"message": "Order placed successfully", "order_id": new_order.id}), 201
+```
+
+---
+
+## Step 4: Using `.env` File
+
+Create a `.env` file in the root directory with the following content:
+
+```
+DEV_DATABASE_URI=mysql+mysqlconnector://username:password@localhost/food_ordering
+FOOD_ORDERING_APP_VERSION=1.0
+FOOD_ORDERING_APP_TITLE=Food Ordering API
+FOOD_ORDERING_APP_DESCRIPTION=API for a food ordering system
+```
+
+Replace `username` and `password` with your MySQL credentials.
+
+---
+
+## Step 5: Set Up Virtual Environment
+
+1. Create a virtual environment:
+   ```bash
+   python -m venv .venv
+   ```
+
+2. Activate the virtual environment:
+   - On Linux/Mac:
+     ```bash
+     source .venv/bin/activate
+     ```
+   - On Windows:
+     ```bash
+     .venv\Scriptsctivate
+     ```
+
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Freeze dependencies to the `requirements.txt` file:
+   ```bash
+   pip freeze > requirements.txt
+   ```
+
+---
+
+## Step 6: Run the Application
+
+### `run.py`
+```python
+from app import create_app
 
 app = create_app()
-
-with app.app_context():
-    db.create_all()  # Create tables
 
 if __name__ == "__main__":
     app.run(debug=True)
 ```
 
-Run the application:
-```bash
-python run.py
-```
-A `site.db` SQLite file will be created.
 
 ---
 
-## **5. CRUD Operations with Class-Based Routes**
-
-### **Routes in `routes.py`**
-```python
-from flask import render_template, request, redirect, url_for, flash
-from flask.views import MethodView
-from app import db
-from app.models import User
-
-class HomeView(MethodView):
-    def get(self):
-        users = User.query.all()
-        return render_template("home.html", users=users)
-
-class AddUserView(MethodView):
-    def get(self):
-        return render_template("add_user.html")
-
-    def post(self):
-        username = request.form["username"]
-        email = request.form["email"]
-        new_user = User(username=username, email=email)
-        db.session.add(new_user)
-        db.session.commit()
-        flash(f"User {username} added!")
-        return redirect(url_for("home"))
-
-class UpdateUserView(MethodView):
-    def get(self, user_id):
-        user = User.query.get_or_404(user_id)
-        return render_template("update_user.html", user=user)
-
-    def post(self, user_id):
-        user = User.query.get_or_404(user_id)
-        user.username = request.form["username"]
-        user.email = request.form["email"]
-        db.session.commit()
-        flash(f"User {user.username} updated!")
-        return redirect(url_for("home"))
-
-class DeleteUserView(MethodView):
-    def post(self, user_id):
-        user = User.query.get_or_404(user_id)
-        db.session.delete(user)
-        db.session.commit()
-        flash(f"User {user.username} deleted!")
-        return redirect(url_for("home"))
-
-def register_routes(app):
-    app.add_url_rule("/", view_func=HomeView.as_view("home"))
-    app.add_url_rule("/user/add", view_func=AddUserView.as_view("add_user"), methods=["GET", "POST"])
-    app.add_url_rule("/user/<int:user_id>/update", view_func=UpdateUserView.as_view("update_user"), methods=["GET", "POST"])
-    app.add_url_rule("/user/<int:user_id>/delete", view_func=DeleteUserView.as_view("delete_user"), methods=["POST"])
-```
-
----
-
-### **Templates**
-
-1. **`home.html`**:
-   ```html
-   <h1>All Users</h1>
-   <ul>
-   {% for user in users %}
-       <li>{{ user.username }} ({{ user.email }}) 
-           <a href="{{ url_for('update_user', user_id=user.id) }}">Update</a>
-           <form action="{{ url_for('delete_user', user_id=user.id) }}" method="POST" style="display:inline;">
-               <button type="submit">Delete</button>
-           </form>
-       </li>
-   {% endfor %}
-   </ul>
-   <a href="{{ url_for('add_user') }}">Add User</a>
+## Step 7: Initialize Migrations
+1. Activate the virtual environment:
+   ```bash
+   source .venv/bin/activate
    ```
 
-2. **`add_user.html`**:
-   ```html
-   <h1>Add User</h1>
-   <form method="POST">
-       <p>Username: <input type="text" name="username" required></p>
-       <p>Email: <input type="email" name="email" required></p>
-       <button type="submit">Add</button>
-   </form>
+2. **Initialize Flask-Migrate**:
+   ```bash
+   flask db init
    ```
 
-3. **`update_user.html`**:
-   ```html
-   <h1>Update User</h1>
-   <form method="POST">
-       <p>Username: <input type="text" name="username" value="{{ user.username }}" required></p>
-       <p>Email: <input type="email" name="email" value="{{ user.email }}" required></p>
-       <button type="submit">Update</button>
-   </form>
+3. **Generate Migration**:
+   ```bash
+   flask db migrate -m "Initial migration"
    ```
 
+4. **Apply Migration**:
+   ```bash
+   flask db upgrade
+   ```
+
+5. Start the application:
+   ```bash
+   python run.py
+   ```
 ---
 
-## **6. Advanced Query Filters**
+## Conclusion
 
-You can still use advanced query filters or raw SQL queries if needed. These methods can be integrated into the class-based views as required.
-
----
-
-This updated tutorial ensures your project structure is cleaner and more modular by leveraging class-based views. Let me know if you need further assistance!
+This scaffolded structure organizes the Flask app into clearly defined modules with a focus on maintainability. Using Flask-RESTx for API documentation enhances usability, and the modular design ensures scalability.

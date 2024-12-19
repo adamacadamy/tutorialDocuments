@@ -57,3 +57,19 @@
 17. Python Flask forms 
     * video: https://us06web.zoom.us/rec/share/bHDuf54lAi19WBs8WLfpCHKO5dO3ooqazRKVkJHoBgOlpHMXOKKWGF2wtPGm0I9I.J4qNsThme5i89qrW?startTime=1734550088000
     * Passcode: 482s$m9!
+
+18. Python Flask REST API part 1
+    * video: https://us06web.zoom.us/rec/share/i3I40SCR6urt0PJiibyqhczLiUEt1rBOiiC-cC1vRonIA_2ZfwYgpJuKLZkEpXMB.rNq4KXY-y8WTuYEe?startTime=1734634079000
+    * Passcode: m3v1WoF.
+
+19. Python Flask REST API part 2
+    * video: https://us06web.zoom.us/rec/share/i3I40SCR6urt0PJiibyqhczLiUEt1rBOiiC-cC1vRonIA_2ZfwYgpJuKLZkEpXMB.rNq4KXY-y8WTuYEe?startTime=1734636614000
+    * Passcode: m3v1WoF.
+
+20. Python Flask REST API part 3
+    * video:  https://us06web.zoom.us/rec/share/i3I40SCR6urt0PJiibyqhczLiUEt1rBOiiC-cC1vRonIA_2ZfwYgpJuKLZkEpXMB.rNq4KXY-y8WTuYEe?startTime=1734639465000
+    * Passcode: m3v1WoF.
+
+21.  Python Flask REST API part 4
+    * video: https://us06web.zoom.us/rec/share/i3I40SCR6urt0PJiibyqhczLiUEt1rBOiiC-cC1vRonIA_2ZfwYgpJuKLZkEpXMB.rNq4KXY-y8WTuYEe?startTime=1734640226000
+    * Passcode: m3v1WoF.

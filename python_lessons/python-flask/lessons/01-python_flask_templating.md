@@ -1,281 +1,266 @@
-# Flask Beginner Tutorial: From Scaffolding to a Basic Application (Updated with Class-Based Routes)
+# Flask Food Ordering System with SQLAlchemy ORM and Migrations (Scaffolded Modular Structure)
 
-## 1. Setting Up the Environment
+This tutorial demonstrates a highly modular Flask app structure with scaffolded components for maintainability and scalability.
 
-### Install Flask
-1. Create a virtual environment:
-   ```bash
-   python -m venv flask_env
-   source flask_env/bin/activate  # On Windows: flask_env\Scripts\activate
-   ```
+---
 
-2. Install Flask:
-   ```bash
-   pip install flask
-   ```
+## Updated Project Structure
 
-### Create Project Structure
-Organize your project as follows:
 ```
-flask_project/
-├── app/
-│   ├── __init__.py
-│   ├── routes.py
-├── run.py
-├── requirements.txt
+food_ordering_app/
+├── .gitignore               # Ignore unnecessary files
+├── app/                     # Application logic
+│   ├── __init__.py          # Initialize Flask app
+│   ├── models/              # Folder for database models
+│   │   ├── __init__.py      # Initialize SQLAlchemy
+│   │   ├── menu_item.py     # MenuItem model
+│   │   └── order.py         # Order model
+│   ├── routes.py            # Application routes
+├── migrations/              # Flask-Migrate folder
+├── .env                     # Store database credentials and configuration
+├── .venv/                   # Virtual environment (recommended for dependencies)
+├── requirements.txt         # Python dependencies
+└── run.py                   # Application entry point
 ```
 
 ---
 
-## 2. Basic Flask Application
+## Step 1: Define Application Initialization
 
-### Initialize Flask in `__init__.py`
+### `app/__init__.py`
 ```python
-# app/__init__.py
+import os
 from flask import Flask
+from flask_migrate import Migrate
+from dotenv import load_dotenv
+from .models import db
+from .routes import register_routes
+
+# Load environment variables
+load_dotenv()
 
 def create_app():
     app = Flask(__name__)
+
+    # Configure MySQL database using .env variables
+    app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DATABASE_URI')
+    app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
+    # Initialize extensions
+    db.init_app(app)
+    Migrate(app, db)
+
+    # Register routes
+    register_routes(app)
+
     return app
 ```
 
-### Define Routes in `routes.py`
-#### Using Class-Based Routes
+---
+
+## Step 2: Define Models
+
+### `app/models/__init__.py`
 ```python
-# app/routes.py
-from flask import render_template
-from flask.views import MethodView
+from flask_sqlalchemy import SQLAlchemy
 
-class HomeView(MethodView):
-    def get(self):
-        return "Welcome to Flask!"
-
-class AboutView(MethodView):
-    def get(self):
-        return "This is the about page."
-
-def register_routes(app):
-    app.add_url_rule("/", view_func=HomeView.as_view("home"))
-    app.add_url_rule("/about", view_func=AboutView.as_view("about"))
+db = SQLAlchemy()
 ```
 
-### Wire It Together in `run.py`
+### `app/models/menu_item.py`
 ```python
-# run.py
+from . import db
+
+class MenuItem(db.Model):
+    __tablename__ = 'menu_items'
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(255), nullable=False)
+    price = db.Column(db.Float, nullable=False)
+```
+
+### `app/models/order.py`
+```python
+from . import db
+
+class Order(db.Model):
+    __tablename__ = 'orders'
+    id = db.Column(db.Integer, primary_key=True)
+    customer_name = db.Column(db.String(255), nullable=False)
+    items = db.Column(db.Text, nullable=False)
+    total_price = db.Column(db.Float, nullable=False)
+```
+
+---
+
+## Step 3: Define Routes
+
+### `app/routes.py`
+```python
+from flask import Blueprint, jsonify, request
+from flask.views import MethodView
+from .models.menu_item import MenuItem
+from .models.order import Order
+from .models import db
+
+def register_routes(app):
+    menu_blueprint = Blueprint('menu', __name__)
+    order_blueprint = Blueprint('order', __name__)
+
+    class MenuAPI(MethodView):
+        def get(self):
+            menu_items = MenuItem.query.all()
+            return jsonify([{"id": item.id, "name": item.name, "price": item.price} for item in menu_items])
+
+        def post(self):
+            data = request.json
+            new_item = MenuItem(name=data['name'], price=data['price'])
+            db.session.add(new_item)
+            db.session.commit()
+            return jsonify({"message": "Menu item added successfully"}), 201
+
+    class OrderAPI(MethodView):
+        def get(self):
+            orders = Order.query.all()
+            return jsonify([{
+                "id": order.id,
+                "customer_name": order.customer_name,
+                "items": order.items,
+                "total_price": order.total_price
+            } for order in orders])
+
+        def post(self):
+            data = request.json
+            customer_name = data['customer_name']
+            items = data['items']  # List of menu item IDs
+            total_price = sum(MenuItem.query.get(item_id).price for item_id in items)
+            new_order = Order(customer_name=customer_name, items=",".join(map(str, items)), total_price=total_price)
+            db.session.add(new_order)
+            db.session.commit()
+            return jsonify({"message": "Order placed successfully", "order_id": new_order.id}), 201
+
+    menu_view = MenuAPI.as_view('menu_api')
+    order_view = OrderAPI.as_view('order_api')
+
+    menu_blueprint.add_url_rule('/menu', view_func=menu_view, methods=['GET', 'POST'])
+    order_blueprint.add_url_rule('/order', view_func=order_view, methods=['POST'])
+    order_blueprint.add_url_rule('/orders', view_func=order_view, methods=['GET'])
+
+    app.register_blueprint(menu_blueprint)
+    app.register_blueprint(order_blueprint)
+```
+
+---
+
+## Step 4: Using `.env` File
+
+Create a `.env` file in the root directory with the following content:
+
+```
+DATABASE_URI=mysql+mysqlconnector://username:password@localhost/food_ordering
+```
+
+Replace `username` and `password` with your MySQL credentials.
+
+---
+
+## Step 5: Set Up Virtual Environment
+
+1. Create a virtual environment:
+   ```bash
+   python -m venv .venv
+   ```
+
+2. Activate the virtual environment:
+   - On Linux/Mac:
+     ```bash
+     source .venv/bin/activate
+     ```
+   - On Windows:
+     ```bash
+     .venv\Scripts\activate
+     ```
+
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Freeze dependencies to the `requirements.txt` file:
+   ```bash
+   pip freeze > requirements.txt
+   ```
+
+---
+
+## Step 6: Initialize Migrations
+
+1. **Initialize Flask-Migrate**:
+   ```bash
+   flask db init
+   ```
+
+2. **Generate Migration**:
+   ```bash
+   flask db migrate -m "Initial migration"
+   ```
+
+3. **Apply Migration**:
+   ```bash
+   flask db upgrade
+   ```
+
+---
+
+## Step 7: Run the Application
+
+### `run.py`
+```python
 from app import create_app
-from app.routes import register_routes
 
 app = create_app()
-register_routes(app)
 
 if __name__ == "__main__":
     app.run(debug=True)
 ```
 
-### Install Dependencies
-Save your dependencies:
-```bash
-pip freeze > requirements.txt
-```
+1. Activate the virtual environment:
+   - On Linux/Mac:
+     ```bash
+     source .venv/bin/activate
+     ```
+   - On Windows:
+     ```bash
+     .venv\Scripts\activate
+     ```
 
-### Run the Application
-```bash
-python run.py
-```
-Visit `http://127.0.0.1:5000` in your browser.
+2. Start the application:
+   ```bash
+   python run.py
+   ```
 
 ---
 
-## 3. Adding HTML Templates
+## Step 8: Add `.gitignore` File
 
-### Add a `templates/` Folder
-Create the following structure:
+Create a `.gitignore` file in the root directory with the following content:
+
 ```
-flask_project/
-├── app/
-│   ├── templates/
-│   │   ├── base.html
-│   │   ├── home.html
-│   │   ├── about.html
-```
+# Ignore virtual environment
+.venv/
 
-### Create `base.html`
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }}</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <a href="/">Home</a> |
-            <a href="/about">About</a>
-        </nav>
-    </header>
-    <main>
-        {% block content %}
-        {% endblock %}
-    </main>
-</body>
-</html>
-```
+# Ignore environment variables
+.env
 
-### Create `home.html`
-```html
-{% extends "base.html" %}
-{% block content %}
-<h1>Welcome to Flask</h1>
-<p>This is the home page.</p>
-{% endblock %}
-```
+# Ignore compiled Python files
+__pycache__/
+*.pyc
 
-### Create `about.html`
-```html
-{% extends "base.html" %}
-{% block content %}
-<h1>About Page</h1>
-<p>This is the about page.</p>
-{% endblock %}
-```
-
-### Update `routes.py` with Class-Based Views
-```python
-from flask import render_template
-from flask.views import MethodView
-
-class HomeView(MethodView):
-    def get(self):
-        return render_template("home.html", title="Home")
-
-class AboutView(MethodView):
-    def get(self):
-        return render_template("about.html", title="About")
-
-def register_routes(app):
-    app.add_url_rule("/", view_func=HomeView.as_view("home"))
-    app.add_url_rule("/about", view_func=AboutView.as_view("about"))
+# Ignore migrations folder cache
+migrations/versions/
 ```
 
 ---
 
-## 4. Adding Static Files
+## Conclusion
 
-### Add a `static/` Folder
-```
-flask_project/
-├── app/
-│   ├── static/
-│   │   ├── css/
-│   │   │   ├── styles.css
-```
-
-### Create `styles.css`
-```css
-/* app/static/css/styles.css */
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    padding: 0;
-}
-
-header {
-    margin-bottom: 20px;
-}
-
-nav a {
-    text-decoration: none;
-    margin-right: 10px;
-    color: blue;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-```
-
-### Link CSS in `base.html`
-```html
-<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
-```
-
----
-
-## 5. Adding Forms
-
-### Install Flask-WTF
-```bash
-pip install flask-wtf
-```
-
-### Create a Contact Form
-```python
-# app/forms.py
-from flask_wtf import FlaskForm
-from wtforms import StringField, TextAreaField, SubmitField
-from wtforms.validators import DataRequired
-
-class ContactForm(FlaskForm):
-    name = StringField("Name", validators=[DataRequired()])
-    message = TextAreaField("Message", validators=[DataRequired()])
-    submit = SubmitField("Send")
-```
-
-### Update `routes.py` with Class-Based Views
-```python
-from flask import render_template, request, redirect, url_for, flash
-from flask.views import MethodView
-from app.forms import ContactForm
-
-class ContactView(MethodView):
-    def get(self):
-        form = ContactForm()
-        return render_template("contact.html", title="Contact", form=form)
-
-    def post(self):
-        form = ContactForm()
-        if form.validate_on_submit():
-            flash(f"Message from {form.name.data} sent!")
-            return redirect(url_for("contact"))
-        return render_template("contact.html", title="Contact", form=form)
-
-def register_routes(app):
-    app.add_url_rule("/", view_func=HomeView.as_view("home"))
-    app.add_url_rule("/about", view_func=AboutView.as_view("about"))
-    app.add_url_rule("/contact", view_func=ContactView.as_view("contact"), methods=["GET", "POST"])
-```
-
-### Create `contact.html`
-```html
-{% extends "base.html" %}
-{% block content %}
-<h1>Contact Us</h1>
-<form method="POST">
-    {{ form.hidden_tag() }}
-    <p>{{ form.name.label }} {{ form.name }}</p>
-    <p>{{ form.message.label }} {{ form.message }}</p>
-    <p>{{ form.submit }}</p>
-</form>
-{% for message in get_flashed_messages() %}
-    <p style="color: green;">{{ message }}</p>
-{% endfor %}
-{% endblock %}
-```
-
----
-
-## 6. Next Steps
-
-- **Explore Flask extensions**:
-  - [Flask-SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/): For database integration.
-  - [Flask-Migrate](https://flask-migrate.readthedocs.io/): For database migrations.
-  - [Flask-Login](https://flask-login.readthedocs.io/): For user authentication.
-
-- **Learn Deployment**:
-  Deploy your app to [Heroku](https://www.heroku.com/) or [AWS](https://aws.amazon.com/).
-
----
-
-This updated tutorial provides a strong foundation for building Flask applications using class-based views. Let me know if you need more examples or want to explore advanced features!
+This scaffolded structure organizes the Flask app into clearly defined modules with a focus on maintainability. Using `.gitignore` prevents unnecessary files from being tracked in version control, and the modular design ensures scalability.

@@ -38,38 +38,78 @@
     * video: https://us06web.zoom.us/rec/share/Sfkimj2PZttxXgH3HaJoxXfvtkyvp4-_LpTbMoB2X44rmvYC0OhxQsBv7epK15d9.diUaFI9IQg4wJZD8?startTime=1734460609000
     * Passcode:  f*7!X78h
 
-12. Python Flask Scaffolding
+
+12. Application infrastructure 
+    * video: https://us06web.zoom.us/rec/share/2s8ZHYuJM5syO7WX-AePpD1pjQc__k_B0xwTu2FV-s5bwbBqqUTHm04BgnwTctXj.TwfmlkxvNSVPG6yQ?startTime=1734722007000
+    * Passcode: 458Xddh#
+
+13. Python Flask in jupyter basic setup  
+    * video: https://us06web.zoom.us/rec/share/2s8ZHYuJM5syO7WX-AePpD1pjQc__k_B0xwTu2FV-s5bwbBqqUTHm04BgnwTctXj.TwfmlkxvNSVPG6yQ?startTime=1734722210000
+    * Passcode: 458Xddh#
+
+14. Python Flask in jupyter routing part 1
+    * video: https://us06web.zoom.us/rec/share/KOa1eKBez-MlbqzmPCJJ3HqXS95v-iLv5NNMHNgJnemzQLpf9O30BvEjGE9Sdpym.g0zUHLnYZpyy5_Pl?startTime=1734724783000
+    * Passcode:  458Xddh#
+
+15. Python Flask in jupyter routing part 2
+    * video: https://us06web.zoom.us/rec/share/KOa1eKBez-MlbqzmPCJJ3HqXS95v-iLv5NNMHNgJnemzQLpf9O30BvEjGE9Sdpym.g0zUHLnYZpyy5_Pl?startTime=1734725621000
+    * Passcode:  458Xddh#
+
+16. Python Flask in jupyter routing part 3
+    * video: https://us06web.zoom.us/rec/share/KOa1eKBez-MlbqzmPCJJ3HqXS95v-iLv5NNMHNgJnemzQLpf9O30BvEjGE9Sdpym.g0zUHLnYZpyy5_Pl?startTime=1734725621000
+    * Passcode: 458Xddh#
+
+17. Python Flask in jupyter routing part 4
+    * video: https://us06web.zoom.us/rec/share/KOa1eKBez-MlbqzmPCJJ3HqXS95v-iLv5NNMHNgJnemzQLpf9O30BvEjGE9Sdpym.g0zUHLnYZpyy5_Pl?startTime=1734726117000
+    * Passcode: 458Xddh#
+
+17. Python Flask in jupyter routing part 5
+    * video: https://us06web.zoom.us/rec/share/KOa1eKBez-MlbqzmPCJJ3HqXS95v-iLv5NNMHNgJnemzQLpf9O30BvEjGE9Sdpym.g0zUHLnYZpyy5_Pl?startTime=1734727259000
+    * Passcode: 458Xddh#
+
+### follow up courses
+18. Python Flask RestX in jupyter basic setup  
+19. Python Flask RestX in jupyter routing part 2
+20. Python Flask RestX in jupyter routing part 2
+21. Python Flask RestX in jupyter routing part 3
+22. Python Flask RestX in jupyter routing part 4
+23. Python Flask Models in jupyter part 1
+24. Python Flask Models in jupyter part 2
+
+
+#### will be adjusted
+24. Python Flask Scaffolding
     * video: https://us06web.zoom.us/rec/share/Sfkimj2PZttxXgH3HaJoxXfvtkyvp4-_LpTbMoB2X44rmvYC0OhxQsBv7epK15d9.diUaFI9IQg4wJZD8?startTime=1734461772000
     * Passcode: f*7!X78h
 
-13. Python Flask templates and routes 
+25. Python Flask templates and routes Scaffolded
     * video: https://us06web.zoom.us/rec/share/Sfkimj2PZttxXgH3HaJoxXfvtkyvp4-_LpTbMoB2X44rmvYC0OhxQsBv7epK15d9.diUaFI9IQg4wJZD8?startTime=1734464742000
     * Passcode: f*7!X78h
 
-14. Python Flask static file rendering
+26. Python Flask static file rendering Scaffolded
     * video: https://us06web.zoom.us/rec/share/Sfkimj2PZttxXgH3HaJoxXfvtkyvp4-_LpTbMoB2X44rmvYC0OhxQsBv7epK15d9.diUaFI9IQg4wJZD8?startTime=1734465734000
     * Passcode: f*7!X78h
 
-15. Python Flask class based routes
+27. Python Flask class based routes Scaffolded
     * video: https://us06web.zoom.us/rec/share/bHDuf54lAi19WBs8WLfpCHKO5dO3ooqazRKVkJHoBgOlpHMXOKKWGF2wtPGm0I9I.J4qNsThme5i89qrW?startTime=1734549484000
     * Passcode: 482s$m9!
 
-17. Python Flask forms 
+28. Python Flask forms  Scaffolded
     * video: https://us06web.zoom.us/rec/share/bHDuf54lAi19WBs8WLfpCHKO5dO3ooqazRKVkJHoBgOlpHMXOKKWGF2wtPGm0I9I.J4qNsThme5i89qrW?startTime=1734550088000
     * Passcode: 482s$m9!
 
-18. Python Flask REST API part 1
+29. Python Flask REST API part 1 Scaffolded
     * video: https://us06web.zoom.us/rec/share/i3I40SCR6urt0PJiibyqhczLiUEt1rBOiiC-cC1vRonIA_2ZfwYgpJuKLZkEpXMB.rNq4KXY-y8WTuYEe?startTime=1734634079000
     * Passcode: m3v1WoF.
 
-19. Python Flask REST API part 2
+30. Python Flask REST API part 2 Scaffolded
     * video: https://us06web.zoom.us/rec/share/i3I40SCR6urt0PJiibyqhczLiUEt1rBOiiC-cC1vRonIA_2ZfwYgpJuKLZkEpXMB.rNq4KXY-y8WTuYEe?startTime=1734636614000
     * Passcode: m3v1WoF.
 
-20. Python Flask REST API part 3
+31. Python Flask REST API part 3 Scaffolded
     * video:  https://us06web.zoom.us/rec/share/i3I40SCR6urt0PJiibyqhczLiUEt1rBOiiC-cC1vRonIA_2ZfwYgpJuKLZkEpXMB.rNq4KXY-y8WTuYEe?startTime=1734639465000
     * Passcode: m3v1WoF.
 
-21.  Python Flask REST API part 4
+32.  Python Flask REST API part 4 Scaffolded
     * video: https://us06web.zoom.us/rec/share/i3I40SCR6urt0PJiibyqhczLiUEt1rBOiiC-cC1vRonIA_2ZfwYgpJuKLZkEpXMB.rNq4KXY-y8WTuYEe?startTime=1734640226000
     * Passcode: m3v1WoF.

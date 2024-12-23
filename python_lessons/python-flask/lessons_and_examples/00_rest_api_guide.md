@@ -6,8 +6,8 @@
 ## **1. General Application Infrastructure Setup**
 
 ### **Application Architecture**
-![alt text](image-1.png) 
-![alt text](image.png)
+![alt text](images/image-1.png) 
+![alt text](images/image.png)
 1. **Presentation Tier (Client-Side)**
    - The user interface (UI) where users interact with the system.
    - Examples: A web app (React, Angular), a mobile app, or a CLI.
@@ -122,7 +122,7 @@ Cache-Control: no-cache
 ```
 
 #### **3. Status Codes**
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 # HTTP Status Codes
 
 | Code | Name                                   | Description                                   |

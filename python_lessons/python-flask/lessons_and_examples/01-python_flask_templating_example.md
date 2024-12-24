@@ -274,3 +274,6 @@ migrations/versions/
 ## Conclusion
 
 This scaffolded structure organizes the Flask app into clearly defined modules with a focus on maintainability. Using `.gitignore` prevents unnecessary files from being tracked in version control, and the modular design ensures scalability.
+
+
+## reference code

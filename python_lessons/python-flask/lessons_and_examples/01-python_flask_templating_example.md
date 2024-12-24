@@ -4,10 +4,9 @@ This tutorial demonstrates a highly modular Flask app structure with scaffolded 
 
 ---
 
-## Updated Project Structure
+## Project Structure
 
 ```
-food_ordering_app/
 ├── .gitignore               # Ignore unnecessary files
 ├── app/                     # Application logic
 │   ├── __init__.py          # Initialize Flask app
@@ -15,7 +14,10 @@ food_ordering_app/
 │   │   ├── __init__.py      # Initialize SQLAlchemy
 │   │   ├── menu_item.py     # MenuItem model
 │   │   └── order.py         # Order model
-│   ├── routes.py            # Application routes
+│   └── routes/              # Folder for application routes
+│       ├── __init__.py      # Initialize routes
+│       ├── menu.py          # Menu routes
+│       ├── order.py         # Order routes
 ├── migrations/              # Flask-Migrate folder
 ├── .env                     # Store database credentials and configuration
 ├── .venv/                   # Virtual environment (recommended for dependencies)
@@ -33,8 +35,8 @@ import os
 from flask import Flask
 from flask_migrate import Migrate
 from dotenv import load_dotenv
-from .models import db
-from .routes import register_routes
+from app.models import db
+from app.routes import register_routes
 
 # Load environment variables
 load_dotenv()
@@ -69,7 +71,7 @@ db = SQLAlchemy()
 
 ### `app/models/menu_item.py`
 ```python
-from . import db
+from app.models import db
 
 class MenuItem(db.Model):
     __tablename__ = 'menu_items'
@@ -80,7 +82,7 @@ class MenuItem(db.Model):
 
 ### `app/models/order.py`
 ```python
-from . import db
+from app.models import db
 
 class Order(db.Model):
     __tablename__ = 'orders'
@@ -94,59 +96,67 @@ class Order(db.Model):
 
 ## Step 3: Define Routes
 
-### `app/routes.py`
+### `app/routes/__init__.py`
+```python
+def register_routes(app):
+    from app.routes.menu import menu_bp
+    from app.routes.order import order_bp
+
+    app.register_blueprint(menu_bp, url_prefix="/menu")
+    app.register_blueprint(order_bp, url_prefix="/order")
+```
+
+### `app/routes/menu.py`
 ```python
 from flask import Blueprint, jsonify, request
-from flask.views import MethodView
-from .models.menu_item import MenuItem
-from .models.order import Order
-from .models import db
+from app.models.menu_item import MenuItem
+from app.models import db
 
-def register_routes(app):
-    menu_blueprint = Blueprint('menu', __name__)
-    order_blueprint = Blueprint('order', __name__)
+menu_bp = Blueprint('menu', __name__)
 
-    class MenuAPI(MethodView):
-        def get(self):
-            menu_items = MenuItem.query.all()
-            return jsonify([{"id": item.id, "name": item.name, "price": item.price} for item in menu_items])
+@menu_bp.route('/', methods=['GET'])
+def get_menu():
+    menu_items = MenuItem.query.all()
+    return jsonify([{"id": item.id, "name": item.name, "price": item.price} for item in menu_items])
 
-        def post(self):
-            data = request.json
-            new_item = MenuItem(name=data['name'], price=data['price'])
-            db.session.add(new_item)
-            db.session.commit()
-            return jsonify({"message": "Menu item added successfully"}), 201
+@menu_bp.route('/', methods=['POST'])
+def add_menu_item():
+    data = request.json
+    new_item = MenuItem(name=data['name'], price=data['price'])
+    db.session.add(new_item)
+    db.session.commit()
+    return jsonify({"message": "Menu item added successfully"}), 201
+```
 
-    class OrderAPI(MethodView):
-        def get(self):
-            orders = Order.query.all()
-            return jsonify([{
-                "id": order.id,
-                "customer_name": order.customer_name,
-                "items": order.items,
-                "total_price": order.total_price
-            } for order in orders])
+### `app/routes/order.py`
+```python
+from flask import Blueprint, jsonify, request
+from app.models.order import Order
+from app.models.menu_item import MenuItem
+from app.models import db
 
-        def post(self):
-            data = request.json
-            customer_name = data['customer_name']
-            items = data['items']  # List of menu item IDs
-            total_price = sum(MenuItem.query.get(item_id).price for item_id in items)
-            new_order = Order(customer_name=customer_name, items=",".join(map(str, items)), total_price=total_price)
-            db.session.add(new_order)
-            db.session.commit()
-            return jsonify({"message": "Order placed successfully", "order_id": new_order.id}), 201
+order_bp = Blueprint('order', __name__)
 
-    menu_view = MenuAPI.as_view('menu_api')
-    order_view = OrderAPI.as_view('order_api')
+@order_bp.route('/', methods=['POST'])
+def place_order():
+    data = request.json
+    customer_name = data['customer_name']
+    items = data['items']
+    total_price = sum(MenuItem.query.get(item_id).price for item_id in items)
+    new_order = Order(customer_name=customer_name, items=",".join(map(str, items)), total_price=total_price)
+    db.session.add(new_order)
+    db.session.commit()
+    return jsonify({"message": "Order placed successfully", "order_id": new_order.id}), 201
 
-    menu_blueprint.add_url_rule('/menu', view_func=menu_view, methods=['GET', 'POST'])
-    order_blueprint.add_url_rule('/order', view_func=order_view, methods=['POST'])
-    order_blueprint.add_url_rule('/orders', view_func=order_view, methods=['GET'])
-
-    app.register_blueprint(menu_blueprint)
-    app.register_blueprint(order_blueprint)
+@order_bp.route('/', methods=['GET'])
+def get_orders():
+    orders = Order.query.all()
+    return jsonify([{
+        "id": order.id,
+        "customer_name": order.customer_name,
+        "items": order.items,
+        "total_price": order.total_price
+    } for order in orders])
 ```
 
 ---
@@ -264,3 +274,6 @@ migrations/versions/
 ## Conclusion
 
 This scaffolded structure organizes the Flask app into clearly defined modules with a focus on maintainability. Using `.gitignore` prevents unnecessary files from being tracked in version control, and the modular design ensures scalability.
+
+
+## reference code

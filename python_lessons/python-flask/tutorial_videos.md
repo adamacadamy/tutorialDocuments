@@ -39,6 +39,7 @@
     * Passcode:  f*7!X78h
 
 # flask intro
+
 12. Application infrastructure 
     * video: https://us06web.zoom.us/rec/share/2s8ZHYuJM5syO7WX-AePpD1pjQc__k_B0xwTu2FV-s5bwbBqqUTHm04BgnwTctXj.TwfmlkxvNSVPG6yQ?startTime=1734722007000
     * Passcode: 458Xddh#

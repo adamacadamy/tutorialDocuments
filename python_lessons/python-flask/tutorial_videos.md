@@ -84,38 +84,3 @@
  * video: https://us06web.zoom.us/rec/share/ZzkZEYn90yWcpGXX0WJk_Yi430JEe6lxcQA2yMdcx0faUyAc4Kmb1FxAfw2zvUMS.s8eo6j7yW9r_v5RZ?startTime=1734879842000
    * Passcode:   F#BsKF35
  
-23. Python Flask Scaffolding
-    * video: https://us06web.zoom.us/rec/share/Sfkimj2PZttxXgH3HaJoxXfvtkyvp4-_LpTbMoB2X44rmvYC0OhxQsBv7epK15d9.diUaFI9IQg4wJZD8?startTime=1734461772000
-    * Passcode: f*7!X78h
-
-24. Python Flask templates and routes Scaffolded
-    * video: https://us06web.zoom.us/rec/share/Sfkimj2PZttxXgH3HaJoxXfvtkyvp4-_LpTbMoB2X44rmvYC0OhxQsBv7epK15d9.diUaFI9IQg4wJZD8?startTime=1734464742000
-    * Passcode: f*7!X78h
-
-25. Python Flask static file rendering Scaffolded
-    * video: https://us06web.zoom.us/rec/share/Sfkimj2PZttxXgH3HaJoxXfvtkyvp4-_LpTbMoB2X44rmvYC0OhxQsBv7epK15d9.diUaFI9IQg4wJZD8?startTime=1734465734000
-    * Passcode: f*7!X78h
-
-26. Python Flask class based routes Scaffolded
-    * video: https://us06web.zoom.us/rec/share/bHDuf54lAi19WBs8WLfpCHKO5dO3ooqazRKVkJHoBgOlpHMXOKKWGF2wtPGm0I9I.J4qNsThme5i89qrW?startTime=1734549484000
-    * Passcode: 482s$m9!
-
-27. Python Flask forms  Scaffolded
-    * video: https://us06web.zoom.us/rec/share/bHDuf54lAi19WBs8WLfpCHKO5dO3ooqazRKVkJHoBgOlpHMXOKKWGF2wtPGm0I9I.J4qNsThme5i89qrW?startTime=1734550088000
-    * Passcode: 482s$m9!
-
-28. Python Flask REST API part 1 Scaffolded
-    * video: https://us06web.zoom.us/rec/share/i3I40SCR6urt0PJiibyqhczLiUEt1rBOiiC-cC1vRonIA_2ZfwYgpJuKLZkEpXMB.rNq4KXY-y8WTuYEe?startTime=1734634079000
-    * Passcode: m3v1WoF.
-
-29. Python Flask REST API part 2 Scaffolded
-    * video: https://us06web.zoom.us/rec/share/i3I40SCR6urt0PJiibyqhczLiUEt1rBOiiC-cC1vRonIA_2ZfwYgpJuKLZkEpXMB.rNq4KXY-y8WTuYEe?startTime=1734636614000
-    * Passcode: m3v1WoF.
-
-30. Python Flask REST API part 3 Scaffolded
-    * video:  https://us06web.zoom.us/rec/share/i3I40SCR6urt0PJiibyqhczLiUEt1rBOiiC-cC1vRonIA_2ZfwYgpJuKLZkEpXMB.rNq4KXY-y8WTuYEe?startTime=1734639465000
-    * Passcode: m3v1WoF.
-
-31.  Python Flask REST API part 4 Scaffolded
-    * video: https://us06web.zoom.us/rec/share/i3I40SCR6urt0PJiibyqhczLiUEt1rBOiiC-cC1vRonIA_2ZfwYgpJuKLZkEpXMB.rNq4KXY-y8WTuYEe?startTime=1734640226000
-    * Passcode: m3v1WoF.

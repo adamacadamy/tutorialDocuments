@@ -83,5 +83,21 @@
     * Passcode:   F#BsKF35
 22. Python Flask Models in jupyter part 2
  * video: https://us06web.zoom.us/rec/share/ZzkZEYn90yWcpGXX0WJk_Yi430JEe6lxcQA2yMdcx0faUyAc4Kmb1FxAfw2zvUMS.s8eo6j7yW9r_v5RZ?startTime=1734879842000
-   * Passcode:   F#BsKF35
+   * Passcode: F#BsKF35
  
+
+### Python Flask real life application examples  
+
+24. Python Flask Food ordering app example | scaffolding | part 1   
+ * video: https://us06web.zoom.us/rec/share/73k4hvkIvrJdN-0O0A9Yu_o1bC11ug_q8EWC_ZOQmHs6cTBDn-8kHG6bgEOETBww.Aunwv5kzJ1XwxYgm?startTime=1735066363000
+   * Passcode: Lb?c&KX6
+
+25. Python Flask Food ordering app example | routes and models | part 2  
+ * video: https://us06web.zoom.us/rec/share/73k4hvkIvrJdN-0O0A9Yu_o1bC11ug_q8EWC_ZOQmHs6cTBDn-8kHG6bgEOETBww.Aunwv5kzJ1XwxYgm?startTime=1735067651000  
+   * Passcode: Lb?c&KX6  
+
+
+25. Python Flask Food ordering app example | migrations and interacting | part 3  
+ * video: https://us06web.zoom.us/rec/share/73k4hvkIvrJdN-0O0A9Yu_o1bC11ug_q8EWC_ZOQmHs6cTBDn-8kHG6bgEOETBww.Aunwv5kzJ1XwxYgm?startTime=1735071420000  
+   * Passcode:  Lb?c&KX6  
+

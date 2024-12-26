@@ -44,6 +44,7 @@
     * video: https://us06web.zoom.us/rec/share/2s8ZHYuJM5syO7WX-AePpD1pjQc__k_B0xwTu2FV-s5bwbBqqUTHm04BgnwTctXj.TwfmlkxvNSVPG6yQ?startTime=1734722007000
     * Passcode: 458Xddh#
 
+## Flask Routes basics [python_flask_routes.ipynb, python_flask_routes_interact.ipynb]
 13. Python Flask in jupyter basic setup  
     * video: https://us06web.zoom.us/rec/share/2s8ZHYuJM5syO7WX-AePpD1pjQc__k_B0xwTu2FV-s5bwbBqqUTHm04BgnwTctXj.TwfmlkxvNSVPG6yQ?startTime=1734722210000
     * Passcode: 458Xddh#
@@ -68,7 +69,7 @@
     * video: https://us06web.zoom.us/rec/share/KOa1eKBez-MlbqzmPCJJ3HqXS95v-iLv5NNMHNgJnemzQLpf9O30BvEjGE9Sdpym.g0zUHLnYZpyy5_Pl?startTime=1734727259000
     * Passcode: 458Xddh#
 
-### follow up courses
+### Python Flask RestX up courses [python_flask_restx_routes.ipynb, python_flask_routes_interact.ipynb]
 18. Python Flask RestX in jupyter basic setup  
     * video: https://us06web.zoom.us/rec/share/ZzkZEYn90yWcpGXX0WJk_Yi430JEe6lxcQA2yMdcx0faUyAc4Kmb1FxAfw2zvUMS.s8eo6j7yW9r_v5RZ?startTime=1734874800000
     * Passcode:  F#BsKF35
@@ -78,6 +79,8 @@
 20. Python Flask RestX in jupyter routing part 2
     * video: https://us06web.zoom.us/rec/share/ZzkZEYn90yWcpGXX0WJk_Yi430JEe6lxcQA2yMdcx0faUyAc4Kmb1FxAfw2zvUMS.s8eo6j7yW9r_v5RZ?startTime=1734877488000
     * Passcode:  F#BsKF35 
+
+### Python Flask models [python_flask_alchemy.ipynb, python_flask_alchemy_interact.ipynb]
 21. Python Flask Models in jupyter part 1
     * video: https://us06web.zoom.us/rec/share/ZzkZEYn90yWcpGXX0WJk_Yi430JEe6lxcQA2yMdcx0faUyAc4Kmb1FxAfw2zvUMS.s8eo6j7yW9r_v5RZ?startTime=1734878512000
     * Passcode:   F#BsKF35
@@ -86,7 +89,7 @@
    * Passcode: F#BsKF35
  
 
-### Python Flask real life application examples  
+### Python Flask real life application examples  [04_python_flask_blueprint_food_ordering_example.md] 
 
 24. Python Flask Food ordering app example | scaffolding | part 1   
  * video: https://us06web.zoom.us/rec/share/73k4hvkIvrJdN-0O0A9Yu_o1bC11ug_q8EWC_ZOQmHs6cTBDn-8kHG6bgEOETBww.Aunwv5kzJ1XwxYgm?startTime=1735066363000

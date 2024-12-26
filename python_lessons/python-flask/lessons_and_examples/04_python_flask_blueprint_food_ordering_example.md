@@ -276,5 +276,9 @@ migrations/versions/
 This scaffolded structure organizes the Flask app into clearly defined modules with a focus on maintainability. Using `.gitignore` prevents unnecessary files from being tracked in version control, and the modular design ensures scalability.
 
 
-## reference code
+### reference code
 https://github.com/adamacadamy/flaskFoodOrderingApp.git
+
+### .gitignore conent
+
+https://github.com/github/gitignore/blob/main/Python.gitignore

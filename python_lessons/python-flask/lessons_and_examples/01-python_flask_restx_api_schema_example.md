@@ -379,3 +379,6 @@ class CategoryDetail(Resource):
 </body>
 </html>
 ```
+# reference
+
+https://github.com/adamacadamy/pythonFlaskProductCategory

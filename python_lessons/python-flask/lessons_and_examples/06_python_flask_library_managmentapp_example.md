@@ -440,6 +440,3 @@ console.log("Library Management System Loaded!");
 
 3. Access the API at `http://127.0.0.1:5000/` and the Swagger documentation at `http://127.0.0.1:5000/swagger`.
 
-# reference
-
-https://github.com/adamacadamy/pythonFlaskProductCategory

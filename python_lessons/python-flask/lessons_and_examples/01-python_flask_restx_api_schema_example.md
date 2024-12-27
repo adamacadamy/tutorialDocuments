@@ -382,3 +382,12 @@ class CategoryDetail(Resource):
 # reference
 
 https://github.com/adamacadamy/pythonFlaskProductCategory
+
+# contents of the .env file
+```
+DATABASE_URI="mysql+mysqlconnector://root:top!secret@localhost:3307/prds"
+FLASK_APP=run.py
+APP_TITLE="product and Category Management API"
+APP_VERSION="1.0"
+APP_DESCRIPTION="API for managing products and categories."
+```

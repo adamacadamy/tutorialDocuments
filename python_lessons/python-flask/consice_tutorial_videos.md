@@ -21,3 +21,11 @@
 6.  Python Flask REST API tutorial part 5 [Revisory Notes on Python Flask Routes](./notes/revisory_notes/python_flask_routes.ipynb)
    * video: https://us06web.zoom.us/rec/share/y0xKk6FaiDoyey1r6QEJ8QZPgz91SYjt_9fA0fXLkQxWhWbxgJTz4YzVAY-LLcys.wEyxQkm5JU8agG7C?startTime=1735848942000
    * Passcode:  b=^pD+1A
+
+7. Python Flask REST RECAP
+   * video: https://us06web.zoom.us/rec/share/dpBbtagnvaXHTRnMJRcAEFQ0YndQnv_HmccmpuAySEw4Svc98Q7lt-9Oky2JyRXF.4I3g4VIylctYvP1I?startTime=1735931136000
+   * Passcode:   G$JRMk6T
+
+6.  Python Flask REST API WITH FLASK RESTX tutorial part 1 [Revisory Notes on Python Flask Routes](./notes/revisory_notes/python_flaskx_routes.ipynb)
+   * video: https://us06web.zoom.us/rec/share/dpBbtagnvaXHTRnMJRcAEFQ0YndQnv_HmccmpuAySEw4Svc98Q7lt-9Oky2JyRXF.4I3g4VIylctYvP1I?startTime=1735932088000
+   * Passcode:   G$JRMk6T

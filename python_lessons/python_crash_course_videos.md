@@ -10,7 +10,6 @@
     * video: https://us06web.zoom.us/rec/share/MmjS1U3ig47Kd4UkzuaU7t4zzzansV2IVoUDkQxd5cULxQ77rWdjjfTm0okoyEeT.o68P4Kb5aArK-9BO?startTime=1736021370000
     * Passcode: gP1y!%#J
 
-
 4. Python crash course part 4 [OBJECT ORIENTED | CLASSES]
     * video: https://us06web.zoom.us/rec/share/MmjS1U3ig47Kd4UkzuaU7t4zzzansV2IVoUDkQxd5cULxQ77rWdjjfTm0okoyEeT.o68P4Kb5aArK-9BO?startTime=1736022342000
     * Passcode: gP1y!%#J

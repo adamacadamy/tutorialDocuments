@@ -26,19 +26,18 @@
    * video: https://us06web.zoom.us/rec/share/dpBbtagnvaXHTRnMJRcAEFQ0YndQnv_HmccmpuAySEw4Svc98Q7lt-9Oky2JyRXF.4I3g4VIylctYvP1I?startTime=1735931136000
    * Passcode:   G$JRMk6T
 
-6.  Python Flask REST API WITH FLASK RESTX tutorial part 1 [Revisory Notes on Python Flask Routes](./notes/revisory_notes/python_flaskx_routes.ipynb)
+8.  Python Flask REST API WITH FLASK RESTX tutorial part 1 [Revisory Notes on Python Flask Routes](./notes/revisory_notes/python_flaskx_routes.ipynb)
    * video: https://us06web.zoom.us/rec/share/dpBbtagnvaXHTRnMJRcAEFQ0YndQnv_HmccmpuAySEw4Svc98Q7lt-9Oky2JyRXF.4I3g4VIylctYvP1I?startTime=1735932088000
    * Passcode: G$JRMk6T
 
-
-7.  Python Flask REST API WITH FLASK RESTX tutorial part 2 [Revisory Notes on Python Flask Routes](./notes/revisory_notes/python_flaskx_routes.ipynb)
+9.  Python Flask REST API WITH FLASK RESTX tutorial part 2 [Revisory Notes on Python Flask Routes](./notes/revisory_notes/python_flaskx_routes.ipynb)
    * video: https://us06web.zoom.us/rec/share/yuQmqXR17qWRDz1ORqruqBEw-9P5mKvLNI1u30TI12nZJ5z9GuG11f2P3w0hToTI.BKACjrs4MPB0AIjX?startTime=1736361656000
    * Passcode: D&z%m=T3
 
-8.  Python Flask REST API WITH FLASK RESTX tutorial part 3 [Revisory Notes on Python Flask Routes](./notes/revisory_notes/python_flaskx_routes.ipynb)
+10.  Python Flask REST API WITH FLASK RESTX tutorial part 3 [Revisory Notes on Python Flask Routes](./notes/revisory_notes/python_flaskx_routes.ipynb)
    * video: https://us06web.zoom.us/rec/share/yuQmqXR17qWRDz1ORqruqBEw-9P5mKvLNI1u30TI12nZJ5z9GuG11f2P3w0hToTI.BKACjrs4MPB0AIjX?startTime=1736362994000
    * Passcode:  D&z%m=T3
 
-9.  Python Flask REST API WITH FLASK RESTX tutorial part 4 [Revisory Notes on Python Flask Routes](./notes/revisory_notes/python_flaskx_routes.ipynb)
+11.  Python Flask REST API WITH FLASK RESTX tutorial part 4 [Revisory Notes on Python Flask Routes](./notes/revisory_notes/python_flaskx_routes.ipynb)
    * video: https://us06web.zoom.us/rec/share/yuQmqXR17qWRDz1ORqruqBEw-9P5mKvLNI1u30TI12nZJ5z9GuG11f2P3w0hToTI.BKACjrs4MPB0AIjX?startTime=1736365139000
    * Passcode:  D&z%m=T3

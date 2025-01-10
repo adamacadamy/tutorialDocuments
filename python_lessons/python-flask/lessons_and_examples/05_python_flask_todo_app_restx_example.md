@@ -1,7 +1,11 @@
-# Flask Authentication with Flask-RESTx and Swagger UI Models
+# Flask Example Application: To-Do Management with Authentication
 
 ## Overview
-This lesson demonstrates how to build a Flask application with authentication using Flask-RESTx and Swagger UI integration for API documentation. The app includes both REST API endpoints and token-based authentication with JSON Web Tokens (JWT).
+This example demonstrates how to build a Flask application with:
+- User authentication
+- REST API endpoints
+- Web-based To-Do management
+- MySQL database integration
 
 ---
 
@@ -16,9 +20,11 @@ The application follows this structure:
 │   ├── models/              # Folder for database models
 │   │   ├── __init__.py      # Initialize SQLAlchemy
 │   │   ├── user.py          # User model
+│   │   └── todo.py          # To-Do model
 │   └── routes/              # Folder for application routes
 │       ├── __init__.py      # Initialize routes
 │       ├── auth.py          # Authentication routes
+│       └── todo.py          # To-Do routes
 ├── migrations/              # Flask-Migrate folder
 ├── .env                     # Store database credentials and configuration
 ├── .venv/                   # Virtual environment (recommended for dependencies)
@@ -29,7 +35,24 @@ The application follows this structure:
 ---
 
 ## Step 1: Application Setup
+### Install Dependencies
 
+####  Create a virtual environment and activate it:
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+   ```
+
+#### Install the dependencies:
+   ```bash
+   pip install flask flask-restx flask-sqlalchemy flask-migrate python-dotenv mysql-connector-python
+   ```
+
+#### Save dependencies to `requirements.txt`:
+   ```bash
+   pip freeze > requirements.txt
+   ```
+   
 ### `run.py`
 ```python
 from app import create_app
@@ -50,22 +73,19 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_restx import Api
 from flask_migrate import Migrate
-from flask_jwt_extended import JWTManager
 from app.models import db
 from app.routes import initialize_routes
 
 def create_app():
     app = Flask(__name__)
-    app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+mysqlconnector://root:password@localhost/flask_auth"
+    app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+mysqlconnector://root:password@localhost/flask_todo"
     app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
-    app.config["SECRET_KEY"] = "your_secret_key"
-    app.config["JWT_SECRET_KEY"] = "your_jwt_secret_key"
+    app.secret_key = "your_secret_key"
 
     db.init_app(app)
-    Migrate(app, db)
-    JWTManager(app)
+    migrate = Migrate(app, db)
 
-    api = Api(app, version="1.0", title="Auth API", description="Authentication API with Swagger UI Models")
+    api = Api(app, version="1.0", title="To-Do API", description="To-Do management API with authentication")
     initialize_routes(api)
 
     return app
@@ -86,42 +106,51 @@ db = SQLAlchemy()
 ```python
 from app.models import db
 from werkzeug.security import generate_password_hash, check_password_hash
-from flask_jwt_extended import create_access_token
 
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(80), unique=True, nullable=False)
     email = db.Column(db.String(120), unique=True, nullable=False)
-    password = db.Column(db.String(128), nullable=False)
+    password_hash = db.Column(db.String(128), nullable=False)
+    todos = db.relationship('ToDo', backref='user', lazy=True)
 
     def check_password(self, password):
-        return check_password_hash(self.password, password)
-
-    def generate_jwt(self):
-        return create_access_token(identity=self.id)
+        return check_password_hash(self.password_hash, password)
 
     @staticmethod
     def create_user(username, email, password):
         hashed_password = generate_password_hash(password)
-        return User(username=username, email=email, password=hashed_password)
+        return User(username=username, email=email, password_hash=hashed_password)
+```
+
+### `app/models/todo.py`
+```python
+from app.models import db
+
+class ToDo(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    task = db.Column(db.String(200), nullable=False)
+    is_completed = db.Column(db.Boolean, default=False)
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
 ```
 
 ---
 
-## Step 4: Authentication Routes
+## Step 4: Authentication and To-Do Routes
 
 ### `app/routes/__init__.py`
 ```python
 def initialize_routes(api):
     from app.routes.auth import auth_ns
+    from app.routes.todo import todo_ns
     api.add_namespace(auth_ns)
+    api.add_namespace(todo_ns)
 ```
 
 ### `app/routes/auth.py`
 ```python
-from flask import request, jsonify
+from flask import request
 from flask_restx import Namespace, Resource, fields
-from flask_jwt_extended import jwt_required, create_access_token, get_jwt_identity
 from app.models.user import User
 from app.models import db
 
@@ -134,53 +163,84 @@ user_model = auth_ns.model("User", {
 })
 
 login_model = auth_ns.model("Login", {
-    "email": fields.String(required=True, description="The user email"),
+    "username": fields.String(required=True, description="The user username"),
     "password": fields.String(required=True, description="The user password")
 })
 
 @auth_ns.route("/register")
 class Register(Resource):
-    @auth_ns.expect(user_model, validate=True)
-    @auth_ns.marshal_with(user_model, code=201)
+    @auth_ns.expect(user_model)
     def post(self):
         data = request.json
-        username = data.get("username")
-        email = data.get("email")
-        password = data.get("password")
+        username = data["username"]
+        email = data["email"]
+        password = data["password"]
 
         if User.query.filter_by(username=username).first():
-            auth_ns.abort(400, "Username already exists")
+            return {"message": "Username already exists"}, 400
         if User.query.filter_by(email=email).first():
-            auth_ns.abort(400, "Email already exists")
+            return {"message": "Email already exists"}, 400
 
         new_user = User.create_user(username, email, password)
         db.session.add(new_user)
         db.session.commit()
 
-        return new_user, 201
+        return {"message": "User registered successfully"}, 201
 
 @auth_ns.route("/login")
 class Login(Resource):
-    @auth_ns.expect(login_model, validate=True)
+    @auth_ns.expect(login_model)
     def post(self):
         data = request.json
-        email = data.get("email")
-        password = data.get("password")
+        username = data["username"]
+        password = data["password"]
 
-        user = User.query.filter_by(email=email).first()
+        user = User.query.filter_by(username=username).first()
         if not user or not user.check_password(password):
-            auth_ns.abort(401, "Invalid email or password")
+            return {"message": "Invalid username or password"}, 401
 
-        token = user.generate_jwt()
-        return {"access_token": token}, 200
+        return {"message": f"Welcome, {username}"}, 200
+```
 
-@auth_ns.route("/protected")
-class ProtectedResource(Resource):
-    @jwt_required()
+### `app/routes/todo.py`
+```python
+from flask import request
+from flask_restx import Namespace, Resource, fields
+from app.models.todo import ToDo
+from app.models import db
+
+todo_ns = Namespace("todo", description="To-Do management operations")
+
+todo_model = todo_ns.model("ToDo", {
+    "task": fields.String(required=True, description="The to-do task"),
+    "is_completed": fields.Boolean(description="Completion status")
+})
+
+@todo_ns.route("/")
+class ToDoList(Resource):
+    @todo_ns.marshal_list_with(todo_model)
     def get(self):
-        current_user_id = get_jwt_identity()
-        user = User.query.get_or_404(current_user_id)
-        return {"message": f"Hello, {user.username}!"}, 200
+        return ToDo.query.all()
+
+    @todo_ns.expect(todo_model)
+    def post(self):
+        data = request.json
+        task = data["task"]
+        is_completed = data.get("is_completed", False)
+
+        new_todo = ToDo(task=task, is_completed=is_completed, user_id=1)  # Hardcoded user ID for simplicity
+        db.session.add(new_todo)
+        db.session.commit()
+
+        return {"message": "To-Do created successfully"}, 201
+
+@todo_ns.route("/<int:id>")
+class ToDoItem(Resource):
+    def delete(self, id):
+        todo = ToDo.query.get_or_404(id)
+        db.session.delete(todo)
+        db.session.commit()
+        return {"message": "To-Do deleted successfully"}, 200
 ```
 
 ---
@@ -190,8 +250,7 @@ class ProtectedResource(Resource):
 ### `.env`
 ```
 SECRET_KEY=your_secret_key
-JWT_SECRET_KEY=your_jwt_secret_key
-SQLALCHEMY_DATABASE_URI=mysql+mysqlconnector://root:password@localhost/flask_auth
+SQLALCHEMY_DATABASE_URI=mysql+mysqlconnector://root:password@localhost/flask_todo
 SQLALCHEMY_TRACK_MODIFICATIONS=False
 ```
 
@@ -207,7 +266,6 @@ Flask-SQLAlchemy
 Flask-Migrate
 mysql-connector-python
 Werkzeug
-Flask-JWT-Extended
 ```
 
 ---
@@ -227,4 +285,4 @@ Flask-JWT-Extended
 3. Apply the migrations to the database:
    ```bash
    flask db upgrade
-   ```
+   

@@ -5,6 +5,7 @@ This example demonstrates how to use Flask-WTF forms for handling user input and
 - Flask-WTF for form handling
 - SQLAlchemy models for database interactions
 - Web-based user registration and login forms
+- A "Contact Us" page
 
 ---
 
@@ -19,9 +20,23 @@ The application follows this structure:
 │   ├── models/              # Folder for database models
 │   │   ├── __init__.py      # Initialize SQLAlchemy
 │   │   ├── user.py          # User model
-│   └── routes/              # Folder for application routes
-│       ├── __init__.py      # Initialize routes
-│       ├── auth.py          # Authentication routes
+│   ├── forms/               # Folder for Flask-WTF forms
+│   │   ├── __init__.py      # Initialize forms
+│   │   ├── registration_form.py  # Registration form
+│   │   ├── login_form.py         # Login form
+│   │   ├── contact_form.py       # Contact page form
+│   ├── routes/              # Folder for application routes
+│   │   ├── __init__.py      # Initialize routes
+│   │   ├── auth.py          # Authentication routes
+│   │   ├── contact.py       # Contact page route
+├── templates/               # HTML templates
+│   ├── base.html            # Base template
+│   ├── register.html        # Registration template
+│   ├── login.html           # Login template
+│   ├── contact.html         # Contact page template
+├── static/                  # Static files (CSS, JS, images)
+│   ├── style.css            # Stylesheet
+│   ├── script.js            # JavaScript file
 ├── migrations/              # Flask-Migrate folder
 ├── .env                     # Store database credentials and configuration
 ├── .venv/                   # Virtual environment (recommended for dependencies)
@@ -107,7 +122,12 @@ class User(db.Model):
 
 ## Step 4: Forms
 
-### `app/forms.py`
+### `app/forms/__init__.py`
+```python
+# Placeholder for forms package
+```
+
+### `app/forms/registration_form.py`
 ```python
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, SubmitField
@@ -119,6 +139,13 @@ class RegistrationForm(FlaskForm):
     password = PasswordField("Password", validators=[DataRequired(), Length(min=6)])
     confirm_password = PasswordField("Confirm Password", validators=[DataRequired(), EqualTo("password")])
     submit = SubmitField("Register")
+```
+
+### `app/forms/login_form.py`
+```python
+from flask_wtf import FlaskForm
+from wtforms import StringField, PasswordField, SubmitField
+from wtforms.validators import DataRequired, Email
 
 class LoginForm(FlaskForm):
     email = StringField("Email", validators=[DataRequired(), Email()])
@@ -126,65 +153,52 @@ class LoginForm(FlaskForm):
     submit = SubmitField("Login")
 ```
 
+### `app/forms/contact_form.py`
+```python
+from flask_wtf import FlaskForm
+from wtforms import StringField, TextAreaField, SubmitField
+from wtforms.validators = DataRequired, Email, Length
+
+class ContactForm(FlaskForm):
+    name = StringField("Name", validators=[DataRequired(), Length(min=2, max=50)])
+    email = StringField("Email", validators=[DataRequired(), Email()])
+    message = TextAreaField("Message", validators=[DataRequired(), Length(min=10, max=500)])
+    submit = SubmitField("Send Message")
+```
+
 ---
 
-## Step 5: Authentication Routes
+## Step 5: Routes
 
 ### `app/routes/__init__.py`
 ```python
 def register_blueprints(app):
     from app.routes.auth import auth_bp
+    from app.routes.contact import contact_bp
     app.register_blueprint(auth_bp, url_prefix="/auth")
+    app.register_blueprint(contact_bp, url_prefix="/contact")
 ```
 
-### `app/routes/auth.py`
+### `app/routes/contact.py`
 ```python
-from flask import Blueprint, render_template, redirect, url_for, flash, request
-from app.forms import RegistrationForm, LoginForm
-from app.models.user import db, User
+from flask import Blueprint, render_template, flash, redirect, url_for
+from app.forms.contact_form import ContactForm
 
-auth_bp = Blueprint("auth", __name__)
+contact_bp = Blueprint("contact", __name__)
 
-@auth_bp.route("/register", methods=["GET", "POST"])
-def register():
-    form = RegistrationForm()
+@contact_bp.route("/", methods=["GET", "POST"])
+def contact():
+    form = ContactForm()
     if form.validate_on_submit():
-        username = form.username.data
+        name = form.name.data
         email = form.email.data
-        password = form.password.data
+        message = form.message.data
 
-        if User.query.filter_by(username=username).first():
-            flash("Username already exists!", "danger")
-        elif User.query.filter_by(email=email).first():
-            flash("Email already exists!", "danger")
-        else:
-            new_user = User.create_user(username, email, password)
-            db.session.add(new_user)
-            db.session.commit()
-            flash("Registration successful! Please log in.", "success")
-            return redirect(url_for("auth.login"))
+        # Process the form data (e.g., send email, save to database)
+        flash("Your message has been sent successfully!", "success")
+        return redirect(url_for("contact.contact"))
 
-    return render_template("register.html", form=form)
-
-@auth_bp.route("/login", methods=["GET", "POST"])
-def login():
-    form = LoginForm()
-    if form.validate_on_submit():
-        email = form.email.data
-        password = form.password.data
-
-        user = User.query.filter_by(email=email).first()
-        if user and user.check_password(password):
-            flash("Login successful!", "success")
-            return redirect(url_for("auth.dashboard"))
-        else:
-            flash("Invalid email or password!", "danger")
-
-    return render_template("login.html", form=form)
-
-@auth_bp.route("/dashboard")
-def dashboard():
-    return "Welcome to your dashboard!"
+    return render_template("contact.html", form=form)
 ```
 
 ---
@@ -197,6 +211,8 @@ def dashboard():
 <html>
 <head>
     <title>{% block title %}Flask Forms{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    <script src="/static/script.js"></script>
 </head>
 <body>
     <div class="container">
@@ -238,27 +254,108 @@ def dashboard():
 {% endblock %}
 ```
 
+### `templates/contact.html`
+```html
+{% extends "base.html" %}
+{% block title %}Contact Us{% endblock %}
+{% block content %}
+<h2>Contact Us</h2>
+<form method="POST">
+    {{ form.hidden_tag() }}
+    <div>{{ form.name.label }} {{ form.name }}</div>
+    <div>{{ form.email.label }} {{ form.email }}</div>
+    <div>{{ form.message.label }} {{ form.message }}</div>
+    <div>{{ form.submit }}</div>
+</form>
+{% endblock %}
+```
+
 ---
 
-## Step 7: Environment Configuration
+## Step 7: Static Files
+
+### `static/style.css`
+```css
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+```
+
+### `static/script.js`
+```javascript
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('JavaScript is connected.');
+});
+```
+
+---
+
+## Step 8: Environment Configuration
 
 ### `.env`
 ```
 SECRET_KEY=your_secret_key
-SQLALCHEMY_DATABASE_URI=mysql+mysqlconnector://root:password@localhost/flask_forms
+SQLALCHEMY_DATABASE_URI=mysql+mysqlconnector://root:top!secret@localhost/flask_forms
 SQLALCHEMY_TRACK_MODIFICATIONS=False
 ```
 
 ---
 
-## Step 8: Requirements
+## Step 9: Requirements
 
 ### `requirements.txt`
 ```
-Flask
-Flask-SQLAlchemy
-Flask-Migrate
+alembic==1.14.0
+aniso8601==9.0.1
+attrs==24.3.0
+blinker==1.9.0
+click==8.1.8
+Flask==3.1.0
+Flask-Migrate==4.0.7
 Flask-WTF
-mysql-connector-python
-Werkzeug
+flask-restx==1.3.0
+Flask-SQLAlchemy==3.1.1
+greenlet==3.1.1
+importlib_resources==6.4.5
+itsdangerous==2.2.0
+Jinja2==3.1.5
+jsonschema==4.23.0
+jsonschema-specifications==2024.10.1
+Mako==1.3.8
+MarkupSafe==3.0.2
+mysql-connector-python==9.1.0
+python-dotenv==1.0.1
+pytz==2024.2
+referencing==0.35.1
+rpds-py==0.22.3
+SQLAlchemy==2.0.36
+typing_extensions==4.12.2
+Werkzeug==3.1.3
 ```
+
+## Step 10: Migration Commands
+
+1. Initialize the migration folder:
+   ```bash
+   flask db init
+   ```
+
+2. Generate the initial migration script:
+   ```bash
+   flask db migrate -m "Initial migration"
+   ```
+
+3. Apply the migrations to the database:
+   ```bash
+   flask db upgrade
+   

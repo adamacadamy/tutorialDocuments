@@ -40,4 +40,8 @@
 
 11.  Python Flask REST API WITH FLASK RESTX tutorial part 4 [Revisory Notes on Python Flask Routes](./notes/revisory_notes/python_flaskx_routes.ipynb)
    * video: https://us06web.zoom.us/rec/share/yuQmqXR17qWRDz1ORqruqBEw-9P5mKvLNI1u30TI12nZJ5z9GuG11f2P3w0hToTI.BKACjrs4MPB0AIjX?startTime=1736365139000
-   * Passcode:  D&z%m=T3
+   * Passcode: D&z%m=T3
+
+11.  Python Flask REST API WITH FLASK RESTX tutorial part 5 [Revisory Notes on Python Flask Routes](./notes/revisory_notes/python_flaskx_routes.ipynb)
+   * video: https://us06web.zoom.us/rec/share/i5ezzwX5aOg4JvgsMLV0fC_s5J-AkINvEiXRe593fB22fmt_VXADylP851A17fbN.zQJPilVsq5wd3d2E?startTime=1736451425000
+   * Passcode: ha^Rr3C^

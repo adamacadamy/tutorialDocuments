@@ -45,3 +45,16 @@
 11.  Python Flask REST API WITH FLASK RESTX tutorial part 5 [Revisory Notes on Python Flask Routes](./notes/revisory_notes/python_flaskx_routes.ipynb)
    * video: https://us06web.zoom.us/rec/share/i5ezzwX5aOg4JvgsMLV0fC_s5J-AkINvEiXRe593fB22fmt_VXADylP851A17fbN.zQJPilVsq5wd3d2E?startTime=1736451425000
    * Passcode: ha^Rr3C^
+
+12. Python Flask REST API WITH FLASK RESTX tutorial part 6 [Revisory Notes on Python Flask Routes](./notes/revisory_notes/python_flaskx_routes.ipynb)
+  * video: https://us06web.zoom.us/rec/share/u0iTj1B5L8yeJcWG3DQ7QfeFGEvEef6Afs9IFctJQ5WUCc16utMmhQKQmHfmq7Y0.yLcdo-VtqOFYAyIc?startTime=1736536043000
+  * Passcode: p@rx+hs6  
+
+
+13. Python Flask REST API WITH FLASK RESTX tutorial part 7 [Revisory Notes on Python Flask Routes](./notes/revisory_notes/python_flaskx_routes.ipynb)
+  * video: https://us06web.zoom.us/rec/share/u0iTj1B5L8yeJcWG3DQ7QfeFGEvEef6Afs9IFctJQ5WUCc16utMmhQKQmHfmq7Y0.yLcdo-VtqOFYAyIc?startTime=1736539798000  
+  * Passcode: p@rx+hs6  
+
+14. Python Flask REST API WITH FLASK RESTX tutorial part 8 [Revisory Notes on Python Flask Routes](./notes/revisory_notes/python_flaskx_routes.ipynb)
+  * video: https://us06web.zoom.us/rec/share/u0iTj1B5L8yeJcWG3DQ7QfeFGEvEef6Afs9IFctJQ5WUCc16utMmhQKQmHfmq7Y0.yLcdo-VtqOFYAyIc?startTime=1736540922000  
+  * Passcode:  p@rx+hs6  

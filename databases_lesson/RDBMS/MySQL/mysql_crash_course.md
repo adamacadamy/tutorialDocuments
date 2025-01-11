@@ -2,6 +2,7 @@
 ![alt text](../images/mysql_dark_logo.png)
 
 ---
+ 
 
 ## **1. Basics of MySQL**
 
@@ -244,6 +245,21 @@ GROUP BY department;
 | 2   | Bob       | 102           |
 | 3   | Charlie   | NULL          |
 
+```sql
+-- Create the departments table
+CREATE TABLE departments (
+    id INT PRIMARY KEY,
+    name VARCHAR(50)
+);
+
+-- Insert data into the departments table
+INSERT INTO departments (id, name) VALUES
+(101, 'HR'),
+(102, 'IT'),
+(103, 'Finance');
+
+```
+
 #### departments Table
 | id  | name         |
 |-----|-------------|
@@ -251,6 +267,21 @@ GROUP BY department;
 | 102 | IT          |
 | 103 | Finance     |
 
+```sql 
+-- Create the employees table
+CREATE TABLE employees (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    department_id INT,
+    FOREIGN KEY (department_id) REFERENCES departments(id)
+);
+
+-- Insert data into the employees table
+INSERT INTO employees (id, name, department_id) VALUES
+(1, 'Alice', 101),
+(2, 'Bob', 102),
+(3, 'Charlie', 103);
+```
 ---
 
 ### **INNER JOIN**

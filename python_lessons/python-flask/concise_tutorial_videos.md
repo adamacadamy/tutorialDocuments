@@ -80,12 +80,12 @@
       * video: https://us06web.zoom.us/rec/share/LzKJ-2Hh5orlaZp9JIXYJwegO8W9M57KGSHmFRMTmew6dSqxzuoZxNOsvIdp1gXN.8vHZE-JXzJQ4GsJS?startTime=1736709559000
       * Passcode:  y3DI1%0L
 
-20. Python Flask SQL Alchemy tutorial part 1 [Revisory Notes on Python Flask SQL ALCHEMY](./notes/revisory_notes/python_SQLAlchemy_ORM_Lesson.ipynb)
+20. Python Flask SQL Alchemy tutorial part 1 [Revisory Notes on Python Flask SQL ALCHEMY](./notes/revisory_notes/python_flaks_sqlalchemy.ipynb)
       * video: https://us06web.zoom.us/rec/share/PS2KY50LIViU1OBcZvIocg58P0o0TbK91uL3X8-3fHQC-zB8eTpBd2VGDaQmzkwK.QG33KNbNgTa0-KWx?startTime=1736883886000
       * Passcode:  W4^w*L0b
-21. Python Flask SQL Alchemy tutorial part 2 [Revisory Notes on Python Flask SQL ALCHEMY](./notes/revisory_notes/python_SQLAlchemy_ORM_Lesson.ipynb)
+21. Python Flask SQL Alchemy tutorial part 2 [Revisory Notes on Python Flask SQL ALCHEMY](./notes/revisory_notes/python_flaks_sqlalchemy.ipynb)
       * video: https://us06web.zoom.us/rec/share/PS2KY50LIViU1OBcZvIocg58P0o0TbK91uL3X8-3fHQC-zB8eTpBd2VGDaQmzkwK.QG33KNbNgTa0-KWx?startTime=1736885447000
       * Passcode: W4^w*L0b
-22. Python Flask SQL Alchemy tutorial part 3 [Revisory Notes on Python Flask SQL ALCHEMY](./notes/revisory_notes/python_SQLAlchemy_ORM_Lesson.ipynb)
+22. Python Flask SQL Alchemy tutorial part 3 [Revisory Notes on Python Flask SQL ALCHEMY](./notes/revisory_notes/python_flaks_sqlalchemy.ipynb)
       * video: https://us06web.zoom.us/rec/share/PS2KY50LIViU1OBcZvIocg58P0o0TbK91uL3X8-3fHQC-zB8eTpBd2VGDaQmzkwK.QG33KNbNgTa0-KWx?startTime=1736886199000
       * Passcode: W4^w*L0b

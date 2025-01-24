@@ -1,4 +1,4 @@
-# Flask-RESTX: Implementing the MVC Design Pattern
+#  MVC Design Pattern (Flask-RESTX)
 
 Flask-RESTX is an extension of Flask for building structured and scalable RESTful APIs. It adheres to the **Model-View-Controller (MVC)** design pattern, ensuring separation of concerns and facilitating maintainable codebases. This document explains how Flask-RESTX aligns with MVC principles and provides a detailed example.
 

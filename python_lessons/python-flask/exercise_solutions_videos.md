@@ -10,6 +10,15 @@
     * video: https://us06web.zoom.us/rec/share/F36-komfEFLKa6hg8LjCLL6fawTiGixcIyqbff49c84gR1ic3K2WwewxR5D4je0._WvmA-EC5qztI5JU?startTime=1734374551000
     * Passcode:  KFKq3T#d
     
-10. Solution for Exercise 3.1
+11. Solution for Exercise 3.1 part 1
     * video: https://us06web.zoom.us/rec/share/B6J25KfhphhS4Wo_g2mlVAIqg6rFBfSm7AMhY9a-WfnZhOhn1aoA-gAK7bWE4LDN.gQVRM81tfLXrCYKy?startTime=1737143664000
     * Passcode:  Z.Gy0qZ9
+
+    
+12. Solution for Exercise 3.1 part 2
+    * video: https://us06web.zoom.us/rec/share/gBv6lrRPkJUHOFTGcRZJ-jL7neeojV9aepqubYwQW_nCeKK8DEnzr2J5xq-Wzr_s.RwYX_w-ESXwWuNVe?startTime=1737484732000
+    * Passcode:  !MN&8Fe%
+
+13. Solution for Exercise 3.1 part 3
+    * video: https://us06web.zoom.us/rec/share/gBv6lrRPkJUHOFTGcRZJ-jL7neeojV9aepqubYwQW_nCeKK8DEnzr2J5xq-Wzr_s.RwYX_w-ESXwWuNVe?startTime=1737489818000
+    * Passcode:  !MN&8Fe%

@@ -89,3 +89,18 @@
 22. Python Flask SQL Alchemy tutorial part 3 [Revisory Notes on Python Flask SQL ALCHEMY](./notes/revisory_notes/python_flaks_sqlalchemy.ipynb)
       * video: https://us06web.zoom.us/rec/share/PS2KY50LIViU1OBcZvIocg58P0o0TbK91uL3X8-3fHQC-zB8eTpBd2VGDaQmzkwK.QG33KNbNgTa0-KWx?startTime=1736886199000
       * Passcode: W4^w*L0b
+
+23. Python Enums
+      * video: https://us06web.zoom.us/rec/share/04xfT5rY1GhVfJZVI8eJI0t1Yl9T7J44f7BzW5qhwsQJD6paRULDOC2Vr73OuylZ.weQemmQErzkFXPtM?startTime=1738003403000
+      * Passcode: e?F7F98?
+
+24. Python Static Methods
+      * video: https://us06web.zoom.us/rec/share/04xfT5rY1GhVfJZVI8eJI0t1Yl9T7J44f7BzW5qhwsQJD6paRULDOC2Vr73OuylZ.weQemmQErzkFXPtM?startTime=1738003403000
+      * Passcode: e?F7F98?
+
+25. Python Decorators part 1
+      * video: https://us06web.zoom.us/rec/share/04xfT5rY1GhVfJZVI8eJI0t1Yl9T7J44f7BzW5qhwsQJD6paRULDOC2Vr73OuylZ.weQemmQErzkFXPtM?startTime=1738006103000
+      * Passcode: e?F7F98?
+
+25. Python Decorators part 2
+ 

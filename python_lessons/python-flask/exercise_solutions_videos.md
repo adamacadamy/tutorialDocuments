@@ -11,5 +11,5 @@
     * Passcode:  KFKq3T#d
     
 10. Solution for Exercise 3.1
-    * video:https://us06web.zoom.us/rec/share/I599DTymWb-qHJdBLJK2Xl_iDGRR5FYLvqr4UM_34FN9lVizcQ6DruY-iEbo0q1y.SYcP7jcSrhEK2F8g?startTime=1736451425000
-    * Passcode:  ha^Rr3C^
+    * video: https://us06web.zoom.us/rec/share/B6J25KfhphhS4Wo_g2mlVAIqg6rFBfSm7AMhY9a-WfnZhOhn1aoA-gAK7bWE4LDN.gQVRM81tfLXrCYKy?startTime=1737143664000
+    * Passcode:  Z.Gy0qZ9

@@ -8,3 +8,4 @@ manager.ipynb
 *.xlsx
 
 lesson_plan.md  
+**/node_modules

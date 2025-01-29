@@ -15,7 +15,24 @@
             "path": "wsl.exe",
             "args": ["-d", "Debian"],
             "icon": "terminal-debian"
+        },
+        "Node.js": {
+            "path": "C:\\Program Files\\nodejs\\node.exe",
+            "icon": "terminal-node"
         }
     },
-    "terminal.integrated.defaultProfile.windows": "Git Bash"
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.profiles.linux": {
+        "Bash": {
+            "path": "/bin/bash",
+            "icon": "terminal-bash"
+        },
+        "Debian": {
+            "path": "wsl.exe",
+            "args": ["-d", "Debian"],
+            "icon": "terminal-debian"
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "Debian", 
+    "jupyter.askForKernelRestart": false
 }

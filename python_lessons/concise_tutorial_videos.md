@@ -17,3 +17,7 @@
 6. Python Basics part 6
       * video: https://us06web.zoom.us/rec/share/UxpD7HhU3eFFXLfI5uCmn8UlpGJX3Ar02BEMuz8wwr7Bc1RVkjMSeIf98n2f2Q1g.OcgurUz8UMWLP3-V?startTime=1736025122000
       * Passcode:  gP1y!%#J
+
+7. Python Basics part 7  
+      * video: https://us06web.zoom.us/rec/share/QxKUamsW3p7vKG5fsspfzzIVpLz-Np3OXhfSmUeEcHJ0r_DX3FXJOqFhKv_hNq3W.vaTqrAYZUHH72kBN?startTime=1738093578000  
+      * Passcode: zdU9.D?q

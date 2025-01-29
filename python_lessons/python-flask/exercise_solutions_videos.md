@@ -21,3 +21,7 @@
 13. Solution for Exercise 3.1 part 3
     * video: https://us06web.zoom.us/rec/share/gBv6lrRPkJUHOFTGcRZJ-jL7neeojV9aepqubYwQW_nCeKK8DEnzr2J5xq-Wzr_s.RwYX_w-ESXwWuNVe?startTime=1737489818000
     * Passcode:  !MN&8Fe%
+
+13. Solution for Exercise 3.1 part 4  
+    * video:https://us06web.zoom.us/rec/share/QxKUamsW3p7vKG5fsspfzzIVpLz-Np3OXhfSmUeEcHJ0r_DX3FXJOqFhKv_hNq3W.vaTqrAYZUHH72kBN?startTime=1738090107000  
+   * Passcode: zdU9.D?q  

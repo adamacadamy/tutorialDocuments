@@ -86,21 +86,27 @@
 21. Python Flask SQL Alchemy tutorial part 2 [Revisory Notes on Python Flask SQL ALCHEMY](./notes/revisory_notes/python_flaks_sqlalchemy.ipynb)
       * video: https://us06web.zoom.us/rec/share/PS2KY50LIViU1OBcZvIocg58P0o0TbK91uL3X8-3fHQC-zB8eTpBd2VGDaQmzkwK.QG33KNbNgTa0-KWx?startTime=1736885447000
       * Passcode: W4^w*L0b
+
 22. Python Flask SQL Alchemy tutorial part 3 [Revisory Notes on Python Flask SQL ALCHEMY](./notes/revisory_notes/python_flaks_sqlalchemy.ipynb)
       * video: https://us06web.zoom.us/rec/share/PS2KY50LIViU1OBcZvIocg58P0o0TbK91uL3X8-3fHQC-zB8eTpBd2VGDaQmzkwK.QG33KNbNgTa0-KWx?startTime=1736886199000
       * Passcode: W4^w*L0b
 
-23. Python Enums
+23. Python Enums [Revisory Notes on Python Flask SQL ALCHEMY](./notes/revisory_notes/python_static_methods_enums_decorators.ipynb)
       * video: https://us06web.zoom.us/rec/share/04xfT5rY1GhVfJZVI8eJI0t1Yl9T7J44f7BzW5qhwsQJD6paRULDOC2Vr73OuylZ.weQemmQErzkFXPtM?startTime=1738003403000
       * Passcode: e?F7F98?
 
-24. Python Static Methods
+24. Python Static Methods [Revisory Notes on Python Flask SQL ALCHEMY](./notes/revisory_notes/python_static_methods_enums_decorators.ipynb)
       * video: https://us06web.zoom.us/rec/share/04xfT5rY1GhVfJZVI8eJI0t1Yl9T7J44f7BzW5qhwsQJD6paRULDOC2Vr73OuylZ.weQemmQErzkFXPtM?startTime=1738003403000
       * Passcode: e?F7F98?
 
-25. Python Decorators part 1
+25. Python Decorators part 1 [Revisory Notes on Python Flask SQL ALCHEMY](./notes/revisory_notes/python_static_methods_enums_decorators.ipynb)
       * video: https://us06web.zoom.us/rec/share/04xfT5rY1GhVfJZVI8eJI0t1Yl9T7J44f7BzW5qhwsQJD6paRULDOC2Vr73OuylZ.weQemmQErzkFXPtM?startTime=1738006103000
       * Passcode: e?F7F98?
 
-25. Python Decorators part 2
- 
+25. Python Decorators part 2 [Revisory Notes on Python Flask SQL ALCHEMY](./notes/revisory_notes/python_static_methods_enums_decorators.ipynb)
+      * video: https://us06web.zoom.us/rec/share/ZBiHtJKK11OZunpetlZB2npuZiEjiqW9_QRQio82hMILatQECaoJrbL7aGIZY_kg.LJwY7jYofNWwTuW9?startTime=1738093578000
+      * Passcode: zdU9.D?q
+
+26.  Python Flask Basic Authentication [Revisory Notes on Python Flask SQL ALCHEMY](./notes/revisory_notes/python_authentication_in_flask_restx.ipynb)
+      * video: https://us06web.zoom.us/rec/share/jf5gljd85r2frkz-l352wX857764bPc3VLCMlHbmfYqc6nuYZdUoftR4FApRidsu.BtKL029Ww-4UlNrT?startTime=1738177785000
+      * Passcode: S!FF5*gW

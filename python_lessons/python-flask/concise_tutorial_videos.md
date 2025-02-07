@@ -99,22 +99,33 @@
       * video: https://us06web.zoom.us/rec/share/04xfT5rY1GhVfJZVI8eJI0t1Yl9T7J44f7BzW5qhwsQJD6paRULDOC2Vr73OuylZ.weQemmQErzkFXPtM?startTime=1738003403000
       * Passcode: e?F7F98?
 
-25. Python Decorators part 1 [Revisory Notes on Python Flask SQL ALCHEMY](./notes/revisory_notes/python_static_methods_enums_decorators.ipynb)
+26. Python Decorators part 1 [Revisory Notes on Python Flask SQL ALCHEMY](./notes/revisory_notes/python_static_methods_enums_decorators.ipynb)
       * video: https://us06web.zoom.us/rec/share/04xfT5rY1GhVfJZVI8eJI0t1Yl9T7J44f7BzW5qhwsQJD6paRULDOC2Vr73OuylZ.weQemmQErzkFXPtM?startTime=1738006103000
       * Passcode: e?F7F98?
 
-25. Python Decorators part 2 [Revisory Notes on Python Flask SQL ALCHEMY](./notes/revisory_notes/python_static_methods_enums_decorators.ipynb)
+27. Python Decorators part 2 [Revisory Notes on Python Flask SQL ALCHEMY](./notes/revisory_notes/python_static_methods_enums_decorators.ipynb)
       * video: https://us06web.zoom.us/rec/share/ZBiHtJKK11OZunpetlZB2npuZiEjiqW9_QRQio82hMILatQECaoJrbL7aGIZY_kg.LJwY7jYofNWwTuW9?startTime=1738093578000
       * Passcode: zdU9.D?q
 
-26.  Python Flask Basic Authentication Part 1 [Revisory Notes on Python Flask Authentication](./notes/revisory_notes/python_authentication_in_flask_restx.ipynb)
+28.  Python Flask Basic Authentication Part 1 [Revisory Notes on Python Flask Authentication](./notes/revisory_notes/python_authentication_in_flask_restx.ipynb)
       * video: https://us06web.zoom.us/rec/share/jf5gljd85r2frkz-l352wX857764bPc3VLCMlHbmfYqc6nuYZdUoftR4FApRidsu.BtKL029Ww-4UlNrT?startTime=1738177785000
       * Passcode: S!FF5*gW
 
-27.  Python Flask Basic Authentication Part 2 [Revisory Notes on Python Flask Authentication](./notes/revisory_notes/python_authentication_in_flask_restx.ipynb)
+29.  Python Flask Basic Authentication Part 2 [Revisory Notes on Python Flask Authentication](./notes/revisory_notes/python_authentication_in_flask_restx.ipynb)
       * video: https://us06web.zoom.us/rec/share/jnpkQL7Msz04PYL5_1qwbkN6RPjvMZePEChd33JdkHwvdAGedcugn3P6yMYssLY7.TcNWIGNTf2uhVT8E?startTime=1738266508000
       * Passcode: MwCMI+B7
 
-28.  Python Flask Basic Authentication Part 3 [Revisory Notes on Python Flask Authentication](./notes/revisory_notes/python_authentication_in_flask_restx.ipynb)
-      * video:https://us06web.zoom.us/rec/share/xsdXio2rtzDqm00THTpqxnDwmwfm4Exu5hh6YDisLAsC6ogBtMps8GbEtinDRKIp.Fh4hBTUcsuincLbJ?startTime=1738352010000
+30.  Python Flask Basic Authentication Part 3 [Revisory Notes on Python Flask Authentication](./notes/revisory_notes/python_authentication_in_flask_restx.ipynb)
+      * video: https://us06web.zoom.us/rec/share/xsdXio2rtzDqm00THTpqxnDwmwfm4Exu5hh6YDisLAsC6ogBtMps8GbEtinDRKIp.Fh4hBTUcsuincLbJ?startTime=1738352010000
       * Passcode: aO6jx$=p
+
+31.   Python Flask Scaffolding Example [todoApp] 1 part 1 [Python Flask To Do App Scaffolding](./lessons_and_examples/05_python_flask_todo_app_restx_example.md)
+      * video:https://us06web.zoom.us/rec/share/wGuxR3gFqfGoi9VEBi0hpHCV1CkI65CAWCi4Ys77-HtkxiIQYwkeSTPT6S7Zsrn7.HwFzalDe6W4JN0Vy?startTime=1738867289000
+      * Passcode: @4cfo4Xs
+
+32.   Python Flask Scaffolding Example [todoApp] 1 part 2 [Python Flask To Do App Scaffolding](./lessons_and_examples/05_python_flask_todo_app_restx_example.md)
+      * video:https://us06web.zoom.us/rec/share/roDnyx9KM-z-bcHboy5Cg6x7wkq0PybnUSsTTs3sIeVVcVrA23YlnvYIQMkEI8VI.Cd_KRzMGAAj5dDct?startTime=1738870664000
+      * Passcode: @4cfo4Xs
+33.   Python Flask Scaffolding Example [todoApp] 1 part 2 [Python Flask To Do App Scaffolding](./lessons_and_examples/05_python_flask_todo_app_restx_example.md)
+      * video:https://us06web.zoom.us/rec/share/roDnyx9KM-z-bcHboy5Cg6x7wkq0PybnUSsTTs3sIeVVcVrA23YlnvYIQMkEI8VI.Cd_KRzMGAAj5dDct?startTime=1738872313000
+      * Passcode: @4cfo4Xs

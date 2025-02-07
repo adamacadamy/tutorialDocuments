@@ -107,6 +107,14 @@
       * video: https://us06web.zoom.us/rec/share/ZBiHtJKK11OZunpetlZB2npuZiEjiqW9_QRQio82hMILatQECaoJrbL7aGIZY_kg.LJwY7jYofNWwTuW9?startTime=1738093578000
       * Passcode: zdU9.D?q
 
-26.  Python Flask Basic Authentication [Revisory Notes on Python Flask SQL ALCHEMY](./notes/revisory_notes/python_authentication_in_flask_restx.ipynb)
+26.  Python Flask Basic Authentication Part 1 [Revisory Notes on Python Flask Authentication](./notes/revisory_notes/python_authentication_in_flask_restx.ipynb)
       * video: https://us06web.zoom.us/rec/share/jf5gljd85r2frkz-l352wX857764bPc3VLCMlHbmfYqc6nuYZdUoftR4FApRidsu.BtKL029Ww-4UlNrT?startTime=1738177785000
       * Passcode: S!FF5*gW
+
+27.  Python Flask Basic Authentication Part 2 [Revisory Notes on Python Flask Authentication](./notes/revisory_notes/python_authentication_in_flask_restx.ipynb)
+      * video: https://us06web.zoom.us/rec/share/jnpkQL7Msz04PYL5_1qwbkN6RPjvMZePEChd33JdkHwvdAGedcugn3P6yMYssLY7.TcNWIGNTf2uhVT8E?startTime=1738266508000
+      * Passcode: MwCMI+B7
+
+28.  Python Flask Basic Authentication Part 3 [Revisory Notes on Python Flask Authentication](./notes/revisory_notes/python_authentication_in_flask_restx.ipynb)
+      * video:https://us06web.zoom.us/rec/share/xsdXio2rtzDqm00THTpqxnDwmwfm4Exu5hh6YDisLAsC6ogBtMps8GbEtinDRKIp.Fh4hBTUcsuincLbJ?startTime=1738352010000
+      * Passcode: aO6jx$=p

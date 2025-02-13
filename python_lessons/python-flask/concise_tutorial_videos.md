@@ -137,3 +137,12 @@
 35.   Python Flask Scaffolding Example 1 [todoApp] part 6 [Python Flask To Do App Scaffolding Script](./lessons_and_examples/05_python_flask_todo_app_restx_example.md)
       * video: https://us06web.zoom.us/rec/share/yLG820PTqj-DHrUcIbDsrC-db4hWTpQG78uI1o7zrWODayQfYPHXULs5LlDEPok.kdDOpkaPVsnJNx-f?startTime=1739388733000
       * Passcode: Cg1@Pg$7
+36.    Python Flask Scaffolding Example 1 [todoApp] part 7 [Python Flask To Do App Scaffolding Script](./lessons_and_examples/05_python_flask_todo_app_restx_example.md)
+      * video: https://us06web.zoom.us/rec/share/ZvYdhn_Tvjwub7ReNMUU6DZHh1QM2EYfWbfBu8E04IpK75Zs0a90fT07WWEhxnZg.aJW5jNc5VmC2zDyK?startTime=1739471733000
+      * Passcode: 1vtB%*VF
+37.    Python Flask Scaffolding Example 1 [todoApp] part 8 [Python Flask To Do App Scaffolding Script](./lessons_and_examples/05_python_flask_todo_app_restx_example.md)
+      * video: https://us06web.zoom.us/rec/share/ZvYdhn_Tvjwub7ReNMUU6DZHh1QM2EYfWbfBu8E04IpK75Zs0a90fT07WWEhxnZg.aJW5jNc5VmC2zDyK?startTime=1739474798000
+      * Passcode: 1vtB%*VF
+38.    Python Flask Scaffolding Example 1 [todoApp] part 9 [Python Flask To Do App Scaffolding Script](./lessons_and_examples/05_python_flask_todo_app_restx_example.md)
+      * video: https://us06web.zoom.us/rec/share/ZvYdhn_Tvjwub7ReNMUU6DZHh1QM2EYfWbfBu8E04IpK75Zs0a90fT07WWEhxnZg.aJW5jNc5VmC2zDyK?startTime=1739475678000
+      * Passcode: vtB%*VF

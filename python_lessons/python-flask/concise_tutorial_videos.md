@@ -119,30 +119,44 @@
       * video: https://us06web.zoom.us/rec/share/xsdXio2rtzDqm00THTpqxnDwmwfm4Exu5hh6YDisLAsC6ogBtMps8GbEtinDRKIp.Fh4hBTUcsuincLbJ?startTime=1738352010000
       * Passcode: aO6jx$=p
 
-31.   Python Flask Scaffolding Example 1 [todoApp] part 1 [Python Flask To Do App Scaffolding](./lessons_and_examples/05_python_flask_todo_app_restx_example.md) 
+31.   Python Flask Scaffolding Example 1 [todoApp] part 1 [Python Flask To Do App Scaffolding](https://github.com/adamacadamy/todoApp) 
       * video:https://us06web.zoom.us/rec/share/dr0diTg_Vs1bo6KwaRur_on9Y0OVmeiDLx9ZZei1VSkHZMbdtYt8FlCh83DS8Z8d.NHzuJSfX2tpswEqj?startTime=1739299224000
       * Passcode: AcZa4+3W
-32.   Python Flask Scaffolding Example 1 [todoApp] part 2 [Python Flask To Do App Scaffolding](./lessons_and_examples/05_python_flask_todo_app_restx_example.md)
+32.   Python Flask Scaffolding Example 1 [todoApp] part 2 [Python Flask To Do App Scaffolding](https://github.com/adamacadamy/todoApp)
       * video:https://us06web.zoom.us/rec/share/dr0diTg_Vs1bo6KwaRur_on9Y0OVmeiDLx9ZZei1VSkHZMbdtYt8FlCh83DS8Z8d.NHzuJSfX2tpswEqj?startTime=1739301895000
       * Passcode: AcZa4+3W 
-33.   Python Flask Scaffolding Example 1 [todoApp] part 3 [Python Flask To Do App Scaffolding](./lessons_and_examples/05_python_flask_todo_app_restx_example.md)
+33.   Python Flask Scaffolding Example 1 [todoApp] part 3 [Python Flask To Do App Scaffolding](https://github.com/adamacadamy/todoApp)
       * video:https://us06web.zoom.us/rec/share/dr0diTg_Vs1bo6KwaRur_on9Y0OVmeiDLx9ZZei1VSkHZMbdtYt8FlCh83DS8Z8d.NHzuJSfX2tpswEqj?startTime=1739302450000
       * Passcode: AcZa4+3W
-33.   Python Flask Scaffolding Example 1 [todoApp] part 4 [Python Flask To Do App Scaffolding](./lessons_and_examples/05_python_flask_todo_app_restx_example.md)
+33.   Python Flask Scaffolding Example 1 [todoApp] part 4 [Python Flask To Do App Scaffolding](https://github.com/adamacadamy/todoApp)
       * video: https://us06web.zoom.us/rec/share/dr0diTg_Vs1bo6KwaRur_on9Y0OVmeiDLx9ZZei1VSkHZMbdtYt8FlCh83DS8Z8d.NHzuJSfX2tpswEqj?startTime=1739303947000
       * Passcode: AcZa4+3W
-34.   Python Flask Scaffolding Example 1 [todoApp] part 5 [Python Flask To Do App Scaffolding Script](./lessons_and_examples/05_python_flask_todo_app_restx_example.md)
+34.   Python Flask Scaffolding Example 1 [todoApp] part 5 [Python Flask To Do App Scaffolding Script](https://github.com/adamacadamy/todoApp)
       * video:https://us06web.zoom.us/rec/share/yLG820PTqj-DHrUcIbDsrC-db4hWTpQG78uI1o7zrWODayQfYPHXULs5LlDEPok.kdDOpkaPVsnJNx-f?startTime=1739385590000
       * Passcode: Cg1@Pg$7
-35.   Python Flask Scaffolding Example 1 [todoApp] part 6 [Python Flask To Do App Scaffolding Script](./lessons_and_examples/05_python_flask_todo_app_restx_example.md)
+35.   Python Flask Scaffolding Example 1 [todoApp] part 6 [Python Flask To Do App Scaffolding](https://github.com/adamacadamy/todoApp)
       * video: https://us06web.zoom.us/rec/share/yLG820PTqj-DHrUcIbDsrC-db4hWTpQG78uI1o7zrWODayQfYPHXULs5LlDEPok.kdDOpkaPVsnJNx-f?startTime=1739388733000
       * Passcode: Cg1@Pg$7
-36.    Python Flask Scaffolding Example 1 [todoApp] part 7 [Python Flask To Do App Scaffolding Script](./lessons_and_examples/05_python_flask_todo_app_restx_example.md)
+36.    Python Flask Scaffolding Example 1 [todoApp] part 7 [Python Flask To Do App Scaffolding](https://github.com/adamacadamy/todoApp)
       * video: https://us06web.zoom.us/rec/share/ZvYdhn_Tvjwub7ReNMUU6DZHh1QM2EYfWbfBu8E04IpK75Zs0a90fT07WWEhxnZg.aJW5jNc5VmC2zDyK?startTime=1739471733000
       * Passcode: 1vtB%*VF
-37.    Python Flask Scaffolding Example 1 [todoApp] part 8 [Python Flask To Do App Scaffolding Script](./lessons_and_examples/05_python_flask_todo_app_restx_example.md)
+37.    Python Flask Scaffolding Example 1 [todoApp] part 8 [Python Flask To Do App Scaffolding](https://github.com/adamacadamy/todoApp)
       * video: https://us06web.zoom.us/rec/share/ZvYdhn_Tvjwub7ReNMUU6DZHh1QM2EYfWbfBu8E04IpK75Zs0a90fT07WWEhxnZg.aJW5jNc5VmC2zDyK?startTime=1739474798000
       * Passcode: 1vtB%*VF
-38.    Python Flask Scaffolding Example 1 [todoApp] part 9 [Python Flask To Do App Scaffolding Script](./lessons_and_examples/05_python_flask_todo_app_restx_example.md)
+38.    Python Flask Scaffolding Example 1 [todoApp] part 9 [Python Flask To Do App Scaffolding](https://github.com/adamacadamy/todoApp)
       * video: https://us06web.zoom.us/rec/share/ZvYdhn_Tvjwub7ReNMUU6DZHh1QM2EYfWbfBu8E04IpK75Zs0a90fT07WWEhxnZg.aJW5jNc5VmC2zDyK?startTime=1739475678000
       * Passcode: vtB%*VF
+39. Python Flask Scaffolding Example 1 [todoApp] part 10 [Python Flask To Do App Scaffolding](https://github.com/adamacadamy/todoApp)
+      * video: https://us06web.zoom.us/rec/share/bNx1AF_LT4rkz35T55crVa_4RRkfOe3GpejyLYKj86eA6jMRoVPSJp35Ky_oVdGc.10f77amZyUR9VjCs?startTime=1739471733000
+      * Passcode: 1vtB%*VF
+40. Python Flask Scaffolding Example 1 [todoApp] part 11 [Python Flask To Do App Scaffolding](https://github.com/adamacadamy/todoApp)
+      * video: https://us06web.zoom.us/rec/share/bNx1AF_LT4rkz35T55crVa_4RRkfOe3GpejyLYKj86eA6jMRoVPSJp35Ky_oVdGc.10f77amZyUR9VjCs?startTime=1739474798000
+      * Passcode: 1vtB%*VF
+41. Python Flask Scaffolding Example 1 [todoApp] part 12 [Python Flask To Do App Scaffolding](https://github.com/adamacadamy/todoApp)
+      * video: https://us06web.zoom.us/rec/share/bNx1AF_LT4rkz35T55crVa_4RRkfOe3GpejyLYKj86eA6jMRoVPSJp35Ky_oVdGc.10f77amZyUR9VjCs?startTime=1739475678000
+      * Passcode: 1vtB%*VF
+---
+41. Python Flask Scaffolding Example 1 [todoApp] COMPLETE [Python Flask To Do App COMPLETE](https://github.com/adamacadamy/todoApp)
+      * video:https://us06web.zoom.us/rec/share/vkbCR3HW-a8aEj6GxsSh3MemL7FxW1M5O_8nTQdlRsTl9khyOcNH0hURiiL9Sr3v.MHQl2AiZz2SqIo_R?startTime=1739559429000
+      * Passcode: N@$w31p^
+---

@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Jupyter Notebook (python)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/start_jupyter.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Launch Jupyter Notebook (Node.js)",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/start_jupyter.js",
+            "console": "integratedTerminal"
+        }
+    ]
+}
+
+

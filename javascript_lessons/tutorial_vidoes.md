@@ -15,7 +15,6 @@
    * video: https://us06web.zoom.us/rec/share/83-rwnYBJkCjCsO3SBKre3dC2jHRVCWp3GR08npXAXTMosdNTw9oTogCcxaTNSst.PA4Hp_BZrgojpjHc?startTime=1740424226000
       * Passcode: Ht0sX98!
 
-
 5. Javascript lesson part 5
       * video: https://us06web.zoom.us/rec/share/83-rwnYBJkCjCsO3SBKre3dC2jHRVCWp3GR08npXAXTMosdNTw9oTogCcxaTNSst.PA4Hp_BZrgojpjHc?startTime=1740425674000
       * Passcode: Ht0sX98!

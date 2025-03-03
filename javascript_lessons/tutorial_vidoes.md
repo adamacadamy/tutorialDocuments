@@ -20,5 +20,8 @@
       * Passcode: Ht0sX98!
 
 6. Javascript lesson part 6
-      * video:https://us06web.zoom.us/rec/share/phovl71McYEBU1Bn9iH_JmBAnPzgiU9PCw0VHXTTAkzgVFy6hpw8zwp6g9ucR2YY.8sjm9V6gndsL61yM?startTime=1740683462000
+      * video: https://us06web.zoom.us/rec/share/phovl71McYEBU1Bn9iH_JmBAnPzgiU9PCw0VHXTTAkzgVFy6hpw8zwp6g9ucR2YY.8sjm9V6gndsL61yM?startTime=1740683462000
       * Passcode: b#&FY.6p
+7. Javascript lesson part 7
+      * video: https://us06web.zoom.us/rec/share/sk9JgExKTy51n7I7aK7Ol6XhddZtrl___DTMj6g2Lb-h6H28VxKDiT9NZrYsRh3g.t-eU8fY-jP9DvtFp?startTime=1740771205000
+      * Passcode: fK%N@N8v

@@ -21,3 +21,7 @@
 7. Python Basics part 7  
       * video: https://us06web.zoom.us/rec/share/QxKUamsW3p7vKG5fsspfzzIVpLz-Np3OXhfSmUeEcHJ0r_DX3FXJOqFhKv_hNq3W.vaTqrAYZUHH72kBN?startTime=1738093578000  
       * Passcode: zdU9.D?q
+
+8. solution for exercise 4.1 
+      * video: https://us06web.zoom.us/rec/share/J2oOr4MTOmh64ztPEQ8OyUXqjuxTJxGi9sdu9QtfnGZQbC8tNlYDFYfaAmJrddKe.H34wO3QOAq5huikM?startTime=1741288430000
+      * Passcode: u8v+E.E.

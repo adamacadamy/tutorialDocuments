@@ -25,3 +25,23 @@
 7. Javascript lesson part 7
       * video: https://us06web.zoom.us/rec/share/sk9JgExKTy51n7I7aK7Ol6XhddZtrl___DTMj6g2Lb-h6H28VxKDiT9NZrYsRh3g.t-eU8fY-jP9DvtFp?startTime=1740771205000
       * Passcode: fK%N@N8v
+
+8. Javascript lesson part 8
+      * video: https://us06web.zoom.us/rec/share/JDnnRHPtUygOrKu9bITVL-nFusKJkuq_bKPs24QOh398KEm4TWHCswVlj6jSradk.r7YfbPzHz3sqncGr?startTime=1741199610000
+      * Passcode: Yg82&4%E
+
+9. Javascript lesson part 9
+      * video: https://us06web.zoom.us/rec/share/JDnnRHPtUygOrKu9bITVL-nFusKJkuq_bKPs24QOh398KEm4TWHCswVlj6jSradk.r7YfbPzHz3sqncGr?startTime=1741203080000
+      * Passcode: Yg82&4%E
+
+10. Javascript lesson part 10
+      * video: https://us06web.zoom.us/rec/share/JDnnRHPtUygOrKu9bITVL-nFusKJkuq_bKPs24QOh398KEm4TWHCswVlj6jSradk.r7YfbPzHz3sqncGr?startTime=1741203583000
+      * Passcode: Yg82&4%E
+
+11. Javascript lesson part 11
+      * video: https://us06web.zoom.us/rec/share/4cdc3J-mttJ4eEPbi30ZnhC6Zd7txBDEBA1e3x35iX1CYhmup62o33DkSqWFol3E.mSVZ5rvNGeLEnJ5F?startTime=1741115354000
+      * Passcode: 6YqHV$s&
+
+12. Javascript lesson part 12
+      * video: https://us06web.zoom.us/rec/share/4cdc3J-mttJ4eEPbi30ZnhC6Zd7txBDEBA1e3x35iX1CYhmup62o33DkSqWFol3E.mSVZ5rvNGeLEnJ5F?startTime=1741117326000
+      * Passcode: 6YqHV$s&

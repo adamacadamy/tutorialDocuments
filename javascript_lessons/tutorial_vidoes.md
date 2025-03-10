@@ -45,3 +45,11 @@
 12. Javascript lesson part 12
       * video: https://us06web.zoom.us/rec/share/4cdc3J-mttJ4eEPbi30ZnhC6Zd7txBDEBA1e3x35iX1CYhmup62o33DkSqWFol3E.mSVZ5rvNGeLEnJ5F?startTime=1741117326000
       * Passcode: 6YqHV$s&
+
+13. Javascript lesson part 13
+      * video: https://us06web.zoom.us/rec/share/RyBoTVr09pY-KHXyN6NhGqqBw5BCDV4lXcc1WJpUhAJVRKuWz9vw2H26dyJYVSAT.pL0__i6dYKWnQFPO?startTime=1741027298000
+      * Passcode: ku^Rb9n7
+
+14. Javascript lesson part 14
+      * video: https://us06web.zoom.us/rec/share/RyBoTVr09pY-KHXyN6NhGqqBw5BCDV4lXcc1WJpUhAJVRKuWz9vw2H26dyJYVSAT.pL0__i6dYKWnQFPO?startTime=1741030674000
+      * Passcode: ku^Rb9n7

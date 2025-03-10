@@ -73,7 +73,12 @@
 21. Python Flask Models in jupyter part 1
     * video: https://us06web.zoom.us/rec/share/ZzkZEYn90yWcpGXX0WJk_Yi430JEe6lxcQA2yMdcx0faUyAc4Kmb1FxAfw2zvUMS.s8eo6j7yW9r_v5RZ?startTime=1734878512000
     * Passcode:   F#BsKF35
+
 22. Python Flask Models in jupyter part 2
  * video: https://us06web.zoom.us/rec/share/ZzkZEYn90yWcpGXX0WJk_Yi430JEe6lxcQA2yMdcx0faUyAc4Kmb1FxAfw2zvUMS.s8eo6j7yW9r_v5RZ?startTime=1734879842000
    * Passcode: F#BsKF35
  
+
+8. solution for exercise 4.1 
+      * video: https://us06web.zoom.us/rec/share/J2oOr4MTOmh64ztPEQ8OyUXqjuxTJxGi9sdu9QtfnGZQbC8tNlYDFYfaAmJrddKe.H34wO3QOAq5huikM?startTime=1741288430000
+      * Passcode: u8v+E.E.

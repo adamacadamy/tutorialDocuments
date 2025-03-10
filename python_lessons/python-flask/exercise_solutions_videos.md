@@ -30,3 +30,9 @@
 13. Solution for Exercise 3.1 part 4  
     * video: https://us06web.zoom.us/rec/share/ZBiHtJKK11OZunpetlZB2npuZiEjiqW9_QRQio82hMILatQECaoJrbL7aGIZY_kg.LJwY7jYofNWwTuW9?startTime=1738090107000
     * Passcode: zdU9.D?q
+
+
+
+13. solution for exercise 4.1 
+    * video: https://us06web.zoom.us/rec/share/J2oOr4MTOmh64ztPEQ8OyUXqjuxTJxGi9sdu9QtfnGZQbC8tNlYDFYfaAmJrddKe.H34wO3QOAq5huikM?startTime=1741288430000  
+    * Passcode: u8v+E.E.

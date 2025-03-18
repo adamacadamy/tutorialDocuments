@@ -1,6 +1,6 @@
 1. Javascript lesson part 1  
    * video: https://us06web.zoom.us/rec/share/9WExWPUPyH1m-I_4DVG6U0YlxRXgo5cU7Sa6lY-Lk1TtZ8kXlLCrQboLqGzxU1o.uAo35bMYLtMQgq8V?startTime=1739992036000
-    * Passcode: ^roz#53f
+   * Passcode: ^roz#53f
 
 2. Javascript lesson part 2
    * video: https://us06web.zoom.us/rec/share/9WExWPUPyH1m-I_4DVG6U0YlxRXgo5cU7Sa6lY-Lk1TtZ8kXlLCrQboLqGzxU1o.uAo35bMYLtMQgq8V?startTime=1739993035000

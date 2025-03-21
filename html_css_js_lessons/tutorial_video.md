@@ -3,7 +3,7 @@
    * Passcode: Uk73?74?
 
 2. Todo App FrontEnd part 2
-   * video: httpshttps://us06web.zoom.us/rec/share/BVTBU3Z3fYtLZQ3aZmo81XEVOqYA-USFBTkw1eVv9I1QSfXdfymoiMTJ8qjVaxC1.b7_UgnCkWJkgHDtR?startTime=1742323350000
+   * video: https://us06web.zoom.us/rec/share/BVTBU3Z3fYtLZQ3aZmo81XEVOqYA-USFBTkw1eVv9I1QSfXdfymoiMTJ8qjVaxC1.b7_UgnCkWJkgHDtR?startTime=1742323350000
    * Passcode: 9?WJK6nZ
 
 3. Todo App FrontEnd part 3

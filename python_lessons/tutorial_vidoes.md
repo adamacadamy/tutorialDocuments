@@ -140,7 +140,13 @@
    * Passcode: spL$61b+
  
 38. Solutions for exercise 3 part 9
-    * vidoe: https://us06web.zoom.us/rec/share/5iv41JihHLORwG3_VbpZIGyVGEO97N4DMnGUq4rcNCWM-ZsJcj2jL9wQ9iF8f9JL.NCdSeNw2_DKnglXj?startTime=1731874210000
-   * Passcode:spL$61b+
+   * vidoe: https://us06web.zoom.us/rec/share/5iv41JihHLORwG3_VbpZIGyVGEO97N4DMnGUq4rcNCWM-ZsJcj2jL9wQ9iF8f9JL.NCdSeNw2_DKnglXj?startTime=1731874210000
+   * Passcode: spL$61b+
 
+39.  Solutions for exercise 4 part 1
+ * vidoe: https://us06web.zoom.us/rec/share/iWgn9ia1bf-bjSPGnQBdWByIpb1ub2XyOsp1hzAuzutS6D5yy5wcEGz21AiwcgJp.NkSMwpNKusHME7a3?startTime=1742668867000
+ * Passcode: 3#Yi8xY^
 
+40.  Solutions for exercise 4 part 2
+ * vidoe: https://us06web.zoom.us/rec/share/iWgn9ia1bf-bjSPGnQBdWByIpb1ub2XyOsp1hzAuzutS6D5yy5wcEGz21AiwcgJp.NkSMwpNKusHME7a3?startTime=1742673625000
+ * Passcode: 3#Yi8xY^

@@ -29,6 +29,7 @@ async function testUpload() {
 async function testCreateUser() {
     const url = 'http://localhost:5000/users/create';
     const data = new FormData();
+    
     data.append('name', 'Jane Doe');
     data.append('email', 'jane@example.com');
 

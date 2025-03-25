@@ -151,18 +151,18 @@
  * vidoe: https://us06web.zoom.us/rec/share/iWgn9ia1bf-bjSPGnQBdWByIpb1ub2XyOsp1hzAuzutS6D5yy5wcEGz21AiwcgJp.NkSMwpNKusHME7a3?startTime=1742673625000
  * Passcode: 3#Yi8xY^
 
-41.  Solutions for exercise 4 part 2
+41.  Solutions for exercise 4 part 3
  * vidoe: https://us06web.zoom.us/rec/share/jpapInl3hP7CmlvG6oYjm1TvgrexYHS1DoPjGHvxPyUzaRJCDV8999MrViX8ng9M.v_gdPWloIIaMtHYZ?startTime=1742844184000
  * Passcode: Passcode: 5W*zhthZ
 
-42.  Solutions for exercise 4 part 2 
+42.  Solutions for exercise 4 part 4 
  * vidoe: https://us06web.zoom.us/rec/share/jpapInl3hP7CmlvG6oYjm1TvgrexYHS1DoPjGHvxPyUzaRJCDV8999MrViX8ng9M.v_gdPWloIIaMtHYZ?startTime=1742845876000
  * Passcode: Passcode: 5W*zhthZ
 
-43.  Solutions for exercise 4 part 2
+43.  Solutions for exercise 4 part 5
  * vidoe: https://us06web.zoom.us/rec/share/jpapInl3hP7CmlvG6oYjm1TvgrexYHS1DoPjGHvxPyUzaRJCDV8999MrViX8ng9M.v_gdPWloIIaMtHYZ?startTime=1742846634000
  * Passcode: Passcode: 5W*zhthZ
   
-44.  Solutions for exercise 4 part 2
+44.  Solutions for exercise 4 part 6
  * vidoe: https://us06web.zoom.us/rec/share/jpapInl3hP7CmlvG6oYjm1TvgrexYHS1DoPjGHvxPyUzaRJCDV8999MrViX8ng9M.v_gdPWloIIaMtHYZ?startTime=1742847640000
  * Passcode: Passcode: 5W*zhthZ 
